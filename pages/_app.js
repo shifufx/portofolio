@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import Navbar from '@/components/Navbar'
 import { motion } from 'framer-motion'
+import { AnimatePresence } from 'framer-motion'
 
 export default function App({ Component, pageProps, router }) {
   return( 
@@ -18,8 +19,16 @@ export default function App({ Component, pageProps, router }) {
     },
   }}>
     <Navbar />
+
+    <AnimatePresence
+                exitBeforeEnter
+                initial={false}
+                onExitComplete={() => window.scrollTo(0, 0)}
+            >
     <Component {...pageProps} />
+    </AnimatePresence>
   </motion.div>
   </>
+  
   )
 }
