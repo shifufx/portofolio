@@ -5,7 +5,11 @@ import { motion } from 'framer-motion'
 export default function App({ Component, pageProps, router }) {
   return( 
   <>
-  <motion.div key={router.route} initial='initial' animate="animate" variants={{
+  <motion.div key={router.route} 
+  transition={{type: 'spring', stiffness:20}}
+  initial="initial"  
+  animate="animate"
+  variants={{
     initial: {
       opacity: 0,
     },
