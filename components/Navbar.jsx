@@ -32,7 +32,7 @@ const Navbar = () => {
             </Link>
                 <ul style={{color: `${textColor}`}} className='hidden sm:flex'>
                     <li className='p-4'>
-                        <Link href='#home'>Home
+                        <Link href='/'>Home
                         </Link>
                     </li>
                     <li className='p-4'>
@@ -40,7 +40,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='#contact'>Contact
+                        <Link href='/contact'>Contact
                         </Link>
                     </li>
                     <li className='p-4'>
@@ -72,7 +72,7 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='#contact'>Contact
+                            <Link href='/contact'>Contact
                             </Link>
                         </li>
                         <li className='p-4 text-4xl hover:text-gray-500'>
