@@ -15,13 +15,14 @@ export default function App({ Component, pageProps, router }) {
       opacity: 0,
     },
     animate: {
-      opacity:1
+      opacity:1,
+      duration: 0.75
     },
   }}>
     <Navbar />
 
     <AnimatePresence
-                exitBeforeEnter
+                mode={'wait'}
                 initial={false}
                 onExitComplete={() => window.scrollTo(0, 0)}
             >

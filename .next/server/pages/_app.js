@@ -4,6 +4,37 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
+/***/ 7273:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+var __webpack_unused_export__;
+
+__webpack_unused_export__ = ({
+    value: true
+});
+Object.defineProperty(exports, "Z", ({
+    enumerable: true,
+    get: function() {
+        return _objectWithoutPropertiesLoose;
+    }
+}));
+function _objectWithoutPropertiesLoose(source, excluded) {
+    if (source == null) return {};
+    var target = {};
+    var sourceKeys = Object.keys(source);
+    var key, i;
+    for(i = 0; i < sourceKeys.length; i++){
+        key = sourceKeys[i];
+        if (excluded.indexOf(key) >= 0) continue;
+        target[key] = source[key];
+    }
+    return target;
+}
+
+
+/***/ }),
+
 /***/ 9747:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -196,13 +227,14 @@ function App({ Component , pageProps , router  }) {
                     opacity: 0
                 },
                 animate: {
-                    opacity: 1
+                    opacity: 1,
+                    duration: 0.75
                 }
             },
             children: [
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Navbar__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {}),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_3__.AnimatePresence, {
-                    exitBeforeEnter: true,
+                    mode: "wait",
                     initial: false,
                     onExitComplete: ()=>window.scrollTo(0, 0),
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, {
