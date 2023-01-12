@@ -112,13 +112,6 @@ const Navbar = ()=>{
                         /*#__PURE__*/ jsx_runtime_.jsx("li", {
                             className: "p-4",
                             children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                href: "/testimony",
-                                children: "Testimony"
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                            className: "p-4",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                 href: "/contact",
                                 children: "Contact"
                             })
@@ -156,13 +149,6 @@ const Navbar = ()=>{
                                 children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                     href: "#home",
                                     children: "Home"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                className: "p-4 text-4xl hover:text-gray-500",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                    href: "/Testimony",
-                                    children: "Testimony"
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("li", {

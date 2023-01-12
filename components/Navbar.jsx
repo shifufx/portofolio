@@ -36,10 +36,6 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/testimony'>Testimony
-                        </Link>
-                    </li>
-                    <li className='p-4'>
                         <Link href='/contact'>Contact
                         </Link>
                     </li>
@@ -65,10 +61,6 @@ const Navbar = () => {
                     <ul>
                         <li className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='#home'>Home
-                            </Link>
-                        </li>
-                        <li className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/Testimony'>Testimony
                             </Link>
                         </li>
                         <li className='p-4 text-4xl hover:text-gray-500'>
