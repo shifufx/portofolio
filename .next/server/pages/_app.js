@@ -93,7 +93,7 @@ const Navbar = ()=>{
                             color: `${textColor}`
                         },
                         className: "font-bold text-2xl",
-                        children: "Shifu"
+                        children: "Shifu FX"
                     })
                 }),
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
