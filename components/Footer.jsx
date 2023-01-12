@@ -90,7 +90,7 @@ const Footer = () => {
 			</div>
 		</div>
 	</div>
-    <div className="disclaimer float-left text-sm object-left-bottom text-gray-500 py-5 mb-3 px-10">
+    <div className="disclaimer float-left text-xs object-left-bottom text-gray-500 py-5 mb-3 px-5">
         Disclaimer:
         Bertransaksi forex dan komoditi memiliki resiko yang tinggi dan mungkin tidak sesuai untuk semua orang. Banyak faktor bagi seorang investor yang harus dipertimbangkan sebelum bertransaksi, seperti obyektivitas, tingkat pengalaman dan keinginan berinvestasi dengan resiko untuk setiap investor.
         </div>
