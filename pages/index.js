@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Hero from '@/components/Hero'
 import Section2 from '@/components/Section2'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function Home() {
         <Hero title='Welcome To Our Community' message= 'Keep Moving Forward'/>
 
         <Section2 />
+        <Footer />
     </>
   )
 }

@@ -7,7 +7,7 @@ import {RxDotFilled} from "react-icons/rx"
 import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
 import SwipeCore, {Autoplay} from 'swiper'
-
+import {MdOutlineDownloading} from 'react-icons/md'
 
 const Section2 = () => {
 
@@ -44,7 +44,7 @@ const Section2 = () => {
             
             </Swiper>
         </div>
-        <div className="button py-12 text-center mx-auto ">
+        <div className="button py-5 text-center mx-auto mb-10">
             <Link href={"/"}>
                 <button className='w-1/5 duration-300 hover:-translate-y-1 text-2xl text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg px-5 py-2.5 text-center mr-2 mb-2'>View All Course</button>
             </Link>
@@ -84,7 +84,7 @@ function Post(){
 
             </div>
 
-            <div className="description px-4 text-white text-1xl py-4 pt-0">
+            <div className="description px-4 text-white text-1xl py-4 pt-0 mt-2">
                 <h1 className='font-bold'>Level:</h1>
                 <p className='flex pt-2 '>
                     <TiStarFullOutline className='text-yellow-300'/>                    
@@ -94,10 +94,14 @@ function Post(){
                     <TiStarOutline className='text-yellow-300'/>                 
                 </p>
             </div>
-        
-            <Link href={"/contact"}>
-                <p className='p-4 text-white font-bold'>Download</p>
-            </Link>
+
+            <div className="button py-5 text-center mx-auto flex-row mb-5">
+                <Link href={"/"}>
+                    <button className='w-[1rem] lg:w-1/2 z-1 duration-300 hover:-translate-y-1 text-sm text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg px-1 py-2.5 text-center mr-2'>
+                    
+                    Download</button>
+                </Link>
+            </div>
         </div>
         
     )
