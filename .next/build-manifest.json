@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/tCbVNXFiFmBXAoBb5WHmY/_buildManifest.js",
-    "static/tCbVNXFiFmBXAoBb5WHmY/_ssgManifest.js"
+    "static/6bM43ekgM-EX1vMBKY36a/_buildManifest.js",
+    "static/6bM43ekgM-EX1vMBKY36a/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -24,13 +24,13 @@
       "static/chunks/959-de430f1e2ff94965.js",
       "static/chunks/399-96fc27e438b8265b.js",
       "static/css/d205a9a138a844df.css",
-      "static/chunks/pages/index-479ecb3402594df7.js"
+      "static/chunks/pages/index-8bdb131d17a943cd.js"
     ],
     "/_app": [
       "static/chunks/webpack-8fa1640cc84ba8fe.js",
       "static/chunks/framework-114634acb84f8baa.js",
       "static/chunks/main-010ff0b6bbe5ac8f.js",
-      "static/css/7892e446dd67e47a.css",
+      "static/css/14c97c597254d227.css",
       "static/chunks/pages/_app-8ad10bfed4385a9d.js"
     ],
     "/_error": [
@@ -44,14 +44,14 @@
       "static/chunks/framework-114634acb84f8baa.js",
       "static/chunks/main-010ff0b6bbe5ac8f.js",
       "static/chunks/959-de430f1e2ff94965.js",
-      "static/chunks/pages/about-cf047a4374607352.js"
+      "static/chunks/pages/about-e17be48f794d98d2.js"
     ],
     "/contact": [
       "static/chunks/webpack-8fa1640cc84ba8fe.js",
       "static/chunks/framework-114634acb84f8baa.js",
       "static/chunks/main-010ff0b6bbe5ac8f.js",
       "static/chunks/959-de430f1e2ff94965.js",
-      "static/chunks/pages/contact-c0c2c864151fbad4.js"
+      "static/chunks/pages/contact-77c4475a2cb323da.js"
     ],
     "/course": [
       "static/chunks/webpack-8fa1640cc84ba8fe.js",
