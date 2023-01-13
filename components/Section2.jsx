@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
-import {TiStarFullOutline} from "react-icons/ti"
-import {TiStarOutline} from "react-icons/ti"
+import {TiStarFullOutline, TiStarOutline} from "react-icons/ti"
 import {RxDotFilled} from "react-icons/rx"
 import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'

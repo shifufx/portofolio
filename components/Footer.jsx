@@ -1,14 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import {BsInstagram} from 'react-icons/bs'
+import {BsInstagram, BsYoutube} from 'react-icons/bs'
 import {GrFacebook} from 'react-icons/gr'
 import {TbBrandTelegram} from 'react-icons/tb'
 import {FaTiktok} from 'react-icons/fa'
-import {BsYoutube} from 'react-icons/bs'
-import {MdLocationOn} from 'react-icons/md'
-import {BsWhatsapp} from 'react-icons/bs'
-import {MdOutlineEmail} from 'react-icons/md'
 
 const Footer = () => {
   return (
