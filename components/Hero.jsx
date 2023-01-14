@@ -5,29 +5,26 @@ import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
 
-    const text = () => {
-        
-    }
-
     return(
         <div className="flex items-center justify-start h-screen bg-fixed bg-center bg-cover custom-img">
            <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]">
                 <div className="p-5 text-white z-[2] mt-[8rem] ml-[6rem]">
                 <div className="user flex flex-wrap px-3 mb-6 ">
                     <div className="w-1/2 sm:w-2/6">
-                        <img src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg" alt="..."  className="shadow rounded-full w-1/2 h-auto align-middle border-4 border-x-blue-700 border-y-yellow-300"/>
+                        <img src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg" alt="..."  className="shadow rounded-full w-1/2 h-auto align-middle bg-gradient-to-r from-rose-500 via-fuchsia-500 to-cyan-400 p-1"/>
                     </div>
                 </div>
-                    <h2 className="text-5xl font-bold flex">Hello i'm Ryan as a 
-                        <span className="ml-2">
-                            <Typewriter
-                            options={{
-                                strings: ['Trader Professional', 'Trader Analyst'],
-                                autoStart: true,
-                                loop: true,
-                            }}
-                            />
-                        </span> 
+                    <h2 className="text-5xl font-bold flex ">Hello i'm Ryan as a 
+                            <div className="ml-2 bg-clip-text text-transparent bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400">
+                                <Typewriter
+                                options={{
+                                    strings: ['Professional Trader', 'Trader Analyst'],
+                                    autoStart: true,
+                                    loop: true,
+                                }}
+                                />
+                            </div>
+                        
                     </h2>
                         
                     <p className="py-5 text-xl"> Build your mindset. Right here.</p>
