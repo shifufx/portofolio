@@ -5,13 +5,11 @@ import {TiStarFullOutline, TiStarOutline} from "react-icons/ti"
 import {RxDotFilled} from "react-icons/rx"
 import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
-import SwipeCore, {Autoplay} from 'swiper'
+import {Autoplay} from 'swiper'
 
 // flex col buat md
 
 const Section2 = () => {
-
-    SwipeCore.use([Autoplay])
 
   return (
 
@@ -19,6 +17,7 @@ const Section2 = () => {
         <h1 className='font-bold text-4xl py-12 text-center'> Course </h1>
         <div className="grid-flow-row flex sm:grid-cols-1 md:grid-cols-2">
             <Swiper
+            modules={[Autoplay]}
             spaceBetween={50}
             slidesPerView={3}
             loop = {true}
@@ -86,16 +85,16 @@ function Post(){
                 </p>
             </div>
 
-            <div className="button py-5 text-center mx-auto flex-row mb-5">
-                <Link href={"/"}>  
-                    <button className='w-[1rem] lg:w-1/2 z-1 duration-300 hover:-translate-y-1 text-sm text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg px-1 py-2.5 text-center mr-2'>
+            <div className="button py-3 text-center mx-auto flex-row mb-5">
+                <Link href={"/"}>
+                    
+                    <button disabled className='cursor-not-allowed w-[1rem] lg:w-1/2 z-1 duration-300 hover:-translate-y-1 text-sm text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg px-1 py-2.5 text-center mr-2'>
                         Download
                         </button>
                 </Link>
             </div>
-            
         </div>
-        
+
     )
 }
 
