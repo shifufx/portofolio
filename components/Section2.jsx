@@ -7,8 +7,6 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
 import SwipeCore, {Autoplay} from 'swiper'
 
-
-
 // flex col buat md
 
 const Section2 = () => {
@@ -19,15 +17,6 @@ const Section2 = () => {
 
     <section className='container mx-auto md:px20 py-1'>
         <h1 className='font-bold text-4xl py-12 text-center'> Course </h1>
-
-        {/* grid */}
-        {/* <div className="grid md:grid-cols2 lg:grid-cols-3 gap-14"> */}
-        {/* <div className="grid grid-flow-row gap-10 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
-            { Post() }
-            { Post() }
-            { Post() }
-        </div> */}
-
         <div className="grid-flow-row flex sm:grid-cols-1 md:grid-cols-2">
             <Swiper
             spaceBetween={50}
@@ -98,14 +87,13 @@ function Post(){
             </div>
 
             <div className="button py-5 text-center mx-auto flex-row mb-5">
-                <Link href={"/"}>
-                    
+                <Link href={"/"}>  
                     <button className='w-[1rem] lg:w-1/2 z-1 duration-300 hover:-translate-y-1 text-sm text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg px-1 py-2.5 text-center mr-2'>
-                        
                         Download
                         </button>
                 </Link>
             </div>
+            
         </div>
         
     )
