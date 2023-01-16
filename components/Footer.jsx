@@ -25,16 +25,7 @@ const Footer = () => {
 				<h3 className="tracking-wide uppercase dark:text-gray-50">Product</h3>
 				<ul className="space-y-1">
 					<li className='flex'>
-						<a rel="noopener noreferrer" href="#">Term Services</a>
-					</li>
-					<li>
-						<a rel="noopener noreferrer" href="#">Whatsapp</a>
-					</li>
-					<li>
-						<a rel="noopener noreferrer" href="mailto:ryan@shifufx.education">Email</a>
-					</li>
-					<li>
-						<a rel="noopener noreferrer" href="#">FAQ</a>
+						<a rel="noopener noreferrer" href="#">E-Book</a>
 					</li>
 				</ul>
 			</div>
@@ -44,27 +35,13 @@ const Footer = () => {
 					<li>
 						<a rel="noopener noreferrer" href="https://shifufx.id/">Official Website</a>
 					</li>
-					<li>
-						<a rel="noopener noreferrer" href="#">Terms of Service</a>
-					</li>
 				</ul>
 			</div>
 			<div className="space-y-3">
-				<h3 className="uppercase dark:text-gray-50">Developers</h3>
-				<ul className="space-y-1">
-					<li>
-						<a rel="noopener" href="#">Public API</a>
-					</li>
-					<li>
-						<a rel="noopener noreferrer" href="#">Documentation</a>
-					</li>
-					<li>
-						<a rel="noopener noreferrer" href="#">Guides</a>
-					</li>
-				</ul>
+				<h3 className="uppercase dark:text-gray-50"></h3>
 			</div>
 			<div className="space-y-3">
-				<div className="uppercase dark:text-gray-50">Keep in touch with us</div>
+				<div className="uppercase dark:text-gray-50">follow our social media</div>
 				<div className="flex justify-start space-x-3">
 					
                     <a rel="noopener noreferrer" href="#" title="Facebook" className="flex items-center p-1 hover:bg-blue-500">

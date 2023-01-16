@@ -10,7 +10,8 @@ const Testimonials = () => {
     <section className="py-10 bg-zinc-800 sm:py-16 lg:py-14">
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-rose-400 via-fuchsia-500 to-cyan-400" >What they Say About Us ?</h2>
+            <h1 className='text-lg text-white mb-5 tracking-[.50rem]'>TESTIMONIALS</h1>
+            <h2 className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-rose-400 via-fuchsia-500 to-cyan-400" >We love our clients from all over the world</h2>
         </div>
 
 {/* 
@@ -59,7 +60,7 @@ function post () {
                     </blockquote>
                     <p className="text-base font-semibold tex-tblack mt-9">Jenny Wilson</p>
                     <p className="mt-1 text-base text-gray-600">Beginner Trader</p>
-                    <p className='flex pt-5 '>
+                    <p className='flex pt-3 '>
                     <TiStarFullOutline className='text-yellow-400'/>                    
                     <TiStarFullOutline className='text-yellow-400'/>                    
                     <TiStarFullOutline className='text-yellow-400'/>
