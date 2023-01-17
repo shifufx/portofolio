@@ -31,7 +31,6 @@ const Section2 = () => {
             <SwiperSlide>{ Post() }</SwiperSlide>
             <SwiperSlide>{ Post() }</SwiperSlide>
             <SwiperSlide>{ Post() }</SwiperSlide>
-            
             </Swiper>
         </div>
         <div className="button py-5 text-center mx-auto mb-1">
@@ -74,7 +73,7 @@ function Post(){
 
             </div>
 
-            <div className="description px-4 text-white text-1xl py-4 pt-0 mt-2">
+            <div className="description px-4 text-white text-1xl py-1 pt-0 mt-2">
                 <h1 className='font-bold'>Level:</h1>
                 <p className='flex pt-2 '>
                     <TiStarFullOutline className='text-yellow-300'/>                    
@@ -85,10 +84,9 @@ function Post(){
                 </p>
             </div>
 
-            <div className="button py-3 text-center mx-auto flex-row mb-5">
+            <div className="button py-1 text-center mx-auto flex-row mb-5">
                 <Link href={"/"}>
-                    
-                    <button disabled className='cursor-not-allowed w-[1rem] lg:w-1/2 z-1 duration-300 hover:-translate-y-1 text-sm text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg px-1 py-2.5 text-center mr-2'>
+                    <button disabled className='cursor-not-allowed w-[1rem] xl:w-1/2 md:w-2/5 z-1 duration-300 hover:-translate-y-1 text-sm text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg px-1 py-2.5 text-center mr-2'>
                         Download
                         </button>
                 </Link>

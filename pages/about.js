@@ -17,11 +17,6 @@ export default function About() {
       </Head>
         
       <Info />
-      <br></br>
-      <br></br>
-
-      <Footer />
-
     </>
   )
 }
