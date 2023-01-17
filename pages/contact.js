@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Contacts from '@/components/Contacts'
-import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,7 +16,6 @@ export default function Contact() {
       </Head>
         
       <Contacts />
-      <Footer />
     </>
   )
 }

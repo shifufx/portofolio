@@ -13,8 +13,8 @@ const Section2 = () => {
 
   return (
 
-    <section className='container mx-auto md:px20 py-1'>
-        <h1 className='font-bold text-4xl py-12 text-center'> Course </h1>
+    <section className='container mx-auto md:px20 py-1 bg-gray-900 w-full '>
+        <h1 className='font-bold text-4xl py-12 text-center text-white'> Course </h1>
         <div className="grid-flow-row flex sm:grid-cols-1 md:grid-cols-2">
             <Swiper
             modules={[Autoplay]}

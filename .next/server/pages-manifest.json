@@ -1,10 +1,10 @@
 {
-  "/_document": "pages/_document.js",
-  "/course": "pages/course.html",
-  "/": "pages/index.html",
   "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
   "/contact": "pages/contact.html",
   "/_error": "pages/_error.js",
+  "/": "pages/index.html",
+  "/course": "pages/course.html",
   "/about": "pages/about.html",
   "/404": "pages/404.html"
 }

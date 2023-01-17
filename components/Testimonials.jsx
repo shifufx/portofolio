@@ -7,7 +7,7 @@ import {TiStarFullOutline} from "react-icons/ti"
 const Testimonials = () => {
   return (
 
-    <section className="py-10 bg-zinc-800 sm:py-16 lg:py-14">
+    <section className="py-10 bg-black sm:py-16 lg:py-14">
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
             <h1 className='text-lg text-white mb-5 tracking-[.50rem]'>TESTIMONIALS</h1>
