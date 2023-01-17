@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Info from '@/components/Info'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,11 @@ export default function About() {
       </Head>
         
       <Info />
+      <br></br>
+      <br></br>
+
+      <Footer />
+
     </>
   )
 }
