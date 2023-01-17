@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/hg6MLLIdJE0_554_kfpDv/_buildManifest.js",
-    "static/hg6MLLIdJE0_554_kfpDv/_ssgManifest.js"
+    "static/izuRlHP7ufAMVbOIxQIzh/_buildManifest.js",
+    "static/izuRlHP7ufAMVbOIxQIzh/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -14,7 +14,7 @@
       "static/chunks/webpack-59c5c889f52620d6.js",
       "static/chunks/framework-114634acb84f8baa.js",
       "static/chunks/main-010ff0b6bbe5ac8f.js",
-      "static/chunks/1bfc9850-56bebd72845c3213.js",
+      "static/chunks/1bfc9850-ce57d2528d07a298.js",
       "static/chunks/d0c16330-49b0900339eff434.js",
       "static/chunks/0c428ae2-2baf904c8fcf4963.js",
       "static/chunks/6728d85a-2e6a17a06facc62c.js",
@@ -24,13 +24,13 @@
       "static/chunks/959-de430f1e2ff94965.js",
       "static/chunks/831-e5420f99cea7bf64.js",
       "static/css/d205a9a138a844df.css",
-      "static/chunks/pages/index-2e18587c24b95af0.js"
+      "static/chunks/pages/index-6cb7e1c9923d06bf.js"
     ],
     "/_app": [
       "static/chunks/webpack-59c5c889f52620d6.js",
       "static/chunks/framework-114634acb84f8baa.js",
       "static/chunks/main-010ff0b6bbe5ac8f.js",
-      "static/css/6d08ec6040bd0dac.css",
+      "static/css/12a506595be05cf7.css",
       "static/chunks/pages/_app-dae2d5e30ae067a8.js"
     ],
     "/_error": [
@@ -43,18 +43,18 @@
       "static/chunks/webpack-59c5c889f52620d6.js",
       "static/chunks/framework-114634acb84f8baa.js",
       "static/chunks/main-010ff0b6bbe5ac8f.js",
-      "static/chunks/1bfc9850-56bebd72845c3213.js",
+      "static/chunks/1bfc9850-ce57d2528d07a298.js",
       "static/chunks/d0c16330-49b0900339eff434.js",
       "static/chunks/0c428ae2-2baf904c8fcf4963.js",
       "static/chunks/6728d85a-2e6a17a06facc62c.js",
       "static/chunks/959-de430f1e2ff94965.js",
-      "static/chunks/pages/about-d1cc482dde115acc.js"
+      "static/chunks/pages/about-d0e0cff90dc04d01.js"
     ],
     "/contact": [
       "static/chunks/webpack-59c5c889f52620d6.js",
       "static/chunks/framework-114634acb84f8baa.js",
       "static/chunks/main-010ff0b6bbe5ac8f.js",
-      "static/chunks/1bfc9850-56bebd72845c3213.js",
+      "static/chunks/1bfc9850-ce57d2528d07a298.js",
       "static/chunks/d0c16330-49b0900339eff434.js",
       "static/chunks/0c428ae2-2baf904c8fcf4963.js",
       "static/chunks/6728d85a-2e6a17a06facc62c.js",
