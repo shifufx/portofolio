@@ -70,7 +70,6 @@ function Post(){
                 <p className='text-white mt-1 flex text-sm'><RxDotFilled className='text-3xl'/> 
                 Increase OSCP preparedness with OffSec Academy, expert instructor-led streaming sessions
                 </p>
-
             </div>
 
             <div className="description px-4 text-white text-1xl py-1 pt-0 mt-2">
@@ -92,7 +91,6 @@ function Post(){
                 </Link>
             </div>
         </div>
-
     )
 }
 

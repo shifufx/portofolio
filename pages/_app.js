@@ -2,6 +2,10 @@ import '../styles/globals.css'
 import Navbar from '@/components/Navbar'
 import { motion } from 'framer-motion'
 import { AnimatePresence } from 'framer-motion'
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 
 export default function App({ Component, pageProps, router }) {
   return( 

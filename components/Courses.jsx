@@ -8,6 +8,9 @@ const courses1 = () => {
     
 <section className="bg-white dark:bg-gray-900">
     <div className="container px-6 py-8 mx-auto">
+
+        <h1 className='text-center text-white font-bold capitalize md:py-5 sm:py-3 md:text-4xl sm:text-xl'>we offering a <span className='text-cyan-300'>course ?</span> </h1>
+        <h3 className='text-white leading-5 text-center md:mb-10 sm:mb-5 md:text-2xl'>yes we are, you can gain more knowledge for <span className='text-cyan-300'>FREE!</span></h3>
         <div className="max-w-2xl p-1.5 mx-auto overflow-hidden bg-gray-100 rounded-lg dark:bg-gray-800">
             <div className="grid gap-3 md:grid-cols-3">
                 {/* button 1 */}
@@ -133,7 +136,7 @@ function price1(){
                         <span className="mx-4 text-gray-700 dark:text-gray-300">5 exclusive widgets</span>
                 </div>                  
             </div>
-            <button className="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+            <button className="w-full px-4 py-2 mt-10 mb-5 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
                 Choose Basic
             </button>  
         </div>
@@ -190,7 +193,7 @@ function price2(){
                         </svg>
                         <span className="mx-4 text-gray-700 dark:text-gray-300">10+ exclusive pro widgets</span>
                     </div>
-                    <button className="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                    <button className="w-full mb-5 px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
                         Choose Pro
                     </button>
                 </div>
@@ -248,7 +251,7 @@ function indicator(){
                         </svg>
                         <span className="mx-4 text-gray-700 dark:text-gray-300">10+ exclusive pro widgets</span>
                     </div>
-                    <button className="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                    <button className="w-full mb-5 px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
                         Choose Pro
                     </button>
                 </div>
