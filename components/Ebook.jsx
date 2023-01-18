@@ -4,9 +4,13 @@ import React from 'react'
 const Ebook = () => {
   return (
 
-    <section className="bg-white dark:bg-gray-900 w-full">
+    <section className="bg-white dark:bg-black w-full">
         <div className="container px-6 py-4 mx-auto">
             <h1 className="text-3xl sm:text-xl font-semibold md:mt-20 sm:mt-10 text-gray-800 capitalize lg:text-4xl dark:text-white">Beginner To Intermediate Course</h1>
+            
+            <div className="relative py-2">
+                <div className="h-0.5 xl:w-[25rem] sm:w-[10rem] bottom-0 left-0 bg-text-clip bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400"></div>
+            </div>
             <div className="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
                 {intermediate()}
                 {intermediate()}
@@ -19,6 +23,9 @@ const Ebook = () => {
         {/* intermediate to adance */}
         <div className="container px-6 py-4 mx-auto">
             <h1 className="md:text-3xl sm:text-xl font-semibold md:mt-20 sm:mt-10 text-gray-800 capitalize lg:text-4xl dark:text-white">Intermediate to Advanced Course</h1>
+            <div className="relative py-2">
+                <div className="h-0.5 xl:w-[25rem] sm:w-[10rem] bottom-0 left-0 bg-text-clip bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400"></div>
+            </div>
             <div className="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2 lg:mb-16 md:mb-13  ">
                 {intermediate()}
                 {intermediate()}

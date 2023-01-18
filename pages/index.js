@@ -5,7 +5,7 @@ import Hero from '@/components/Hero'
 import Section2 from '@/components/Section2'
 import Testimonials from '@/components/Testimonials'
 import Footer from '@/components/Footer'
-import Courses1 from '@/components/Courses1'
+import Courses from '@/components/Courses'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
         <Hero title='Welcome To Our Community' message= 'Keep Moving Forward'/>
         
-        <Courses1 />
+        <Courses />
         <Testimonials />
         <Footer />
     </>

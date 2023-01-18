@@ -29,7 +29,7 @@ const info = () => {
                 </div>
                 {/* what i do section */}
                 <section className="bg-white dark:bg-black">
-                    <div className="container px-6 xl:py-20 md:py-10 mx-auto bg-black" id="what">
+                    <div className="container px-6 xl:py-20 md:py-10  mx-auto bg-black" id="what">
                         <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white mb-5">What i do!</h1>
                         
                         {/* garis rainbow */}

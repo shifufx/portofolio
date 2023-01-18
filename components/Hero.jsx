@@ -25,16 +25,16 @@ const Hero = () => {
                         </div>
                     </h2>
                     <p className="py-5 text-xl"> Build your mindset. Right here.</p>
-                    <button className="relative mt-7 duration-300 hover:-translate-y-1 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-full group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                    <a href="/" className="relative cursor-pointer mt-7 duration-300 hover:-translate-y-1 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-full group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
                         <span className="flex w-[15rem] h-[2.5rem] relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-full group-hover:bg-opacity-0">
                             <ImUnlocked className="mr-3" /> UNLOCK THE COURSES
                         </span>
-                    </button>
+                    </a>
                 </div>
-                <div className="relative h-[14.5rem] w-32">
+                {/* <div className="relative h-[14.5rem] w-32">
                     <div className="absolute h-0.5 w-[50rem] bottom-0 left-0 mb-5 bg-text-clip bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400">
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
