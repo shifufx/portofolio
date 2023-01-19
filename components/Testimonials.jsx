@@ -5,7 +5,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import {Autoplay} from 'swiper'
 import {TiStarFullOutline} from "react-icons/ti"
-import { Navigation } from 'swiper'
 
 const Testimonials = () => {
   return (
@@ -19,27 +18,24 @@ const Testimonials = () => {
         
         {/* <div className="grid-flow-row flex sm:grid-cols-1 md:grid-cols-2 py-10 mt-5"> */}
 
-        {/* <div class="grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6">
-                   
-        </div> */}
-
+        {/* <div class="grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6 w-full">    
+                
+        </div>  */}
         <Swiper
-                    modules={[Autoplay, Navigation]}
-                    spaceBetween={50}
-                    slidesPerView={1}
-                    className="w-full grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6"
-                    loop = {true}
-                    autoplay = {{
-                        delay: 2500
-                    }}
-                    
-                    >
-                        <SwiperSlide>{ post() }</SwiperSlide>
-                        <SwiperSlide>{ post() }</SwiperSlide>
-                        <SwiperSlide>{ post() }</SwiperSlide>
-                        <SwiperSlide>{ post() }</SwiperSlide>
-
-                    </Swiper>
+            className='grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6 w-full'
+            modules={[Autoplay]}
+            spaceBetween={50}
+            slidesPerView={1}
+            loop = {true}
+            autoplay = {{
+            delay: 2000
+            }}
+            >
+                <SwiperSlide>{ post() }</SwiperSlide>
+                    <SwiperSlide>{ post() }</SwiperSlide>
+                    <SwiperSlide>{ post() }</SwiperSlide>
+                    <SwiperSlide>{ post() }</SwiperSlide>
+                </Swiper>
     </div>
 </section>
 
@@ -63,9 +59,10 @@ function post () {
                     <blockquote className="mt-7">
                         <p className="text-lg text-black">“Amet minim mollit non deserunt ullam co est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat”</p>
                     </blockquote>
+
                     <p className="text-base font-semibold tex-tblack mt-9">Jenny Wilson</p>
                     <p className="mt-1 text-base text-gray-600">Beginner Trader</p>
-                    <p className='flex pt-3 '>
+                    <p className='flex pt-3 justify-center'>
                         <TiStarFullOutline className='text-yellow-400'/>                    
                         <TiStarFullOutline className='text-yellow-400'/>                    
                         <TiStarFullOutline className='text-yellow-400'/>

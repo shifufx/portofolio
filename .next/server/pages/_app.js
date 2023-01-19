@@ -53,7 +53,7 @@ const Navbar = ()=>{
         },
         className: "fixed left-0 top-0 w-full z-10 ease-in duration-300",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "max-w-[1240px] m-auto flex justify-between items-center md:p-1 sm:p-2 text-white",
+            className: "max-w-[1240px] m-auto flex justify-between items-center md:p-2 sm:p-2 text-white",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                     href: "/",
@@ -103,7 +103,7 @@ const Navbar = ()=>{
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     onClick: handleNav,
-                    className: "block sm:hidden z-10",
+                    className: "block sm:hidden z-10 p-5",
                     children: nav ? /*#__PURE__*/ jsx_runtime_.jsx(ai_namespaceObject.AiOutlineClose, {
                         size: 20,
                         style: {
