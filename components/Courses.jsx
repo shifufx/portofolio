@@ -4,11 +4,39 @@ const courses1 = () => {
 
     const[openTab, setOpenTab] = React.useState(1);
 
+    const animations = [
+        `fade-up`,
+        `fade-down`,
+        `fade-left`,
+        `fade-right`,
+        `fade-up-right`,
+        `fade-up-left`,
+        `fade-down-right`,
+        `fade-down-left`,
+        `zoom-in`,
+        `zoom-in-up`,
+        `zoom-in-down`,
+        `zoom-in-left`,
+        `zoom-in-right`,
+        `zoom-out`,
+        `zoom-out-up`,
+        `zoom-out-down`,
+        `zoom-out-left`,
+        `zoom-out-right`,
+        `slide-up`,
+        `slide-down`,
+        `slide-right`,
+        `slide-left`,
+        `flip-left`,
+        `flip-right`,
+        `flip-up`,
+        `flip-down`,
+      ];
+
   return (
     
 <section className="bg-white dark:bg-gray-900">
-    <div className="container px-6 py-8 mx-auto">
-
+    <div className="container px-6 py-8 mx-auto" data-aos="fade-up" data-aos-delay="150">
         <h1 className='text-center text-white font-bold capitalize md:py-5 sm:py-3 md:text-4xl sm:text-xl'>we offering a <span className='text-cyan-300'>course ?</span> </h1>
         <h3 className='text-white leading-5 text-center md:mb-10 sm:mb-5 md:text-2xl'>yes we are, you can gain more knowledge for <span className='text-cyan-300'>FREE!</span></h3>
         <div className="max-w-2xl p-1.5 mx-auto overflow-hidden bg-gray-100 rounded-lg dark:bg-gray-800">
@@ -82,7 +110,6 @@ const courses1 = () => {
             </div>
             {/* end section indicator */}
         </div>
-    
 </section>
   )
 }
@@ -92,12 +119,12 @@ function price1(){
         <div className="w-full px-6 py-4 transition-colors duration-300 transform rounded-lg md:mx-5 md:w-96 bg-gray-50 dark:bg-gray-800">
             {/* call fucntion */}
             <div className="text-center">
-                <p className="text-4xl font-semibold text-gray-800 dark:text-gray-100">Basic</p>
-                <p className="mt-4 text-gray-500 dark:text-gray-300">Essentail Features</p>
+                <p className="text-4xl font-semibold text-gray-800 dark:text-gray-100">Batch Panda</p>
+                {/* <p className="mt-4 text-gray-500 dark:text-gray-300">Essentail Features</p>
                 <h4 className="mt-2 text-gray-600 line-through dark:text-gray-400">$59.99</h4>
                 <h4 className="mt-2 text-5xl font-semibold text-gray-800 dark:text-gray-100">$53.99</h4>
                 <p className="mt-4 text-gray-500 dark:text-gray-300">/per month</p>
-                <p className="mt-4 text-gray-500 dark:text-gray-300">Bill all 6 months</p>
+                <p className="mt-4 text-gray-500 dark:text-gray-300">Bill all 6 months</p> */}
             </div>
                     
             <div className="mt-8 space-y-8">
@@ -137,7 +164,7 @@ function price1(){
                 </div>                  
             </div>
             <button className="w-full px-4 py-2 mt-10 mb-5 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
-                Choose Basic
+                Download
             </button>  
         </div>
                     
@@ -208,11 +235,11 @@ function indicator(){
             <p className="py-2 text-sm text-center text-white uppercase bg-blue-500">Recommended by experts</p>
             <div className="px-6 py-4">
                 <div className="text-center">
-                    <p className="text-4xl font-semibold text-gray-800 dark:text-gray-100">Pro</p>
+                    <p className="text-4xl font-semibold text-gray-800 dark:text-gray-100">Moving Average</p>
                     <p className="mt-4 text-gray-500 dark:text-gray-300">Advanced Features</p>
-                    <h4 className="mt-2 text-gray-600 line-through dark:text-gray-400">$89.99</h4>
-                    <h4 className="mt-2 text-5xl font-semibold text-gray-800 dark:text-gray-100">$80.99</h4>
-                    <p className="mt-4 text-gray-500 dark:text-gray-300">/per month</p>                            
+                    {/* <h4 className="mt-2 text-gray-600 line-through dark:text-gray-400">$89.99</h4> */}
+                    {/* <h4 className="mt-2 text-5xl font-semibold text-gray-800 dark:text-gray-100">$80.99</h4> */}
+                    {/* <p className="mt-4 text-gray-500 dark:text-gray-300">/per month</p>                             */}
                     <p className="mt-4 text-gray-500 dark:text-gray-300">Bill all 6 months</p>
                 </div>
 
