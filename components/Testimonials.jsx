@@ -7,10 +7,38 @@ import {Autoplay} from 'swiper'
 import {TiStarFullOutline} from "react-icons/ti"
 
 const Testimonials = () => {
+    const animations = [
+        `fade-up`,
+        `fade-down`,
+        `fade-left`,
+        `fade-right`,
+        `fade-up-right`,
+        `fade-up-left`,
+        `fade-down-right`,
+        `fade-down-left`,
+        `zoom-in`,
+        `zoom-in-up`,
+        `zoom-in-down`,
+        `zoom-in-left`,
+        `zoom-in-right`,
+        `zoom-out`,
+        `zoom-out-up`,
+        `zoom-out-down`,
+        `zoom-out-left`,
+        `zoom-out-right`,
+        `slide-up`,
+        `slide-down`,
+        `slide-right`,
+        `slide-left`,
+        `flip-left`,
+        `flip-right`,
+        `flip-up`,
+        `flip-down`,
+      ];
   return (
 
 <section className="py-10 bg-black sm:py-16 lg:py-14">
-    <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
         <div className="max-w-2xl mx-auto text-center">
             <h1 className='text-lg text-white mb-5 tracking-[.50rem]'>TESTIMONIALS</h1>
             <h2 className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl bg-clip-text text-transparent bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400" >We love our clients from all over the world</h2>
@@ -23,6 +51,7 @@ const Testimonials = () => {
         </div>  */}
         <Swiper
             className='grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6 w-full'
+            data-aos="fade-left" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000"
             modules={[Autoplay]}
             spaceBetween={50}
             slidesPerView={1}

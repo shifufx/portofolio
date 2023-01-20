@@ -36,7 +36,7 @@ const courses1 = () => {
   return (
     
 <section className="bg-white dark:bg-gray-900">
-    <div className="container px-6 py-8 mx-auto" data-aos="fade-up" data-aos-delay="150">
+    <div className="container px-6 py-8 mx-auto" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
         <h1 className='text-center text-white font-bold capitalize md:py-5 sm:py-3 md:text-4xl sm:text-xl'>we offering a <span className='text-cyan-300'>course ?</span> </h1>
         <h3 className='text-white leading-5 text-center md:mb-10 sm:mb-5 md:text-2xl'>yes we are, you can gain more knowledge for <span className='text-cyan-300'>FREE!</span></h3>
         <div className="max-w-2xl p-1.5 mx-auto overflow-hidden bg-gray-100 rounded-lg dark:bg-gray-800">
@@ -84,7 +84,7 @@ const courses1 = () => {
         </div>
             
             {/* start basic section */}
-            <div className={openTab === 1 ? 'block' : 'hidden'} id='link1'>
+            <div className={openTab === 1 ? 'block' : 'hidden'} id='link1' >
                 <div className="flex flex-col items-center justify-center mt-16 space-y-6 md:items-end md:-mx-5 md:space-y-0 md:flex-row">
                     {price1()}
                     {price1()}
@@ -94,7 +94,7 @@ const courses1 = () => {
             
             {/* start section pro */}
             <div className={openTab === 2 ? 'block' : 'hidden'} id='link2'>
-                <div className="flex flex-col items-center justify-center mt-16 space-y-6 md:items-end md:-mx-5 md:space-y-0 md:flex-row">
+                <div className="flex flex-col items-center justify-center mt-16 space-y-6 md:items-end md:-mx-5 md:space-y-0 md:flex-row" >
                     {price2()}
                     {price2()}
                 </div>
@@ -116,7 +116,7 @@ const courses1 = () => {
 
 function price1(){
     return(
-        <div className="w-full px-6 py-4 transition-colors duration-300 transform rounded-lg md:mx-5 md:w-96 bg-gray-50 dark:bg-gray-800">
+        <div className="w-full px-6 py-4 transition-colors duration-300 transform rounded-lg md:mx-5 md:w-96 bg-gray-50 dark:bg-gray-800"data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             {/* call fucntion */}
             <div className="text-center">
                 <p className="text-4xl font-semibold text-gray-800 dark:text-gray-100">Batch Panda</p>
@@ -173,7 +173,7 @@ function price1(){
 
 function price2(){
     return(
-        <div className="w-full overflow-hidden transition-colors duration-300 transform rounded-lg md:mx-5 md:w-96 bg-gray-50 dark:bg-gray-800">
+        <div className="w-full overflow-hidden transition-colors duration-300 transform rounded-lg md:mx-5 md:w-96 bg-gray-50 dark:bg-gray-800" > 
             <p className="py-2 text-sm text-center text-white uppercase bg-blue-500">Recommended by experts</p>
             <div className="px-6 py-4">
                 <div className="text-center">
