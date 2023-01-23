@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Ebook from '@/components/Ebook'
 import Footer from '@/components/Footer'
+import Counter from '@/components/Counter'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ export default function Course() {
       </Head>
         
       <Ebook />
+      <Counter />
       <Footer />
     </>
   )
