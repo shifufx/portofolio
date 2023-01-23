@@ -1,0 +1,11 @@
+Model Information:
+* title:	Magic book
+* source:	https://sketchfab.com/3d-models/magic-book-561c39dc6fef4a2fbaae7feac18828c8
+* author:	Yury.Petrov (https://sketchfab.com/Yury.Petrov)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Magic book" (https://sketchfab.com/3d-models/magic-book-561c39dc6fef4a2fbaae7feac18828c8) by Yury.Petrov (https://sketchfab.com/Yury.Petrov) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
