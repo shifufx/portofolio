@@ -1,0 +1,11 @@
+Model Information:
+* title:	DS - Alchemist's Book
+* source:	https://sketchfab.com/3d-models/ds-alchemists-book-dd5459eb769743cab82134d7c7d67746
+* author:	Anse Vandevelde (https://sketchfab.com/AnseVandevelde)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "DS - Alchemist's Book" (https://sketchfab.com/3d-models/ds-alchemists-book-dd5459eb769743cab82134d7c7d67746) by Anse Vandevelde (https://sketchfab.com/AnseVandevelde) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -6,18 +6,13 @@ const courses1 = () => {
 
     const animations = [
         `fade-up`,
-        `fade-down`,
         `fade-left`,
         `fade-right`,
-        `fade-up-right`,
-        `fade-up-left`,
-        `fade-down-right`,
-        `fade-down-left`,
       ];
 
   return (
     
-<section className="bg-white dark:bg-gray-900">
+<section className="bg-black">
     <div className="container px-6 py-8 mx-auto" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
         <h1 className='text-center text-white font-bold capitalize md:py-5 sm:py-3 md:text-4xl sm:text-xl'>we offering a <span className='text-cyan-300'>course ?</span> </h1>
         <h3 className='text-white leading-5 text-center md:mb-10 sm:mb-5 md:text-2xl'>yes we are, you can gain more knowledge for <span className='text-cyan-300'>FREE!</span></h3>

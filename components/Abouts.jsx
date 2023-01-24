@@ -1,7 +1,12 @@
 import React from "react";
+import { Suspense } from "react"
+import { Canvas, useLoader } from "@react-three/fiber"
+import { Environment, OrbitControls } from "@react-three/drei"
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader"
 import {FaBrain, FaDollarSign} from 'react-icons/fa'
 
 const info = () => {
+
     const animations = [
         `fade-up`,
         `fade-left`,
@@ -24,8 +29,9 @@ const info = () => {
                         </div>
                         <div className="p-8 mt-12 lg:mb-6 md:mb-6 md:mt-0 ml-0 md:ml-12 lg:w-2/3" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
                             <div className="h-48 flex flex-wrap content-center">
-                                <div >
-                                    <img className="inline-block mt-24 md:mt-0 p-8 md:p-0" src="/Batch/shifu.png" alt="..." />
+                                <div className="inline-block  md:mt-10 inset-1 md:p-0 w-full">
+                                    {Book()}
+                                    {/* <img className="inline-block mt-24 md:mt-0 p-8 md:p-0" src="/Batch/shifu.png" alt="..." /> */}
                                 </div>
                             </div>
                         </div>
@@ -55,6 +61,34 @@ const info = () => {
         </div>
     )
 }
+
+const Model = () => {
+    const gltf = useLoader(GLTFLoader, "/book/scene.gltf");
+    return (
+      <>
+        <primitive object={gltf.scene} scale={0.05} />
+      </>
+    );
+  };
+
+function Book() {
+    return (
+      <>
+          {/* <Books /> */}
+          <div className=" w-3/5 h-[25rem] my-15 mt-15">
+          <Canvas shadows dpr={[1, 2]} camera={{ position: [12, 3, 4], fov: 13 }}>
+            <ambientLight intensity={0.7} />
+            <spotLight intensity={0.5} angle={0.1} penumbra={1} position={[50, 15, 50]} castShadow />
+            <Suspense fallback={null}>
+              <Model />
+              <Environment preset="city" />
+            </Suspense>
+            <OrbitControls autoRotate />
+          </Canvas>
+          </div>
+      </>
+    )
+  }
 
 function Post() {
     return(

@@ -12,10 +12,6 @@ const Testimonials = () => {
         `fade-down`,
         `fade-left`,
         `fade-right`,
-        `fade-up-right`,
-        `fade-up-left`,
-        `fade-down-right`,
-        `fade-down-left`,
       ];
   return (
 
@@ -55,7 +51,7 @@ const Testimonials = () => {
 
 function post () {
     return(
-    <div className="overflow-hidden bg-white rounded-md shadow">
+    <div className="overflow-hidden bg-gray-800 rounded-md shadow">
             <div className="px-8 py-12 border-cyan-500 border-1">
                     <div className="relative w-24 h-24 mx-auto ">
                         <img className="relative object-cover w-24 h-24 mx-auto rounded-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/1/avatar-1.jpg" alt="..." />
@@ -68,11 +64,11 @@ function post () {
                         </div>
                     </div>
                     <blockquote className="mt-7">
-                        <p className="text-lg text-black">“Amet minim mollit non deserunt ullam co est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat”</p>
+                        <p className="text-lg text-white">“Amet minim mollit non deserunt ullam co est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat”</p>
                     </blockquote>
 
-                    <p className="text-base font-semibold tex-tblack mt-9">Jenny Wilson</p>
-                    <p className="mt-1 text-base text-gray-600">Beginner Trader</p>
+                    <p className="text-base font-semibold text-white mt-9 bg-clip-text text-transparent bg-gradient-to-r from-rose-400 via-fuchsia-500 to-cyan-400">Jenny Wilson</p>
+                    <p className="mt-1 text-base text-white">Beginner Trader</p>
                     <p className='flex pt-3 justify-center'>
                         <TiStarFullOutline className='text-yellow-400'/>                    
                         <TiStarFullOutline className='text-yellow-400'/>                    
