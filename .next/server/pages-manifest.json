@@ -1,5 +1,6 @@
 {
   "/_app": "pages/_app.js",
+<<<<<<< HEAD
   "/_document": "pages/_document.js",
   "/about": "pages/about.html",
   "/contact": "pages/contact.html",
@@ -7,4 +8,10 @@
   "/_error": "pages/_error.js",
   "/": "pages/index.html",
   "/404": "pages/404.html"
+=======
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.js",
+  "/": "pages/index.js"
+>>>>>>> 8b4f98e (fixed bugs)
 }
