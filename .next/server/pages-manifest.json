@@ -11,7 +11,9 @@
 =======
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/course": "pages/course.js",
   "/about": "pages/about.js",
+  "/contact": "pages/contact.js",
   "/": "pages/index.js"
 >>>>>>> 8b4f98e (fixed bugs)
 }

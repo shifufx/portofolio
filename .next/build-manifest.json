@@ -88,7 +88,20 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/about.js"
+<<<<<<< HEAD
 >>>>>>> 8b4f98e (fixed bugs)
+=======
+    ],
+    "/contact": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/contact.js"
+    ],
+    "/course": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/course.js"
+>>>>>>> 144f24f (added new batch icon; added gitignore :blue_book::blue_book::blue_book::blue_book::blue_book:)
     ]
   },
   "ampFirstPages": []
