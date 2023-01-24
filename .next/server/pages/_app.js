@@ -61,8 +61,8 @@ const Navbar = ()=>{
                         style: {
                             color: `${textColor}`
                         },
-                        className: "font-bold text-2xl",
-                        children: "Shifu FX"
+                        className: " font-extrabold lg:text-3xl md:text-xl font-montserrat",
+                        children: "SFX"
                     })
                 }),
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
