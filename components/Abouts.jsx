@@ -63,10 +63,10 @@ const info = () => {
 }
 
 const Model = () => {
-    const gltf = useLoader(GLTFLoader, "/book/scene.gltf");
+    const gltf = useLoader(GLTFLoader, "/paladins_book/scene.gltf");
     return (
       <>
-        <primitive object={gltf.scene} scale={0.05} />
+        <primitive object={gltf.scene} scale={0.30} />
       </>
     );
   };
@@ -75,8 +75,8 @@ function Book() {
     return (
       <>
           {/* <Books /> */}
-          <div className=" w-3/5 h-[25rem] my-15 mt-15">
-          <Canvas shadows dpr={[1, 2]} camera={{ position: [12, 3, 4], fov: 13 }}>
+          <div className=" w-11/12 h-[25rem] my-15 mt-15">
+          <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 1], fov: 5 }}>
             <ambientLight intensity={0.7} />
             <spotLight intensity={0.5} angle={0.1} penumbra={1} position={[50, 15, 50]} castShadow />
             <Suspense fallback={null}>

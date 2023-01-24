@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-"use strict";
-=======
 /*
  * ATTENTION: An "eval-source-map" devtool has been used.
  * This devtool is neither made for production nor for readable output files.
@@ -9,58 +6,12 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
->>>>>>> 8b4f98e (fixed bugs)
 (() => {
 var exports = {};
 exports.id = "pages/_document";
 exports.ids = ["pages/_document"];
 exports.modules = {
 
-<<<<<<< HEAD
-/***/ 1514:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Document)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6859);
-
-
-function Document() {
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(next_document__WEBPACK_IMPORTED_MODULE_1__.Html, {
-        lang: "en",
-        children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("noscript", {
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                        href: "./styles/aos-noscript.css",
-                        rel: "stylesheet"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                        href: "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap",
-                        rel: "stylesheet"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_document__WEBPACK_IMPORTED_MODULE_1__.Head, {}),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("body", {
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_document__WEBPACK_IMPORTED_MODULE_1__.Main, {}),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_document__WEBPACK_IMPORTED_MODULE_1__.NextScript, {})
-                ]
-            })
-        ]
-    });
-}
-
-
-/***/ }),
-
-/***/ 4140:
-=======
 /***/ "./node_modules/next/dist/pages/_document.js":
 /*!***************************************************!*\
   !*** ./node_modules/next/dist/pages/_document.js ***!
@@ -119,9 +70,9 @@ eval("module.exports = __webpack_require__(/*! ./dist/pages/_document */ \"./nod
 /*!*****************************************************!*\
   !*** external "next/dist/server/get-page-files.js" ***!
   \*****************************************************/
->>>>>>> 8b4f98e (fixed bugs)
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/server/get-page-files.js");
 
 /***/ }),
@@ -132,6 +83,7 @@ module.exports = require("next/dist/server/get-page-files.js");
   \*************************************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/server/htmlescape.js");
 
 /***/ }),
@@ -142,6 +94,7 @@ module.exports = require("next/dist/server/htmlescape.js");
   \********************************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/server/utils.js");
 
 /***/ }),
@@ -152,6 +105,7 @@ module.exports = require("next/dist/server/utils.js");
   \****************************************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/constants.js");
 
 /***/ }),
@@ -162,6 +116,7 @@ module.exports = require("next/dist/shared/lib/constants.js");
   \*******************************************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/html-context.js");
 
 /***/ }),
@@ -172,6 +127,7 @@ module.exports = require("next/dist/shared/lib/html-context.js");
   \**********************************************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/dist/shared/lib/is-plain-object.js");
 
 /***/ }),
@@ -182,6 +138,7 @@ module.exports = require("next/dist/shared/lib/is-plain-object.js");
   \************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("react");
 
 /***/ }),
@@ -192,12 +149,8 @@ module.exports = require("react");
   \****************************************/
 /***/ ((module) => {
 
-<<<<<<< HEAD
-module.exports = require("react/jsx-runtime");
-=======
 "use strict";
 module.exports = require("react/jsx-dev-runtime");
->>>>>>> 8b4f98e (fixed bugs)
 
 /***/ })
 
@@ -208,11 +161,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-<<<<<<< HEAD
-var __webpack_exports__ = __webpack_require__.X(0, [676,859], () => (__webpack_exec__(1514)));
-=======
 var __webpack_exports__ = (__webpack_exec__("./pages/_document.js"));
->>>>>>> 8b4f98e (fixed bugs)
 module.exports = __webpack_exports__;
 
 })();
