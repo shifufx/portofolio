@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  // cache: false,
+  cache: false,
   output: {
     filename: "main.[contenthash].js",
     clean: true,  },

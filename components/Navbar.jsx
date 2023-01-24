@@ -30,20 +30,20 @@ const Navbar = () => {
             <Link href="/">
                 <h1 style={{color: `${textColor}`}} className=' font-extrabold lg:text-3xl md:text-xl font-montserrat'>SFX</h1>
             </Link>
-                <ul style={{color: `${textColor}`}} className='hidden sm:flex'>
-                    <li className='p-4'>
+                <ul style={{color: `${textColor}`}} className='hidden sm:flex text-gray-400 hover:text-black'>
+                    <li className='p-4 text-gray-400 hover:text-gray-600'>
                         <Link href='/'>Home
                         </Link>
                     </li>
-                    <li className='p-4'>
+                    <li className='p-4 text-gray-400 hover:text-gray-600'>
                         <Link href='/course'>Course
                         </Link>
                     </li>
-                    <li className='p-4'>
+                    <li className='p-4 text-gray-400 hover:text-gray-600'>
                         <Link href='/contact'>Contact
                         </Link>
                     </li>
-                    <li className='p-4'>
+                    <li className='p-4 text-gray-400 hover:text-gray-600'>
                         <Link href='/about'>About
                         </Link>
                     </li>

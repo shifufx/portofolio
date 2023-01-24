@@ -37,7 +37,12 @@ const Footer = () => {
 				</ul>
 			</div>
 			<div className="space-y-3">
-				<h3 className="uppercase dark:text-gray-50"></h3>
+				<h3 className="uppercase dark:text-gray-50">Location</h3>
+				<ul className='space-y-1'>
+					<li>
+						<a href="">Jl.ababil No.15, Sukajadi, Pekanbaru</a>
+					</li>
+				</ul>
 			</div>
 			<div className="space-y-3">
 				<div className="uppercase dark:text-gray-50">follow our social media</div>

@@ -29,8 +29,8 @@ const info = () => {
                         </div>
                         <div className="p-8 mt-12 lg:mb-6 md:mb-6 md:mt-0 ml-0 md:ml-12 lg:w-2/3" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
                             <div className="h-48 flex flex-wrap content-center">
-                                <div className="inline-block  md:mt-10 inset-1 md:p-0 w-full">
-                                    {Book()}
+                                <div className="inline-block  md:mt-10 inset-1 w-full md:p-0 disabled">
+                                    {/* {Book()} */}
                                     {/* <img className="inline-block mt-24 md:mt-0 p-8 md:p-0" src="/Batch/shifu.png" alt="..." /> */}
                                 </div>
                             </div>
@@ -62,33 +62,33 @@ const info = () => {
     )
 }
 
-const Model = () => {
-    const gltf = useLoader(GLTFLoader, "/paladins_book/scene.gltf");
-    return (
-      <>
-        <primitive object={gltf.scene} scale={0.30} />
-      </>
-    );
-  };
+// const Model = () => {
+//     const gltf = useLoader(GLTFLoader, "/paladins_book/scene.gltf");
+//     return (
+//       <>
+//         <primitive object={gltf.scene} scale={0.32} />
+//       </>
+//     );
+//   };
 
-function Book() {
-    return (
-      <>
-          {/* <Books /> */}
-          <div className=" w-11/12 h-[25rem] my-15 mt-15">
-          <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 1], fov: 5 }}>
-            <ambientLight intensity={0.7} />
-            <spotLight intensity={0.5} angle={0.1} penumbra={1} position={[50, 15, 50]} castShadow />
-            <Suspense fallback={null}>
-              <Model />
-              <Environment preset="city" />
-            </Suspense>
-            <OrbitControls autoRotate />
-          </Canvas>
-          </div>
-      </>
-    )
-  }
+// function Book() {
+//     return (
+//       <>
+//           {/* <Books /> */}
+//           <div className=" w-full h-[25rem] my-15 mt-15">
+//           <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 1], fov: 5 }}>
+//             <ambientLight intensity={0.7} />
+//             <spotLight intensity={0.5} angle={0.1} penumbra={1} position={[50, 15, 50]} castShadow />
+//             <Suspense fallback={null}>
+//               <Model />
+//               <Environment preset="city" />
+//             </Suspense>
+//             <OrbitControls autoRotate enableZoom={false} />
+//           </Canvas>
+//           </div>
+//       </>
+//     )
+//   }
 
 function Post() {
     return(
