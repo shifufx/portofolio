@@ -125,7 +125,7 @@ function panda(){
                         </ul>
                     </span>
                     {/* <span className="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span> */}
-                    <Link type='' href="/" className='md:py-2 sm:py-2 text-white text-center text-lg rounded inset-1 bg-pink-400 hover:bg-pink-500 hover:-translate-y-1 duration-300'>Download</Link>
+                    <Link type='' href="/" className='md:py-2 sm:py-2 text-white text-center text-lg rounded inset-1 bg-fuchsia-400 hover:bg-fuchsia-500 hover:-translate-y-1 duration-300'>Download</Link>
                 </div>
         </div>
     )
@@ -148,7 +148,7 @@ function mantis(){
                         </ul>
                     </span>
                     {/* <span className="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span> */}
-                    <Link type='' href="/" className='md:py-2 sm:py-2 text-white text-center text-lg rounded inset-1 bg-pink-400 hover:bg-pink-500 hover:-translate-y-1 duration-300'>Download</Link>
+                    <Link type='' href="/" className='md:py-2 sm:py-2 text-white text-center text-lg rounded inset-1 bg-gray-400 hover:bg-gray-500 hover:-translate-y-1 duration-300'>Download</Link>
                 </div>
         </div>
     )
@@ -171,7 +171,7 @@ function monkey(){
                         </ul>
                     </span>
                     {/* <span className="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span> */}
-                    <Link type='' href="/" className='md:py-2 sm:py-2 text-white text-center text-lg rounded inset-1 bg-pink-400 hover:bg-pink-500 hover:-translate-y-1 duration-300'>Download</Link>
+                    <Link type='' href="/" className='md:py-2 sm:py-2 text-white text-center text-lg rounded inset-1 bg-rose-400 hover:bg-rose-500 hover:-translate-y-1 duration-300'>Download</Link>
                 </div>
         </div>
     )
@@ -249,7 +249,7 @@ function snake(){
 function comingSoonMA(){
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/ular.png" alt="..."/>
+            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/comingsoon.jpg" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
                         Analysis using Moving Average
@@ -272,7 +272,7 @@ function comingSoonMA(){
 function bolinger(){
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/ular.png" alt="..."/>
+            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/comingsoon.jpg" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
                         Analysis using Bolinger Band
