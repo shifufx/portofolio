@@ -17,16 +17,12 @@ const Ebook = () => {
 
     <section className="bg-white dark:bg-black w-full">
         <div className="bg-black text-white lg:py-5 sm:py-2 lg:mb-10 sm:mb-4  ">
-                    <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                    <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24" data-aos="fade-left" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
                         <div className="flex-col w-full lg:w-2/3 md:w-1/3 justify-center items-start p-8">
                             <h1 className="text-3xl md:text-5xl p-2 lg:py-16 md:py-10 text-white tracking-loose ">About Course</h1>
                             <p className="text-sm md:text-base text-gray-50 mb-4 ">I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
                                 My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
                             </p>
-                            {/* <a href="#what"
-                                className="mt-5 bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
-                                What I do?
-                            </a> */}
                         </div>
                         <div className="p-8 mt-12 lg:mb-6 md:mb-6 md:mt-0 ml-0 md:ml-12 lg:w-2/3" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
                             <div className="h-48 flex flex-wrap content-center">
@@ -56,7 +52,7 @@ const Ebook = () => {
             <div className="relative py-2" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
                 <div className="h-0.5 xl:w-[25rem] sm:w-[10rem] bottom-0 left-0 bg-text-clip bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400"></div>
             </div>
-            <div className="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2 lg:mb-16 md:mb-13  ">
+            <div className="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2 lg:mb-13 md:mb-13  ">
                 {tiger()}
                 {flamingo()}
                 {snake()}
@@ -110,7 +106,7 @@ function Book() {
 
 function panda(){
     return (
-        <div className="lg:flex" data-aos="fade-left" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
+        <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/panda.png" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-base font-semibold text-gray-800 hover:underline dark:text-white ">
@@ -125,7 +121,13 @@ function panda(){
                         </ul>
                     </span>
                     {/* <span className="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span> */}
-                    <Link type='' href="/" className='md:py-2 sm:py-2 text-white text-center text-lg rounded inset-1 bg-fuchsia-400 hover:bg-fuchsia-500 hover:-translate-y-1 duration-300'>Download</Link>
+
+                        <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                            </svg>
+                            Download
+                        </Link>
                 </div>
         </div>
     )
@@ -133,7 +135,7 @@ function panda(){
 
 function mantis(){
     return (
-        <div className="lg:flex" data-aos="fade-left" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
+        <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/Belalang.png" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-base font-semibold text-gray-800 hover:underline dark:text-white ">
@@ -147,8 +149,13 @@ function mantis(){
                             <li>test</li>
                         </ul>
                     </span>
-                    {/* <span className="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span> */}
-                    <Link type='' href="/" className='md:py-2 sm:py-2 text-white text-center text-lg rounded inset-1 bg-gray-400 hover:bg-gray-500 hover:-translate-y-1 duration-300'>Download</Link>
+                    
+                        <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                            </svg>
+                            Download
+                        </Link>
                 </div>
         </div>
     )
@@ -156,7 +163,7 @@ function mantis(){
 
 function monkey(){
     return (
-        <div className="lg:flex" data-aos="fade-left" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
+        <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/Monyet.png" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-base font-semibold text-gray-800 hover:underline dark:text-white ">
@@ -171,7 +178,13 @@ function monkey(){
                         </ul>
                     </span>
                     {/* <span className="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span> */}
-                    <Link type='' href="/" className='md:py-2 sm:py-2 text-white text-center text-lg rounded inset-1 bg-rose-400 hover:bg-rose-500 hover:-translate-y-1 duration-300'>Download</Link>
+                    {/* <Link type='' href="/" className='text-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>Download</Link> */}
+                    <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                            </svg>
+                            Download
+                    </Link>
                 </div>
         </div>
     )
@@ -193,8 +206,12 @@ function tiger(){
                             <li>test</li>
                         </ul>
                     </span>
-                    {/* <span className="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span> */}
-                    <Link type='' href="/" className='md:py-2 sm:py-2 text-white text-center text-lg rounded inset-1 bg-pink-400 hover:bg-pink-500 hover:-translate-y-1 duration-300'>Download</Link>
+                    <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                            </svg>
+                            Download
+                    </Link>
             </div>
         </div>
     )
@@ -217,7 +234,13 @@ function flamingo(){
                         </ul>
                     </span>
                     {/* <span className="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span> */}
-                    <Link type='' href="/" className='md:py-2 sm:py-2 text-white text-center text-lg rounded inset-1 bg-pink-400 hover:bg-pink-500 hover:-translate-y-1 duration-300'>Download</Link>
+                    {/* <Link type='' href="/" className='text-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>Download</Link> */}
+                    <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                            </svg>
+                            Download
+                    </Link>
             </div>
         </div>
     )
@@ -239,8 +262,12 @@ function snake(){
                             <li>test</li>
                         </ul>
                     </span>
-                    {/* <span className="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span> */}
-                    <Link type='' href="/" className='md:py-2 sm:py-2 text-white text-center text-lg rounded inset-1 bg-pink-400 hover:bg-pink-500 hover:-translate-y-1 duration-300'>Download</Link>
+                    <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                            </svg>
+                            Download
+                    </Link>
             </div>
         </div>
     )
@@ -262,8 +289,13 @@ function comingSoonMA(){
                             <li>test</li>
                         </ul>
                     </span>
-                    {/* <span className="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span> */}
-                    <Link type='' href="/" className='md:py-2 sm:py-2 text-white text-center text-lg rounded inset-1 bg-pink-400 hover:bg-pink-500 hover:-translate-y-1 duration-300'>Download</Link>
+
+                    <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                            </svg>
+                            Download
+                    </Link>
             </div>
         </div>
     )
@@ -285,8 +317,13 @@ function bolinger(){
                             <li>test</li>
                         </ul>
                     </span>
-                    {/* <span className="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span> */}
-                    <Link type='' href="/" className='md:py-2 sm:py-2 text-white text-center text-lg rounded inset-1 bg-pink-400 hover:bg-pink-500 hover:-translate-y-1 duration-300'>Download</Link>
+
+                    <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                            </svg>
+                            Download
+                    </Link>
             </div>
         </div>
     )
