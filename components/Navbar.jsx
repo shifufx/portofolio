@@ -47,6 +47,10 @@ const Navbar = () => {
                         <Link href='/about'>About
                         </Link>
                     </li>
+                    <li className='p-4 text-gray-400 hover:text-gray-600'>
+                        <Link href='https://shifufx.github.io/'>Trading Result
+                        </Link>
+                    </li>
                 </ul>
 
             {/* Mobile Button */}
@@ -77,6 +81,10 @@ const Navbar = () => {
                         </li>
                         <li className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='/about'>About
+                            </Link>
+                        </li>
+                        <li className='p-4 text-gray-400 hover:text-gray-600'>
+                            <Link href='https://shifufx.github.io/'>Trading Result
                             </Link>
                         </li>
                     </ul>

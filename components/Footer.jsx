@@ -24,7 +24,11 @@ const Footer = () => {
 				<h3 className="tracking-wide uppercase dark:text-gray-50">Product</h3>
 				<ul className="space-y-1">
 					<li className='flex'>
-						<a rel="noopener noreferrer" href="#">E-Book</a>
+						<Link href="/course">E-book</Link>
+						{/* <a rel="noopener noreferrer" href="#">E-Book</a> */}
+					</li>
+					<li className='flex'>
+						<Link href="https://shifufx.github.io/">Trading Result</Link>
 					</li>
 				</ul>
 			</div>
@@ -32,7 +36,7 @@ const Footer = () => {
 				<h3 className="tracking-wide uppercase dark:text-gray-50">Company Profile</h3>
 				<ul className="space-y-1">
 					<li>
-						<a rel="noopener noreferrer" href="https://shifufx.id/">Official Website</a>
+						<Link href="https://shifufx.id/">Official Website</Link>
 					</li>
 				</ul>
 			</div>
@@ -40,7 +44,7 @@ const Footer = () => {
 				<h3 className="uppercase dark:text-gray-50">Location</h3>
 				<ul className='space-y-1'>
 					<li>
-						<a href="">Jl.ababil No.15, Sukajadi, Pekanbaru</a>
+						<Link href="#"> Jl.ababil No.15, Sukajadi, Pekanbaru</Link>
 					</li>
 				</ul>
 			</div>
