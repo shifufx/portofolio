@@ -19,8 +19,7 @@ const info = () => {
                     <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
                         <div className="flex-col w-full lg:w-2/3 md:w-1/3 justify-center items-start p-8">
                             <h1 className="text-3xl md:text-5xl p-2 lg:py-16 md:py-10 text-white tracking-loose ">About Me</h1>
-                            <p className="text-sm md:text-base text-gray-50 mb-4 ">I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
-                                My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+                            <p className="text-sm md:text-base text-gray-50 mb-4 ">As a trader, your primary role is to buy and sell financial instruments such as currencies, and commodities in order to make a profit. To be successful as a trader, you should have a strong understanding of financial markets and economics, as well as the ability to think critically and make quick decisions under pressure.
                             </p>
                             {/* <a href="#what"
                                 className="mt-5 bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
@@ -48,7 +47,7 @@ const info = () => {
                             </div>
                         </div>
                         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
-                            {Post()}
+                            {/* {Post()} */}
                             {Post2()}
                             {Post3()}
                             {Post4()}
@@ -116,9 +115,9 @@ function Post2() {
                 </svg>
 
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">elegant Dark Mode</h1>
+            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Fundamental analysis</h1>
             <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                Traders who use fundamental analysis may gain more profit by identifying undervalued assets and buying them at a discount.
             </p>
         </div>
     )
@@ -134,9 +133,9 @@ function Post3() {
                 </svg>
 
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">elegant Dark Mode</h1>
+            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Technical analysis</h1>
             <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+            This involves using charts and other tools to identify patterns in market data and make predictions about future price movements. Technical analysis may gain more profit by buying assets at low prices and selling them at higher prices.
             </p>
         </div>
     )
@@ -146,11 +145,13 @@ function Post4() {
     return(
         <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <span className="inline-block text-blue-500 dark:text-blue-400">
-                <FaBrain className="w-8 h-8" />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8">
+                <path fill-rule="evenodd" d="M12 2.25a.75.75 0 01.75.75v.756a49.106 49.106 0 019.152 1 .75.75 0 01-.152 1.485h-1.918l2.474 10.124a.75.75 0 01-.375.84A6.723 6.723 0 0118.75 18a6.723 6.723 0 01-3.181-.795.75.75 0 01-.375-.84l2.474-10.124H12.75v13.28c1.293.076 2.534.343 3.697.776a.75.75 0 01-.262 1.453h-8.37a.75.75 0 01-.262-1.453c1.162-.433 2.404-.7 3.697-.775V6.24H6.332l2.474 10.124a.75.75 0 01-.375.84A6.723 6.723 0 015.25 18a6.723 6.723 0 01-3.181-.795.75.75 0 01-.375-.84L4.168 6.241H2.25a.75.75 0 01-.152-1.485 49.105 49.105 0 019.152-1V3a.75.75 0 01.75-.75zm4.878 13.543l1.872-7.662 1.872 7.662h-3.744zm-9.756 0L5.25 8.131l-1.872 7.662h3.744z" clip-rule="evenodd" />
+            </svg>
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">elegant Dark Mode</h1>
+            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Risk Management</h1>
             <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                This involves using techniques such as stop-loss orders, options, and other derivatives to limit the potential loss on a trade, in order to maximize potential gain.
             </p>
         </div>
     )
@@ -162,9 +163,9 @@ function Post5() {
             <span className="inline-block text-blue-500 dark:text-blue-400">
                 <FaBrain className="w-8 h-8" />
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">elegant Dark Mode</h1>
+            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">The psychology of trading </h1>
             <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                By understanding the psychology of trading, traders can become more aware of their own mental and this can include things like setting clear rules for when to enter and exit trades.
             </p>
         </div>
     )
@@ -176,9 +177,10 @@ function Post6() {
             <span className="inline-block text-blue-500 dark:text-blue-400">
                 <FaDollarSign className="w-8 h-8" />
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">elegant Dark Mode</h1>
+            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Having Fun</h1>
             <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                Trading in the stock market can be a way to potentially make more money.
+                {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet */}
             </p>
         </div>
     )

@@ -19,9 +19,9 @@ const Ebook = () => {
         <div className="bg-black text-white lg:py-5 sm:py-2 lg:mb-10 sm:mb-4  ">
                     <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24" data-aos="fade-left" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
                         <div className="flex-col w-full lg:w-2/3 md:w-1/3 justify-center items-start p-8">
-                            <h1 className="text-3xl md:text-5xl p-2 lg:py-16 md:py-10 text-white tracking-loose ">About Course</h1>
-                            <p className="text-sm md:text-base text-gray-50 mb-4 ">I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
-                                My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+                            <h1 className="text-3xl md:text-5xl p-2 lg:py-16 md:py-10 text-white tracking-loose ">About our course</h1>
+                            <p className="text-sm md:text-base text-gray-50 mb-4 ">
+                            A trading course is a program of study that teaches individuals about buying and selling financial assets such as stocks, bonds, currencies, commodities, and derivatives. The goal of a trading course is to provide students with the knowledge and skills they need to become successful traders.
                             </p>
                         </div>
                         <div className="p-8 mt-12 lg:mb-6 md:mb-6 md:mt-0 ml-0 md:ml-12 lg:w-2/3" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
