@@ -3,12 +3,19 @@ import React from 'react'
 const courses1 = () => {
 
     const[openTab, setOpenTab] = React.useState(1);
+    const[active, setActive] = React.useState(false);
 
     const animations = [
         `fade-up`,
         `fade-left`,
         `fade-right`,
       ];
+
+    function handleClick(){
+        setActive(active => !active);
+    }
+
+    let toggleCheck = active ? 'active' : '';
 
   return (
     
@@ -19,23 +26,30 @@ const courses1 = () => {
         <div className="max-w-2xl p-1.5 mx-auto overflow-hidden bg-gray-100 rounded-lg dark:bg-gray-800">
             <div className="grid gap-3 md:grid-cols-3">
                 {/* button 1 */}
-                <button className={"px-3 py-2 font-medium text-gray-800 uppercase transition-colors duration-300 transform bg-transparent rounded-lg focus:outline-none dark:text-gray-200 dark:hover:bg-gray-600 hover:bg-gray-200 " +
-                    (openTab === 1)
+                <button className={" px-3 py-2 font-medium text-white uppercase transition-colors duration-300 transform bg-transparent rounded-lg focus:outline-none" +
+                    (openTab === 1
+                        ? "text-white bg-blue-600"
+                        : "text-white bg-gray-600")
                     }
                     onClick = { e =>{
                         e.preventDefault();
                         setOpenTab(1);
+                        
                     }}
                     data-toggle="tab"
                     href="#link1"
                     role="tablist"
+                   
                 >
                     Beginner
                 </button>
 
                 {/* button 2 */}
-                <button className={"flex items-center justify-center px-3 py-2 font-medium text-white uppercase transition-colors duration-300 transform bg-gray-200 rounded-lg dark:bg-gray-700 focus:outline-none dark:text-gray-200" +
-                    (openTab === 2 )
+                <button className={"flex items-center justify-center px-3 py-2 font-medium text-white uppercase transition-colors duration-300 transform rounded-lg  focus:outline-none" +
+                    // (openTab === 2 )
+                    (openTab === 2
+                        ? "text-white bg-blue-600"
+                        : "text-white bg-gray-600")
                     }
                     onClick = { e => {
                         e.preventDefault();
@@ -44,12 +58,16 @@ const courses1 = () => {
                     data-toggle="tab"
                     href="#link2"
                     role="tablist">Advanced
+                    
                     <span className="text-xs mx-1 ml-2 font-normal text-white bg-blue-500 rounded-full py-0.5 px-1.5">New</span>
                 </button>
 
                 {/* button 3 */}
-                <button className={"flex items-center justify-center px-3 py-2 font-medium text-gray-800 uppercase transition-colors duration-300 transform bg-transparent rounded-lg focus:outline-none dark:text-gray-200 dark:hover:bg-gray-600 hover:bg-gray-200" +
-                    (openTab === 3)
+                <button className={"flex items-center justify-center px-3 py-2 font-medium text-white uppercase transition-colors duration-300 transform bg-transparent rounded-lg focus:outline-none dark:text-gray-200" +
+                    // (openTab === 3)
+                    (openTab === 3
+                        ? "text-white bg-blue-600"
+                        : "text-white bg-gray-600")
                     }
                     onClick = { e => {
                         e.preventDefault();

@@ -18,8 +18,8 @@ const info = () => {
                 <div className="bg-black text-white py-10">
                     <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
                         <div className="flex-col w-full lg:w-2/3 md:w-1/3 justify-center items-start p-8">
-                            <h1 className="text-3xl md:text-5xl p-2 lg:py-16 md:py-10 text-white tracking-loose ">About Me</h1>
-                            <p className="text-sm md:text-base text-gray-50 mb-4 ">As a trader, your primary role is to buy and sell financial instruments such as currencies, and commodities in order to make a profit. To be successful as a trader, you should have a strong understanding of financial markets and economics, as well as the ability to think critically and make quick decisions under pressure.
+                            <h1 className="text-3xl md:text-5xl p-2 lg:py-15 md:py-10 text-white tracking-loose ">About Me</h1>
+                            <p className="text-sm md:text-base text-gray-50 lg:mb-20 md:mb-10">Being a trader professional requires a combination of analytical skills, market knowledge, and the ability to make quick decisions under pressure. It can be a high-stress and high-risk profession, but it can also be very rewarding for those who are successful.
                             </p>
                             {/* <a href="#what"
                                 className="mt-5 bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">

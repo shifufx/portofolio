@@ -33,7 +33,7 @@ const Footer = () => {
 				</ul>
 			</div>
 			<div className="space-y-3">
-				<h3 className="tracking-wide uppercase dark:text-gray-50">Company Profile</h3>
+				<h3 className="tracking-wide uppercase dark:text-gray-50">Company</h3>
 				<ul className="space-y-1">
 					<li>
 						<Link href="https://shifufx.id/">Official Website</Link>
