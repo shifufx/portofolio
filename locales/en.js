@@ -26,7 +26,17 @@ export default {
     description: 'Being a professional trader requires skill analysis skills, market knowledge, and the ability to make quick decisions under pressure. It can be a high-stress, high-risk profession, but it can also be extremely rewarding for those who are successful.',
     //
     
-    
+    // footer
+    product: "Product",
+    company: "Company",
+    location: "Location",
+    social: "follow our social media",
+    footerDescription: "Disclaimer: Trading forex and commodities carries a high level of risk and may not be suitable for everyone. Many factors for an investor to consider before making a transaction, such as objectivity, level of experience and willingness to invest with risk for each investor.",
+    ebook: 'E-book',
+    tradingR: 'Trading Result',
+    official: 'Official Website',
+    alamat: 'St. Abil No. 15, Sukajadi, Pekanbaru',
+    //
 
     signin: 'Sign In',
     directory: 'Directory',

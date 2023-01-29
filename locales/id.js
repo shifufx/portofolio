@@ -25,7 +25,19 @@ export default {
     titleCourse3: 'Bagaimana Cara Menggunakan Indikator',
 
     titleCourse4: 'Angka menceritakan kisah kita',
-    
+
+    // 
+
+    // footer
+    product: "Produk",
+    company: "Perusahaan",
+    location: "Lokasi",
+    social: "Ikuti Media Sosial Kami",
+    footerDescription: "Perhatian: Trading forex dan komoditas memiliki tingkat risiko yang tinggi dan mungkin tidak cocok untuk semua orang. Banyak faktor yang harus diperhatikan investor sebelum melakukan transaksi, seperti objektivitas, tingkat pengalaman dan kemauan berinvestasi dengan risiko masing-masing investor.",
+    ebook: 'E-book',
+    tradingR: 'Hasil Trading',
+    official: 'Website Resmi',
+    alamat: 'Jl. Abil No. 15, Sukajadi, Pekanbaru',
     // 
 
     directory: 'Directory',
