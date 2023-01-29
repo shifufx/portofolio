@@ -7,6 +7,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader"
 import {FaBrain, FaDollarSign} from 'react-icons/fa'
 import en from 'locales/en'
 import id from 'locales/id'
+import { t } from "i18next";
 
 const info = () => {
 
@@ -31,8 +32,7 @@ const info = () => {
                     <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
                         <div className="flex-col w-full lg:w-2/3 md:w-1/2 justify-center items-start p-8">
                             <h1 className="text-3xl mb-10 md:text-5xl p-2 lg:py-15 md:py-10 text-white tracking-loose ">{t.subtitle}</h1>
-                            <p className="text-sm md:text-base text-gray-50 lg:mb-20 md:mb-10">Being a trader professional requires a combination of analytical skills, market knowledge, and the ability to make quick decisions under pressure. It can be a high-stress and high-risk profession, but it can also be very rewarding for those who are successful.
-                            </p>
+                            <p className="text-sm md:text-base text-gray-50 lg:mb-20 md:mb-10">{t.description}</p>
                             {/* <a href="#what"
                                 className="mt-5 bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
                                 What I do?
@@ -50,12 +50,12 @@ const info = () => {
                 </div>
                 {/* what i do section */}
                 <section className="bg-white dark:bg-black">
-                    <div className="container px-6 xl:py-20 md:py-10  mx-auto bg-black" id="what">
-                        <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white mb-1" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">What i do!</h1>
+                    <div className="container px-6 xl:py-20 md:py-10 mx-auto bg-black" id="what">
+                        <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white mb-1" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">{t.whatIdo}</h1>
                         
                         {/* garis rainbow */}
                         <div className="relative" data-aos="fade-left" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-                            <div className="h-0.5 xl:w-[7rem] sm:w-[10rem] mt-0 bottom-0 left-0 lg:ml-1 bg-text-clip bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400">
+                            <div className="h-0.5 xl:w-[15rem] sm:w-[10rem] mt-0 bottom-0 left-0 lg:ml-1 bg-text-clip bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400">
                             </div>
                         </div>
                         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
@@ -101,23 +101,10 @@ function Book() {
     )
   }
 
-function Post() {
-    return(
-        <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-            <span className="inline-block text-blue-500 dark:text-blue-400">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8 stroke-2">
-                    <path  d="M14.447 3.027a.75.75 0 01.527.92l-4.5 16.5a.75.75 0 01-1.448-.394l4.5-16.5a.75.75 0 01.921-.526zM16.72 6.22a.75.75 0 011.06 0l5.25 5.25a.75.75 0 010 1.06l-5.25 5.25a.75.75 0 11-1.06-1.06L21.44 12l-4.72-4.72a.75.75 0 010-1.06zm-9.44 0a.75.75 0 010 1.06L2.56 12l4.72 4.72a.75.75 0 11-1.06 1.06L.97 12.53a.75.75 0 010-1.06l5.25-5.25a.75.75 0 011.06 0z"  />
-                </svg>
-            </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">elegant Dark Mode</h1>
-            <p className="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-            </p>
-        </div>
-    )
-}
-
 function Post2() {
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
     return(
         <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <span className="inline-block text-blue-500 dark:text-blue-400">
@@ -127,7 +114,7 @@ function Post2() {
                 </svg>
 
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Fundamental analysis</h1>
+            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">{t.fundamental}</h1>
             <p className="text-gray-500 dark:text-gray-300">
                 Traders who use fundamental analysis may gain more profit by identifying undervalued assets and buying them at a discount.
             </p>
@@ -136,6 +123,9 @@ function Post2() {
 }
 
 function Post3() {
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
     return(
         <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <span className="inline-block text-blue-500 dark:text-blue-400">
@@ -145,7 +135,7 @@ function Post3() {
                 </svg>
 
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Technical analysis</h1>
+            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">{t.teknikal}</h1>
             <p className="text-gray-500 dark:text-gray-300">
             This involves using charts and other tools to identify patterns in market data and make predictions about future price movements. Technical analysis may gain more profit by buying assets at low prices and selling them at higher prices.
             </p>
@@ -154,6 +144,9 @@ function Post3() {
 }
 
 function Post4() {
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
     return(
         <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <span className="inline-block text-blue-500 dark:text-blue-400">
@@ -161,7 +154,7 @@ function Post4() {
                 <path fill-rule="evenodd" d="M12 2.25a.75.75 0 01.75.75v.756a49.106 49.106 0 019.152 1 .75.75 0 01-.152 1.485h-1.918l2.474 10.124a.75.75 0 01-.375.84A6.723 6.723 0 0118.75 18a6.723 6.723 0 01-3.181-.795.75.75 0 01-.375-.84l2.474-10.124H12.75v13.28c1.293.076 2.534.343 3.697.776a.75.75 0 01-.262 1.453h-8.37a.75.75 0 01-.262-1.453c1.162-.433 2.404-.7 3.697-.775V6.24H6.332l2.474 10.124a.75.75 0 01-.375.84A6.723 6.723 0 015.25 18a6.723 6.723 0 01-3.181-.795.75.75 0 01-.375-.84L4.168 6.241H2.25a.75.75 0 01-.152-1.485 49.105 49.105 0 019.152-1V3a.75.75 0 01.75-.75zm4.878 13.543l1.872-7.662 1.872 7.662h-3.744zm-9.756 0L5.25 8.131l-1.872 7.662h3.744z" clip-rule="evenodd" />
             </svg>
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Risk Management</h1>
+            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">{t.resiko}</h1>
             <p className="text-gray-500 dark:text-gray-300">
                 This involves using techniques such as stop-loss orders, options, and other derivatives to limit the potential loss on a trade, in order to maximize potential gain.
             </p>
@@ -170,12 +163,15 @@ function Post4() {
 }
 
 function Post5() {
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
     return(
         <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <span className="inline-block text-blue-500 dark:text-blue-400">
                 <FaBrain className="w-8 h-8" />
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">The psychology of trading </h1>
+            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">{t.psikolog}</h1>
             <p className="text-gray-500 dark:text-gray-300">
                 By understanding the psychology of trading, traders can become more aware of their own mental and this can include things like setting clear rules for when to enter and exit trades.
             </p>
@@ -184,12 +180,15 @@ function Post5() {
 }
 
 function Post6() {
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
     return(
         <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <span className="inline-block text-blue-500 dark:text-blue-400">
                 <FaDollarSign className="w-8 h-8" />
             </span>
-            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Having Fun</h1>
+            <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">{t.fun}</h1>
             <p className="text-gray-500 dark:text-gray-300">
                 Trading in the stock market can be a way to potentially make more money.
                 {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet */}
