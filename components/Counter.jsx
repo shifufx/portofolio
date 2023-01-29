@@ -1,7 +1,14 @@
- import React from "react";
- import CountUp from 'react-countup';
+import React from "react";
+import { useRouter } from "next/router";
+import CountUp from 'react-countup';
+import en from 'locales/en'
+import id from 'locales/id'
  
  const Statistic = () => {
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
+    
     const animations = [
         `fade-up`,
         `fade-left`,
@@ -11,7 +18,7 @@
         <section className="py-10 bg-black sm:py-6 lg:py-10">
         <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8 lg:mb-16 md:mb-10">
             <div className="max-w-2xl mx-auto text-center" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-                <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Numbers tell our story</h2>
+                <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">{t.titleCourse4}</h2>
                 {/* <p className="mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p> */}
             </div>
             <div className="grid grid-cols-1 gap-8 mt-10 text-center lg:mt-24 sm:gap-x-8 md:grid-cols-3">

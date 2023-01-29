@@ -1,13 +1,20 @@
 import React, {useEffect, useState} from 'react'
 import Link from 'next/link';
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
-import { useTranslation } from "next-i18next";
-import Router from 'next/router';
-
+import { useRouter } from 'next/router';
+import en from 'locales/en'
+import id from 'locales/id'
 
 const Navbar = () => {
 
-    const { t } = useTranslation();
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
+    const changeLanguage = (e) => {
+        const locale = e.target.value;
+        router.push(router.pathname, router.asPath, { locale });
+      };
+
     const [nav, setNav] = useState(false)
 
     const [color, setColor] = useState('transparent')
@@ -38,25 +45,33 @@ const Navbar = () => {
             </Link>
                 <ul style={{color: `${textColor}`}} className='hidden sm:flex text-gray-400 hover:text-black'>
                     <li className='p-4 text-gray-400 hover:text-gray-600'>
-                        <Link href='/' className={Router.asPath === "/" ? "active" : ""}>{t("home")}
+                        <Link href='/'>{t.home}
                         </Link>
                     </li>
                     <li className='p-4 text-gray-400 hover:text-gray-600'>
-                        <Link href='/course' className={Router.asPath === "/course" ? "active" : ""}>{t("course")}
+                        <Link href='/course'>{t.course}
                         </Link>
                     </li>
                     <li className='p-4 text-gray-400 hover:text-gray-600'>
-                        <Link href='/contact' className={Router.asPath === "/contact" ? "active" : ""}>{t("contact")}
+                        <Link href='/contact'>{t.contact}
                         </Link>
                     </li>
                     <li className='p-4 text-gray-400 hover:text-gray-600'>
-                        <Link href='/about' className={Router.asPath === "/about" ? "active" : ""}>{t("about")}
+                        <Link href='/about'>{t.about}
                         </Link>
                     </li>
                     {/* <li className='p-4 text-gray-400 hover:text-gray-600'>
                         <Link href='https://shifufx.github.io/'>Trading Result
                         </Link>
                     </li> */}
+                    <select
+                        onChange={changeLanguage}
+                        defaultValue={locale}
+                        className="p-4 text-gray-400 hover:text-gray-600"
+                        >
+                        <option className="text-black" value="en">EN</option>
+                        <option className="text-black" value="id">ID</option>
+                    </select>
                 </ul>
 
             {/* Mobile Button */}

@@ -5,7 +5,6 @@ import Hero from '@/components/Hero'
 import Testimonials from '@/components/Testimonials'
 import Footer from '@/components/Footer'
 import Courses from '@/components/Courses'
-import { serverSideTranslations } from "next-i18next/serverSideTranslations"
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -29,5 +28,3 @@ function Home() {
 }
 
 export default Home
-
-export async function getStaticProps({ locale }) {  return {    props: {      ...(await serverSideTranslations(locale, ["common", "home"])),   },  };}

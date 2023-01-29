@@ -1,9 +1,37 @@
 export default {
+    // navbar section
+    home: 'Home',
+    course: 'Course',
+    about: 'About',
+    contact: 'Contact',
+    // 
+
+    // course section
+    subtitleCourse: 'About our course',
+    descriptionCourse: 'A trading course is a program of study that teaches individuals about buying and selling financial assets such as stocks, bonds, currencies, commodities, and derivatives. The goal of a trading course is to provide students with the knowledge and skills they need to become successful traders.',
+    titleCourse: 'Beginner To Intermediate Course',
+    titleCourse2: 'Intermediate to Advanced Course',
+    titleCourse3: 'How to use Indicator',
+    titleCourse4: 'Numbers tell our story',
+
+    // 
+    // about section
     subtitle: 'About us',
+    whatIdo: 'What I do!',
+    fundamental: 'Fundamental Analysis',
+    teknikal: 'Technical Analysis',
+    resiko: 'Risk Management',
+    psikolog: 'Psychology of Trading',
+    fun: 'Having Fun',
+    description: 'Being a professional trader requires skill analysis skills, market knowledge, and the ability to make quick decisions under pressure. It can be a high-stress, high-risk profession, but it can also be extremely rewarding for those who are successful.',
+    //
+    
+    
+
     signin: 'Sign In',
     directory: 'Directory',
     hero: 'The birth of the Web',
-    description: `The World Wide Web was invented by British scientist Tim Berners-Lee in 1989 while working at CERN`,
+    
     cookies: `This website uses cookies to ensure you get the best experience on our website`,
     button: `Got it!`,
     about: 'About',

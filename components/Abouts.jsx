@@ -7,19 +7,13 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader"
 import {FaBrain, FaDollarSign} from 'react-icons/fa'
 import en from 'locales/en'
 import id from 'locales/id'
-import { t } from "i18next";
 
 const info = () => {
 
     const router = useRouter();
     const { locale } = router;
     const t = locale === 'en' ? en : id;
-
-    // const changeLanguage = (e) => {
-    //     const locale = e.target.value;
-    //     router.push(router.pathname, router.asPath, { locale });
-    // }
-
+    
     const animations = [
         `fade-up`,
         `fade-left`,

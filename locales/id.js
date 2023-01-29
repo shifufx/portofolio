@@ -1,4 +1,12 @@
 export default {
+     // navbar section
+     home: 'Beranda',
+     course: 'Kursus',
+     about: 'Tentang',
+     contact: 'Kontak',
+     // 
+
+    // about section
     subtitle: 'Tentang Saya',
     whatIdo: 'Apa yang saya lakukan!',
     fundamental: 'Analisis Fundamental',
@@ -6,9 +14,22 @@ export default {
     resiko: 'Manajemen Resiko',
     psikolog: 'Mental Seorang Trader',
     fun: 'Having Fun',
+    description: 'Menjadi trader profesional membutuhkan kombinasi keterampilan analitis, pengetahuan pasar, dan kemampuan membuat keputusan cepat di bawah tekanan. Ini bisa menjadi profesi dengan stres tinggi dan berisiko tinggi, tetapi juga bisa sangat bermanfaat bagi mereka yang sukses.',
+    // 
+
+    // course section
+    subtitleCourse: 'Tentang Kursus',
+    descriptionCourse: 'Kursus perdagangan adalah program studi yang mengajarkan individu tentang membeli dan menjual aset keuangan seperti saham, obligasi, mata uang, komoditas, dan derivatif. Tujuan dari kursus perdagangan adalah untuk membekali siswa dengan pengetahuan dan keterampilan yang mereka butuhkan untuk menjadi pedagang yang sukses.',
+    titleCourse: 'Kursus Pemula hingga Menengah',
+    titleCourse2: 'Kursus Menengah hingga Lanjutan',
+    titleCourse3: 'Bagaimana Cara Menggunakan Indikator',
+
+    titleCourse4: 'Angka menceritakan kisah kita',
+    
+    // 
+
     directory: 'Directory',
     hero: 'The birth of the Web',
-    description: 'Menjadi trader profesional membutuhkan kombinasi keterampilan analitis, pengetahuan pasar, dan kemampuan membuat keputusan cepat di bawah tekanan. Ini bisa menjadi profesi dengan stres tinggi dan berisiko tinggi, tetapi juga bisa sangat bermanfaat bagi mereka yang sukses.',
     cookies: `This website uses cookies to ensure you get the best experience on our website`,
     button: `Got it!`,
     about: 'About',

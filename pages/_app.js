@@ -19,7 +19,7 @@ export default function App({ Component, pageProps, router }) {
   
   return( 
   <>  
-    {/* <Navbar /> */}
+    <Navbar />
     <Component {...pageProps} />
   </>
   
