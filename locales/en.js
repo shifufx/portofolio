@@ -16,6 +16,16 @@ export default {
 
     // 
 
+    // offering course section
+    titleOffer: 'We Offering A Course ?',
+    descriptionOffer: 'Yes we are, you can gain more knowledge for',
+    free: 'FREE!!',
+    t1: 'Beginner',
+    t2: 'Advanced',
+    t3: 'Indicator',
+    new: 'new',
+    // 
+
     // contact section
     titleContact: `Let's Talk About Business`,
     p1: 'in english',

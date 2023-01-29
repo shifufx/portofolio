@@ -1,9 +1,16 @@
 import React from 'react'
+import { useRouter } from 'next/router';
+import en from 'locales/en'
+import id from 'locales/id'
 
 const courses1 = () => {
 
     const[openTab, setOpenTab] = React.useState(1);
     const[active, setActive] = React.useState(false);
+    
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
 
     const animations = [
         `fade-up`,
@@ -21,8 +28,8 @@ const courses1 = () => {
     
 <section className="bg-black">
     <div className="container px-6 pb-10 mx-auto" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-        <h1 className='text-center text-white font-bold capitalize sm:py-3 md:text-4xl sm:text-xl'>we offering a <span className='text-cyan-300'>course ?</span> </h1>
-        <h3 className='text-white leading-5 text-center md:mb-10 sm:mb-5 md:text-2xl'>yes we are, you can gain more knowledge for <span className='text-cyan-300'>FREE!</span></h3>
+        <h1 className='text-center text-white font-bold capitalize sm:py-3 md:text-4xl sm:text-xl'>{t.titleOffer} <span className='text-cyan-300'>{t.offer}</span> </h1>
+        <h3 className='text-white leading-5 text-center md:mb-10 sm:mb-5 md:text-2xl'>{t.descriptionOffer} <span className='text-cyan-300'>{t.free}</span></h3>
         <div className="max-w-2xl p-1.5 mx-auto overflow-hidden bg-gray-100 rounded-lg dark:bg-gray-800">
             <div className="grid gap-3 md:grid-cols-3 ">
                 {/* button 1 */}
@@ -41,7 +48,7 @@ const courses1 = () => {
                     role="tablist"
                    
                 >
-                    Beginner
+                    {t.t1}
                 </button>
 
                 {/* button 2 */}
@@ -57,9 +64,9 @@ const courses1 = () => {
                     }}
                     data-toggle="tab"
                     href="#link2"
-                    role="tablist">Advanced
-                    
-                    <span className="text-xs mx-1 ml-2 font-normal text-white bg-blue-500 rounded-full py-0.5 px-1.5">New</span>
+                    role="tablist">
+                    {t.t2}  
+                    <span className="text-xs mx-1 ml-2 font-normal text-white bg-blue-500 rounded-full py-0.5 px-1.5">{t.new}</span>
                 </button>
 
                 {/* button 3 */}
@@ -73,7 +80,7 @@ const courses1 = () => {
                         e.preventDefault();
                         setOpenTab(3)
                     }}>
-                    <span className="mx-1">Indicator</span>
+                    <span className="mx-1">{t.t3}</span>
                 </button>
             </div>
         </div>

@@ -8,7 +8,6 @@ import {TiStarFullOutline} from "react-icons/ti"
 import { useRouter } from 'next/router';
 import en from 'locales/en'
 import id from 'locales/id'
-import { t } from 'i18next';
 
 const Testimonials = () => {
     const router = useRouter();

@@ -28,6 +28,18 @@ export default {
 
     // 
 
+    // offering course section
+    titleOffer: 'kami menawarkan ',
+    offer: 'Kursus ?',
+    descriptionOffer: 'Tentu Saja, Anda bisa mendapatkan lebih banyak pengetahuan secara',
+    t1: 'Pemula',
+    t2: 'Profesional',
+    t3: 'Indikator',
+    free: 'GRATIS!!',
+    new: 'Baru',
+
+    // 
+
     // contact section
     titleContact: `Mari Bicara Tentang Bisnis`,
     p1: 'in id',
