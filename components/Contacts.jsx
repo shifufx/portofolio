@@ -1,7 +1,15 @@
 import Link from "next/link";
 import React from "react";
+import { useRouter } from "next/router";
+import en from 'locales/en'
+import id from 'locales/id'
 
 const Contacts = () => {
+
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
+
     const animations = [
         `fade-up`,
         `fade-left`,
@@ -11,7 +19,7 @@ const Contacts = () => {
     return(
         <section className="bg-white dark:bg-black h-screen">
             <div className="container px-6 lg:py-16 md:py-6 sm:py-6 mx-auto">
-                <h1 className="text-5xl font-semibold text-center lg:py-28 md:py-28 capitalize lg:text-4xl md:text-3xl bg-clip-text text-transparent bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">Let's Talk About Business</h1>
+                <h1 className="text-5xl font-semibold text-center lg:py-28 md:py-28 capitalize lg:text-4xl md:text-3xl bg-clip-text text-transparent bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">{t.titleContact}</h1>
                 <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
                     {/* whatsapp */}
                     <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl dark:bg-gray-800" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">
@@ -23,9 +31,7 @@ const Contacts = () => {
 
                         </span>
                         <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Location</h1>
-                        <p className="text-gray-500 dark:text-gray-300">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-                        </p>
+                        <p className="text-gray-500 dark:text-gray-300">{t.p1}</p>
 
                         <a href="https://whatsapp.me/62873052028" className="flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
                             <span className="mx-1">Whatsapp me</span>
@@ -45,9 +51,7 @@ const Contacts = () => {
                         </span>
 
                         <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">e-Mail</h1>
-                        <p className="text-gray-500 dark:text-gray-300">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-                        </p>
+                        <p className="text-gray-500 dark:text-gray-300">{t.p2}</p>
 
                         <a href="mailto:ryan@shifufx.education" className="flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
                             <span className="mx-1">email me</span>
@@ -65,9 +69,7 @@ const Contacts = () => {
                         </span>
                         <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Telegram</h1>
 
-                        <p className="text-gray-500 dark:text-gray-300">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
-                        </p>
+                        <p className="text-gray-500 dark:text-gray-300">{t.p3}</p>
 
                         <a href="#" className="flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
                             <span className="mx-1">Text me on telegram</span>

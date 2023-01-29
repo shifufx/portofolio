@@ -2,8 +2,8 @@ export default {
      // navbar section
      home: 'Beranda',
      course: 'Kursus',
-     about: 'Tentang',
      contact: 'Kontak',
+     about: 'Tentang',
      // 
 
     // about section
@@ -28,6 +28,20 @@ export default {
 
     // 
 
+    // contact section
+    titleContact: `Mari Bicara Tentang Bisnis`,
+    p1: 'in id',
+    p2: 'in id',
+    p3: 'in id',
+    // 
+
+    // testimonial section
+    testimonial: 'Testimonials',
+    titleTestimonial: 'Kami mencintai klien kami dari seluruh dunia',
+    descriptionTestimonial: 'Mereka sangat lembut dan tidak meninggalkan rasa sakit. Dia suka mengurus keluarganya. Latihan akan membuahkan hasil',
+    statusTestimonial: 'Trader Pemula',
+    // 
+
     // footer
     product: "Produk",
     company: "Perusahaan",
@@ -49,8 +63,5 @@ export default {
     science: 'Science',
     research: 'Research',
     search: 'Search',
-    p1: `Tim Berners-Lee, a British scientist, invented the World Wide Web (WWW) in 1989, while working at CERN. The web was originally conceived and developed to meet the demand for automated information-sharing between scientists in universities and institutes around the world.`,
-    p2: `The first website at CERN – and in the world – was dedicated to the World Wide Web project itself and was hosted on Berners-Lee's NeXT computer. In 2013, CERN launched a project to restore this first ever website: info.cern.ch.`,
-    p3: `On 30 April 1993, CERN put the World Wide Web software in the public domain. Later, CERN made a release available with an open licence, a more sure way to maximise its dissemination. These actions allowed the web to flourish.`,
   };
   

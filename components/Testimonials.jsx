@@ -5,8 +5,16 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import {Autoplay} from 'swiper'
 import {TiStarFullOutline} from "react-icons/ti"
+import { useRouter } from 'next/router';
+import en from 'locales/en'
+import id from 'locales/id'
+import { t } from 'i18next';
 
 const Testimonials = () => {
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
+    
     const animations = [
         `fade-up`,
         `fade-down`,
@@ -18,8 +26,8 @@ const Testimonials = () => {
 <section className="py-10 bg-black sm:py-16 lg:py-14">
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
         <div className="max-w-2xl mx-auto text-center">
-            <h1 className='text-lg text-white mb-5 tracking-[.50rem]'>TESTIMONIALS</h1>
-            <h2 className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl bg-clip-text text-transparent bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400" >We love our clients from all over the world</h2>
+            <h1 className='text-lg text-white mb-5 tracking-[.50rem]'>{t.testimonial}</h1>
+            <h2 className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl bg-clip-text text-transparent bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400" >{t.titleTestimonial}</h2>
         </div>
         
         {/* <div className="grid-flow-row flex sm:grid-cols-1 md:grid-cols-2 py-10 mt-5"> */}
@@ -50,6 +58,9 @@ const Testimonials = () => {
 }
 
 function post () {
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
     return(
     <div className="overflow-hidden bg-gray-800 rounded-md shadow">
             <div className="px-8 py-12 border-cyan-500 border-1">
@@ -64,11 +75,11 @@ function post () {
                         </div>
                     </div>
                     <blockquote className="mt-7">
-                        <p className="text-lg text-white">“Amet minim mollit non deserunt ullam co est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat”</p>
+                        <p className="text-lg text-white">“{t.descriptionTestimonial}”</p>
                     </blockquote>
 
                     <p className="text-base font-semibold text-white mt-9 bg-clip-text text-transparent bg-gradient-to-r from-rose-400 via-fuchsia-500 to-cyan-400">Jenny Wilson</p>
-                    <p className="mt-1 text-base text-white">Beginner Trader</p>
+                    <p className="mt-1 text-base text-white">{t.statusTestimonial}</p>
                     <p className='flex pt-3 justify-center'>
                         <TiStarFullOutline className='text-yellow-400'/>                    
                         <TiStarFullOutline className='text-yellow-400'/>                    
