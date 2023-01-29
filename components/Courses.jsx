@@ -20,11 +20,11 @@ const courses1 = () => {
   return (
     
 <section className="bg-black">
-    <div className="container px-6 py-8 mx-auto" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-        <h1 className='text-center text-white font-bold capitalize md:py-5 sm:py-3 md:text-4xl sm:text-xl'>we offering a <span className='text-cyan-300'>course ?</span> </h1>
+    <div className="container px-6 pb-10 mx-auto" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
+        <h1 className='text-center text-white font-bold capitalize sm:py-3 md:text-4xl sm:text-xl'>we offering a <span className='text-cyan-300'>course ?</span> </h1>
         <h3 className='text-white leading-5 text-center md:mb-10 sm:mb-5 md:text-2xl'>yes we are, you can gain more knowledge for <span className='text-cyan-300'>FREE!</span></h3>
         <div className="max-w-2xl p-1.5 mx-auto overflow-hidden bg-gray-100 rounded-lg dark:bg-gray-800">
-            <div className="grid gap-3 md:grid-cols-3">
+            <div className="grid gap-3 md:grid-cols-3 ">
                 {/* button 1 */}
                 <button className={" px-3 py-2 font-medium text-white uppercase transition-colors duration-300 transform bg-transparent rounded-lg focus:outline-none" +
                     (openTab === 1
@@ -111,7 +111,7 @@ const courses1 = () => {
 
 function price1(){
     return(
-        <div className="w-full px-6 py-4 transition-colors duration-300 transform rounded-lg md:mx-5 md:w-96 bg-gray-50 dark:bg-gray-800"data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
+        <div className="w-full px-6 py-4 transition-colors duration-300 transform rounded-lg md:mx-5 md:w-96 bg-gray-50 dark:bg-gray-800" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             {/* call fucntion */}
             <div className="text-center">
                 <p className="text-4xl font-semibold text-gray-800 dark:text-gray-100">Batch Panda</p>
@@ -168,7 +168,7 @@ function price1(){
 
 function price2(){
     return(
-        <div className="w-full overflow-hidden transition-colors duration-300 transform rounded-lg md:mx-5 md:w-96 bg-gray-50 dark:bg-gray-800" > 
+        <div className="w-full overflow-hidden transition-colors duration-300 transform rounded-lg md:mx-5 md:w-96 bg-gray-50 dark:bg-gray-800" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000" > 
             <p className="py-2 text-sm text-center text-white uppercase bg-blue-500">Recommended by experts</p>
             <div className="px-6 py-4">
                 <div className="text-center">
@@ -226,7 +226,7 @@ function price2(){
 
 function indicator(){
     return(
-        <div className="w-full overflow-hidden transition-colors duration-300 transform rounded-lg md:mx-5 md:w-96 bg-gray-50 dark:bg-gray-800">
+        <div className="w-full overflow-hidden transition-colors duration-300 transform rounded-lg md:mx-5 md:w-96 bg-gray-50 dark:bg-gray-800" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <p className="py-2 text-sm text-center text-white uppercase bg-blue-500">Recommended by experts</p>
             <div className="px-6 py-4">
                 <div className="text-center">

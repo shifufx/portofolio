@@ -1,8 +1,13 @@
 import React, {useEffect, useState} from 'react'
 import Link from 'next/link';
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
+import { useTranslation } from "next-i18next";
+import Router from 'next/router';
+
 
 const Navbar = () => {
+
+    const { t } = useTranslation();
     const [nav, setNav] = useState(false)
 
     const [color, setColor] = useState('transparent')
@@ -24,33 +29,34 @@ const Navbar = () => {
         };
         window.addEventListener('scroll', changeColor);
     }, []);
+    
   return (
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center md:p-2 sm:p-2 text-white'>
             <Link href="/">
-                <h1 style={{color: `${textColor}`}} className=' font-extrabold lg:text-3xl md:text-xl font-montserrat'>SFX</h1>
+                <h1 style={{color: `${textColor}`}} className=' font-extrabold lg:text-3xl md:ml-5 md:text-xl font-montserrat'>SFX</h1>
             </Link>
                 <ul style={{color: `${textColor}`}} className='hidden sm:flex text-gray-400 hover:text-black'>
                     <li className='p-4 text-gray-400 hover:text-gray-600'>
-                        <Link href='/'>Home
+                        <Link href='/' className={Router.asPath === "/" ? "active" : ""}>{t("home")}
                         </Link>
                     </li>
                     <li className='p-4 text-gray-400 hover:text-gray-600'>
-                        <Link href='/course'>Course
+                        <Link href='/course' className={Router.asPath === "/course" ? "active" : ""}>{t("course")}
                         </Link>
                     </li>
                     <li className='p-4 text-gray-400 hover:text-gray-600'>
-                        <Link href='/contact'>Contact
+                        <Link href='/contact' className={Router.asPath === "/contact" ? "active" : ""}>{t("contact")}
                         </Link>
                     </li>
                     <li className='p-4 text-gray-400 hover:text-gray-600'>
-                        <Link href='/about'>About
+                        <Link href='/about' className={Router.asPath === "/about" ? "active" : ""}>{t("about")}
                         </Link>
                     </li>
-                    <li className='p-4 text-gray-400 hover:text-gray-600'>
+                    {/* <li className='p-4 text-gray-400 hover:text-gray-600'>
                         <Link href='https://shifufx.github.io/'>Trading Result
                         </Link>
-                    </li>
+                    </li> */}
                 </ul>
 
             {/* Mobile Button */}
@@ -68,7 +74,7 @@ const Navbar = () => {
             >
                     <ul>
                         <li className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='#home'>Home
+                            <Link href='/'>Home
                             </Link>
                         </li>
                         <li className='p-4 text-4xl hover:text-gray-500'>
@@ -83,7 +89,7 @@ const Navbar = () => {
                             <Link href='/about'>About
                             </Link>
                         </li>
-                        <li className='p-4 text-gray-400 hover:text-gray-600'>
+                        <li className='p-4 text-4xl text-gray-400 hover:text-gray-600'>
                             <Link href='https://shifufx.github.io/'>Trading Result
                             </Link>
                         </li>

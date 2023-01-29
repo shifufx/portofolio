@@ -1,11 +1,23 @@
 import React from "react";
+import { useRouter } from "next/router";
 import { Suspense } from "react"
 import { Canvas, useLoader } from "@react-three/fiber"
 import { Environment, OrbitControls } from "@react-three/drei"
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader"
 import {FaBrain, FaDollarSign} from 'react-icons/fa'
+import en from 'locales/en'
+import id from 'locales/id'
 
 const info = () => {
+
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
+
+    // const changeLanguage = (e) => {
+    //     const locale = e.target.value;
+    //     router.push(router.pathname, router.asPath, { locale });
+    // }
 
     const animations = [
         `fade-up`,
@@ -15,10 +27,10 @@ const info = () => {
     return(
         <div className="items-center justify-start h-screen">
             <div className="absolute top-0 left-0 right-0 bottom-0 bg-black">
-                <div className="bg-black text-white py-10">
+                <div className="bg-black text-white py-10 md:mb-8">
                     <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-                        <div className="flex-col w-full lg:w-2/3 md:w-1/3 justify-center items-start p-8">
-                            <h1 className="text-3xl md:text-5xl p-2 lg:py-15 md:py-10 text-white tracking-loose ">About Me</h1>
+                        <div className="flex-col w-full lg:w-2/3 md:w-1/2 justify-center items-start p-8">
+                            <h1 className="text-3xl mb-10 md:text-5xl p-2 lg:py-15 md:py-10 text-white tracking-loose ">{t.subtitle}</h1>
                             <p className="text-sm md:text-base text-gray-50 lg:mb-20 md:mb-10">Being a trader professional requires a combination of analytical skills, market knowledge, and the ability to make quick decisions under pressure. It can be a high-stress and high-risk profession, but it can also be very rewarding for those who are successful.
                             </p>
                             {/* <a href="#what"
@@ -26,9 +38,9 @@ const info = () => {
                                 What I do?
                             </a> */}
                         </div>
-                        <div className="p-8 mt-12 lg:mb-6 md:mb-6 md:mt-0 ml-0 md:ml-12 lg:w-2/3" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                        <div className="p-8 mt-12 lg:mb-6 md:mb-6 md:mt-0 ml-0 md:ml-12 lg:w-2/3 md:w-1/2" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
                             <div className="h-48 flex flex-wrap content-center">
-                                <div className="inline-block  md:mt-10 w-full md:p-0 disabled">
+                                <div className="inline-block md:mt-8 w-full md:p-0 sm:mt-8">
                                     {Book()}
                                     {/* <img className="inline-block mt-24 md:mt-0 p-8 md:p-0" src="/Batch/shifu.png" alt="..." /> */}
                                 </div>
@@ -186,4 +198,4 @@ function Post6() {
     )
 }
 
-export default info;
+export default info

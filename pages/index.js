@@ -2,14 +2,16 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Hero from '@/components/Hero'
-import Section2 from '@/components/Section2'
 import Testimonials from '@/components/Testimonials'
 import Footer from '@/components/Footer'
 import Courses from '@/components/Courses'
+import { serverSideTranslations } from "next-i18next/serverSideTranslations"
+
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+
+function Home() {
   return (
     <>
       <Head>
@@ -18,11 +20,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <Hero title='Welcome To Our Community' message= 'Keep Moving Forward'/>
-        
+        <Hero />
         <Courses />
         <Testimonials />
         <Footer />
     </>
   )
 }
+
+export default Home
+
+export async function getStaticProps({ locale }) {  return {    props: {      ...(await serverSideTranslations(locale, ["common", "home"])),   },  };}

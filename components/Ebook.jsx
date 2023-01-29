@@ -13,20 +13,21 @@ const Ebook = () => {
         `fade-left`,
         `fade-right`,
       ];
-  return (
+  
 
+  return (
     <section className="bg-white dark:bg-black w-full">
         <div className="bg-black text-white lg:py-5 sm:py-2 lg:mb-10 sm:mb-4  ">
                     <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24" data-aos="fade-left" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-                        <div className="flex-col w-full lg:w-2/3 md:w-1/3 justify-center items-start p-8">
+                        <div className="flex-col w-full lg:w-2/3 md:w-1/2 justify-center items-start p-8">
                             <h1 className="text-3xl md:text-5xl p-2 lg:py-16 md:py-10 text-white tracking-loose ">About our course</h1>
                             <p className="text-sm md:text-base text-gray-50 mb-4 ">
                             A trading course is a program of study that teaches individuals about buying and selling financial assets such as stocks, bonds, currencies, commodities, and derivatives. The goal of a trading course is to provide students with the knowledge and skills they need to become successful traders.
                             </p>
                         </div>
-                        <div className="p-8 mt-12 lg:mb-6 md:mb-6 md:mt-0 ml-0 md:ml-12 lg:w-2/3" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                        <div className="p-8 mt-12 lg:mb-6 md:mb-6 md:mt-0 ml-0 md:ml-12 lg:w-2/3 md:w-1/2" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
                             <div className="h-48 flex flex-wrap content-center">
-                                <div className="inline-block lg:mt-28 inset-1 w-full md:p-0 disabled">
+                                <div className="inline-block lg:mt-28 inset-1 w-full md:p-0">
                                     {Book()}
                                     {/* <img className="inline-block mt-24 md:mt-0 p-8 md:p-0" src="/Batch/shifu.png" alt="..." /> */}
                                 </div>
@@ -90,7 +91,7 @@ function Book() {
       <>
           {/* <Books /> */}
           <div className=" w-full h-[25rem] my-15 mt-15">
-          <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 1], fov: 5 }}>
+          <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 1], fov: 7 }}>
             <ambientLight intensity={0.7} />
             <spotLight intensity={0.5} angle={0.1} penumbra={1} position={[50, 15, 50]} castShadow />
             <Suspense fallback={null}>
