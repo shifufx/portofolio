@@ -1,9 +1,11 @@
 import React, {useEffect, useState} from 'react'
 import Link from 'next/link';
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
+// import {GrLanguage} from ' react-icons/gr'
 import { useRouter } from 'next/router';
 import en from 'locales/en'
 import id from 'locales/id'
+import { BsGlobe } from "react-icons/bs";
 
 const Navbar = () => {
 
@@ -38,25 +40,25 @@ const Navbar = () => {
     }, []);
     
   return (
-    <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
+    <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-2 w-full z-10 ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center md:p-2 sm:p-2 text-white'>
             <Link href="/">
                 <h1 style={{color: `${textColor}`}} className=' font-extrabold lg:text-3xl md:ml-5 md:text-xl font-montserrat'>SFX</h1>
             </Link>
                 <ul style={{color: `${textColor}`}} className='hidden sm:flex text-gray-400 hover:text-black'>
-                    <li className='p-4 text-gray-400 hover:text-gray-600'>
+                    <li className='p-4 text-white hover:text-gray-400'>
                         <Link href='/'>{t.home}
                         </Link>
                     </li>
-                    <li className='p-4 text-gray-400 hover:text-gray-600'>
+                    <li className='p-4 text-white hover:text-gray-400'>
                         <Link href='/course'>{t.course}
                         </Link>
                     </li>
-                    <li className='p-4 text-gray-400 hover:text-gray-600'>
+                    <li className='p-4 text-white hover:text-gray-400'>
                         <Link href='/contact'>{t.contact}
                         </Link>
                     </li>
-                    <li className='p-4 text-gray-400 hover:text-gray-600'>
+                    <li className='p-4 text-white hover:text-gray-400'>
                         <Link href='/about'>{t.about}
                         </Link>
                     </li>
@@ -64,15 +66,18 @@ const Navbar = () => {
                         <Link href='https://shifufx.github.io/'>Trading Result
                         </Link>
                     </li> */}
+
                     <select
                         onChange={changeLanguage}
                         defaultValue={locale}
-                        className="p-4 text-gray-400 hover:text-gray-600"
+                        className="p-4 text-white hover:text-gray-400 bg-black cursor-pointer"
                         >
+                                                
                         <option className="text-black" value="en">EN</option>
                         <option className="text-black" value="id">ID</option>
                     </select>
                 </ul>
+                
 
             {/* Mobile Button */}
             <div onClick={handleNav} className='block sm:hidden z-10 p-5'>

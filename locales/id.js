@@ -5,6 +5,12 @@ export default {
      contact: 'Kontak',
      about: 'Tentang',
      // 
+    
+     // hero section
+    download: 'UNDUH E-Book',
+    halo: `Halo saya ryan sebagai`,
+    build: 'Bangun Pola Pikir kamu. Bersama Industri Shifu FX',
+    //
 
     // about section
     subtitle: 'Tentang Saya',
@@ -63,7 +69,7 @@ export default {
     ebook: 'E-book',
     tradingR: 'Hasil Trading',
     official: 'Website Resmi',
-    alamat: 'Jl. Abil No. 15, Sukajadi, Pekanbaru',
+    alamat: 'Jl. Ababil No. 15, Sukajadi, Pekanbaru',
     // 
 
     directory: 'Directory',

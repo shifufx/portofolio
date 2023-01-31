@@ -6,6 +6,12 @@ export default {
     contact: 'Contact',
     // 
 
+    // hero section
+    download: 'UNLOCK THE COURSE',
+    halo: `Hello i'm Ryan as a`,
+    build: 'Build Your Mindset. Right here',
+    //
+
     // course section
     subtitleCourse: 'About our course',
     descriptionCourse: 'A trading course is a program of study that teaches individuals about buying and selling financial assets such as stocks, bonds, currencies, commodities, and derivatives. The goal of a trading course is to provide students with the knowledge and skills they need to become successful traders.',
@@ -60,7 +66,7 @@ export default {
     ebook: 'E-book',
     tradingR: 'Trading Result',
     official: 'Official Website',
-    alamat: 'St. Abil No. 15, Sukajadi, Pekanbaru',
+    alamat: 'St. Ababil No. 15, Sukajadi, Pekanbaru',
     //
 
     signin: 'Sign In',
