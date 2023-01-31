@@ -68,17 +68,5 @@ export default {
     official: 'Official Website',
     alamat: 'St. Ababil No. 15, Sukajadi, Pekanbaru',
     //
-
-    signin: 'Sign In',
-    directory: 'Directory',
-    hero: 'The birth of the Web',
-    
-    cookies: `This website uses cookies to ensure you get the best experience on our website`,
-    button: `Got it!`,
-    about: 'About',
-    news: 'News',
-    science: 'Science',
-    research: 'Research',
-    search: 'Search',
   };
   

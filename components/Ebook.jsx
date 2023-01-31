@@ -129,9 +129,10 @@ function panda(){
                     {/* <span className="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span> */}
 
                         <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                            </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                        </svg>
+
                             Download
                         </Link>
                 </div>
@@ -157,9 +158,10 @@ function mantis(){
                     </span>
                     
                         <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                            </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                        </svg>
+
                             Download
                         </Link>
                 </div>
@@ -186,9 +188,10 @@ function monkey(){
                     {/* <span className="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span> */}
                     {/* <Link type='' href="/" className='text-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>Download</Link> */}
                     <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                            </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                    </svg>
+
                             Download
                     </Link>
                 </div>
@@ -213,9 +216,10 @@ function tiger(){
                         </ul>
                     </span>
                     <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                            </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                    </svg>
+
                             Download
                     </Link>
             </div>
@@ -242,9 +246,10 @@ function flamingo(){
                     {/* <span className="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span> */}
                     {/* <Link type='' href="/" className='text-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>Download</Link> */}
                     <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                            </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                    </svg>
+
                             Download
                     </Link>
             </div>
@@ -269,9 +274,10 @@ function snake(){
                         </ul>
                     </span>
                     <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                            </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                    </svg>
+
                             Download
                     </Link>
             </div>
@@ -282,7 +288,7 @@ function snake(){
 function comingSoonMA(){
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/comingsoon.jpg" alt="..."/>
+            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/comingsoon2.jpg" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
                         Analysis using Moving Average
@@ -297,9 +303,10 @@ function comingSoonMA(){
                     </span>
 
                     <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                            </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                    </svg>
+
                             Download
                     </Link>
             </div>
@@ -310,7 +317,7 @@ function comingSoonMA(){
 function bolinger(){
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/comingsoon.jpg" alt="..."/>
+            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/comingsoon2.jpg" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
                         Analysis using Bolinger Band
@@ -325,9 +332,10 @@ function bolinger(){
                     </span>
 
                     <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-5 mr-1">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                            </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                    </svg>
+
                             Download
                     </Link>
             </div>

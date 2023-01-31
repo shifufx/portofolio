@@ -2,8 +2,8 @@ export default {
      // navbar section
      home: 'Beranda',
      course: 'Kursus',
-     contact: 'Kontak',
      about: 'Tentang',
+     contact: 'Kontak',
      // 
     
      // hero section
@@ -71,15 +71,5 @@ export default {
     official: 'Website Resmi',
     alamat: 'Jl. Ababil No. 15, Sukajadi, Pekanbaru',
     // 
-
-    directory: 'Directory',
-    hero: 'The birth of the Web',
-    cookies: `This website uses cookies to ensure you get the best experience on our website`,
-    button: `Got it!`,
-    about: 'About',
-    news: 'News',
-    science: 'Science',
-    research: 'Research',
-    search: 'Search',
   };
   

@@ -6,9 +6,7 @@ import Testimonials from '@/components/Testimonials'
 import Footer from '@/components/Footer'
 import Courses from '@/components/Courses'
 
-
 const inter = Inter({ subsets: ['latin'] })
-
 
 function Home() {
   return (
