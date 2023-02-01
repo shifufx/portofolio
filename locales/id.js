@@ -29,9 +29,15 @@ export default {
     titleCourse: 'Kursus Pemula hingga Menengah',
     titleCourse2: 'Kursus Menengah hingga Lanjutan',
     titleCourse3: 'Bagaimana Cara Menggunakan Indikator',
+    unduh: 'Unduh',
 
     titleCourse4: 'Angka menceritakan kisah kita',
-
+    d1: 'Tahun di Komunitas',
+    d1_d: 'Menciptakan jalan yang sukses',
+    d2: 'Total unduhan ebook',
+    d2_d: 'Dalam 1 Bulan Terakhir',
+    d3: 'Anggota Tim',
+    d3_d: 'Bekerja untuk kesuksesan Anda',
     // 
 
     // offering course section

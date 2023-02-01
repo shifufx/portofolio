@@ -7,6 +7,7 @@ import { Environment, OrbitControls } from "@react-three/drei"
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader"
 import en from 'locales/en'
 import id from 'locales/id'
+import { t } from 'i18next';
 
 
 const Ebook = () => {
@@ -111,6 +112,9 @@ function Book() {
   }
 
 function panda(){
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/panda.png" alt="..."/>
@@ -127,13 +131,11 @@ function panda(){
                         </ul>
                     </span>
                     {/* <span className="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span> */}
-
                         <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                         </svg>
-
-                            Download
+                            {t.unduh}
                         </Link>
                 </div>
         </div>
@@ -141,6 +143,9 @@ function panda(){
 }
 
 function mantis(){
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/Belalang.png" alt="..."/>
@@ -161,8 +166,7 @@ function mantis(){
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                         </svg>
-
-                            Download
+                            {t.unduh}
                         </Link>
                 </div>
         </div>
@@ -170,6 +174,9 @@ function mantis(){
 }
 
 function monkey(){
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/Monyet.png" alt="..."/>
@@ -191,8 +198,7 @@ function monkey(){
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                     </svg>
-
-                            Download
+                        {t.unduh}
                     </Link>
                 </div>
         </div>
@@ -200,6 +206,9 @@ function monkey(){
 }
 
 function tiger(){
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/Harimau.png" alt="..."/>
@@ -219,8 +228,7 @@ function tiger(){
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                     </svg>
-
-                            Download
+                        {t.unduh}
                     </Link>
             </div>
         </div>
@@ -228,6 +236,9 @@ function tiger(){
 }
 
 function flamingo(){
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/burung.png" alt="..."/>
@@ -249,8 +260,7 @@ function flamingo(){
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                     </svg>
-
-                            Download
+                        {t.unduh}
                     </Link>
             </div>
         </div>
@@ -258,6 +268,9 @@ function flamingo(){
 }
 
 function snake(){
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/ular.png" alt="..."/>
@@ -277,8 +290,7 @@ function snake(){
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                     </svg>
-
-                            Download
+                    {t.unduh}
                     </Link>
             </div>
         </div>
@@ -286,6 +298,9 @@ function snake(){
 }
 
 function comingSoonMA(){
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/comingsoon2.jpg" alt="..."/>
@@ -306,8 +321,7 @@ function comingSoonMA(){
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                     </svg>
-
-                            Download
+                        {t.unduh}
                     </Link>
             </div>
         </div>
@@ -315,6 +329,9 @@ function comingSoonMA(){
 }
 
 function bolinger(){
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/comingsoon2.jpg" alt="..."/>
@@ -335,8 +352,7 @@ function bolinger(){
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                     </svg>
-
-                            Download
+                        {t.unduh}
                     </Link>
             </div>
         </div>

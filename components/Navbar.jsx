@@ -63,18 +63,18 @@ const Navbar = () => {
                     {/* <li className='p-4 text-gray-400 hover:text-gray-600'>
                         <Link href='https://shifufx.github.io/'>Trading Result
                         </Link>
-                    </li> */}
-
+                    </li> */}        
                     <select
-                    style={{color: `${textColor}`}}
+                    style={{backgroundColor: `${color}`, color: `${textColor}`}}
+                    // style={{color: `${textColor}`}}
                         onChange={changeLanguage}
                         defaultValue={locale}
-                        className="p-4 cursor-pointer "
+                        className="p-4 cursor-pointer"
                         >                                         
-                        <option disabled selected value="">Language
+                        <option disabled selected value="#" className=' text-sm'>Language
                         </option>
-                        <option className="text-black" value="en">English</option>
-                        <option className="text-black" value="id">Bahasa</option>
+                        <option className="text-black" value="en">en</option>
+                        <option className="text-black" value="id">id</option>
                     </select>
                 </ul>
                 
@@ -119,7 +119,7 @@ const Navbar = () => {
                         defaultValue={locale}
                         className="p-4 cursor-pointer "
                         >                                         
-                        <option disabled selected value="">Language
+                        <option disabled selected value="#">Language
                         </option>
                         <option className="text-black" value="en">English</option>
                         <option className="text-black" value="id">Bahasa</option>

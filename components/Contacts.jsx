@@ -19,7 +19,7 @@ const Contacts = () => {
     return(
         <section className="bg-white dark:bg-black h-screen">
             <div className="container px-6 lg:py-16 md:py-6 sm:py-6 mx-auto">
-                <h1 className="text-5xl font-semibold text-center lg:py-28 md:py-28 capitalize lg:text-4xl md:text-3xl bg-clip-text text-transparent bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">{t.titleContact}</h1>
+                <h1 className="text-5xl font-semibold text-center lg:py-28 md:py-28 capitalize md:text-4xl bg-clip-text text-transparent bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">{t.titleContact}</h1>
                 <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
                     {/* whatsapp */}
                     <div className="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl dark:bg-gray-800" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">

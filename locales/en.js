@@ -18,8 +18,15 @@ export default {
     titleCourse: 'Beginner To Intermediate Course',
     titleCourse2: 'Intermediate to Advanced Course',
     titleCourse3: 'How to use Indicator',
-    titleCourse4: 'Numbers tell our story',
+    unduh: 'Download',
 
+    titleCourse4: 'Numbers tell our story',
+    d1: 'Years in Community',
+    d1_d: 'Creating the successful path',
+    d2: 'E-Book Downloads',
+    d2_d: 'In last 1 month',
+    d3: 'Team members',
+    d3_d: 'Working for your success',
     // 
 
     // offering course section

@@ -31,30 +31,33 @@ import id from 'locales/id'
 
 
   function Post() {
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
     return(
         <>
         <div data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <h3 className="font-bold text-7xl">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600" > 1+ </span>
             </h3>
-                <p className="mt-4 text-xl font-medium text-white">Years in Community</p>
-                <p className="text-base mt-0.5 text-gray-500">Creating the successful path</p>
+                <p className="mt-4 text-xl font-medium text-white">{t.d1}</p>
+                <p className="text-base mt-0.5 text-gray-500">{t.d1_d}</p>
         </div>
     
         <div data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <h3 className="font-bold text-7xl">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"><CountUp start={1} end={1000} duration={2} /></span>
             </h3>
-            <p className="mt-4 text-xl font-medium text-white">E-Book Downloads</p>
-            <p className="text-base mt-0.5 text-gray-500">In last 6 years</p>
+            <p className="mt-4 text-xl font-medium text-white">{t.d2}</p>
+            <p className="text-base mt-0.5 text-gray-500">{t.d2_d}</p>
         </div>
     
         <div data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <h3 className="font-bold text-7xl">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"><CountUp start={1} end={2000} duration={3}/> </span>
             </h3>
-            <p className="mt-4 text-xl font-medium text-white">Team members</p>
-            <p className="text-base mt-0.5 text-gray-500">Working for your success</p>
+            <p className="mt-4 text-xl font-medium text-white">{t.d3}</p>
+            <p className="text-base mt-0.5 text-gray-500">{t.d3_d}</p>
         </div>
         </>
     )

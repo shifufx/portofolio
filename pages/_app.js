@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import Navbar from '@/components/Navbar'
-import { motion } from 'framer-motion'
-import { AnimatePresence } from 'framer-motion'
+// import { motion } from 'framer-motion'
+// import { AnimatePresence } from 'framer-motion'
 import { useEffect } from 'react'
 import 'swiper/css';
 import 'swiper/css/navigation';
