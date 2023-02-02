@@ -117,7 +117,7 @@ function panda(){
     const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/panda.png" alt="..."/>
+            <img className="object-cover w-56 md:w-60 md:ml-14 sm:ml-10 sm:w-60 sm:h-[14rem] lg:h-[14rem] rounded-lg md:h-60" src="/icon/Panda.svg" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-base font-semibold text-gray-800 hover:underline dark:text-white ">
                         How to use sticky note for problem solving
@@ -148,7 +148,7 @@ function mantis(){
     const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/Belalang.png" alt="..."/>
+            <img className="object-cover w-56 md:w-60 md:ml-14 sm:ml-10 sm:w-60 sm:h-[14rem] lg:h-[14rem] rounded-lg md:h-60" src="/icon/Belalang.svg" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-base font-semibold text-gray-800 hover:underline dark:text-white ">
                         How to use sticky note for problem solving
@@ -161,7 +161,6 @@ function mantis(){
                             <li>test</li>
                         </ul>
                     </span>
-                    
                         <Link type='' href="/" className='flex justify-center bg-transparent text-white hover:bg-white hover:text-black font-semibold lg:py-2 px-4 border border-white hover:border-transparent rounded md:py-2 sm:py-2 hover:-translate-y-1 duration-300'>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5 mr-1">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
@@ -179,7 +178,7 @@ function monkey(){
     const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/Monyet.png" alt="..."/>
+            <img className="object-cover w-56 md:w-60 md:ml-14 sm:ml-10 sm:w-60 sm:h-[14rem] lg:h-[14rem] rounded-lg md:h-60" src="/icon/Monyet.svg" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-base font-semibold text-gray-800 hover:underline dark:text-white ">
                         How to use sticky note for problem solving
@@ -211,7 +210,7 @@ function tiger(){
     const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/Harimau.png" alt="..."/>
+            <img className="object-cover w-56 md:w-60 md:ml-14 sm:ml-10 sm:w-60 sm:h-[14rem] lg:h-[14rem] rounded-lg md:h-60" src="/icon/Harimau.svg" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
                         How to use sticky note for problem solving
@@ -241,7 +240,7 @@ function flamingo(){
     const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/burung.png" alt="..."/>
+            <img className="object-cover w-56 md:w-60 md:ml-14 sm:ml-10 sm:w-60 sm:h-[14rem] lg:h-[14rem] rounded-lg md:h-60" src="/icon/burung.svg" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
                         How to use sticky note for problem solving
@@ -273,7 +272,7 @@ function snake(){
     const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/ular.png" alt="..."/>
+            <img className="object-cover w-56 md:w-60 md:ml-14 sm:ml-10 sm:w-60 sm:h-[14rem] lg:h-[14rem] rounded-lg md:h-60" src="/icon/ular.svg" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
                         How to use sticky note for problem solving
@@ -303,7 +302,7 @@ function comingSoonMA(){
     const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/comingsoon2.jpg" alt="..."/>
+            <img className="object-cover w-56 md:w-60 md:ml-14 sm:ml-10 sm:w-60 sm:h-[14rem] lg:h-[14rem] rounded-lg md:h-60" src="/ebook/comingsoon2.jpg" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
                         Analysis using Moving Average
@@ -334,7 +333,7 @@ function bolinger(){
     const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="/ebook/comingsoon2.jpg" alt="..."/>
+            <img className="object-cover w-56 md:w-60 md:ml-14 sm:ml-10 sm:w-60 sm:h-[14rem] lg:h-[14rem] rounded-lg md:h-60" src="/ebook/comingsoon2.jpg" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
                         Analysis using Bolinger Band

@@ -40,17 +40,14 @@ const courses1 = () => {
                     }
                     onClick = { e =>{
                         e.preventDefault();
-                        setOpenTab(1);
-                        
+                        setOpenTab(1);  
                     }}
                     data-toggle="tab"
                     href="#link1"
                     role="tablist"
-                   
                 >
                     {t.t1}
                 </button>
-
                 {/* button 2 */}
                 <button className={"flex items-center justify-center px-3 py-2 font-medium text-white uppercase transition-colors duration-300 transform rounded-lg  focus:outline-none" +
                     // (openTab === 2 )
@@ -68,7 +65,6 @@ const courses1 = () => {
                     {t.t2}  
                     <span className="text-xs mx-1 ml-2 font-normal text-white bg-blue-500 rounded-full py-0.5 px-1.5">{t.new}</span>
                 </button>
-
                 {/* button 3 */}
                 <button className={"flex items-center justify-center px-3 py-2 font-medium text-white uppercase transition-colors duration-300 transform bg-transparent rounded-lg focus:outline-none dark:text-gray-200" +
                     // (openTab === 3)
@@ -84,7 +80,6 @@ const courses1 = () => {
                 </button>
             </div>
         </div>
-            
             {/* start basic section */}
             <div className={openTab === 1 ? 'block' : 'hidden'} id='link1' >
                 <div className="flex flex-col items-center justify-center mt-16 space-y-6 md:items-end md:-mx-5 md:space-y-0 md:flex-row">
@@ -93,7 +88,6 @@ const courses1 = () => {
                 </div>
             </div>
             {/* end section basic */}
-            
             {/* start section pro */}
             <div className={openTab === 2 ? 'block' : 'hidden'} id='link2'>
                 <div className="flex flex-col items-center justify-center mt-16 space-y-6 md:items-end md:-mx-5 md:space-y-0 md:flex-row" >
@@ -102,7 +96,6 @@ const courses1 = () => {
                 </div>
             </div>
             {/* end section pro */}
-
             {/* start section indicator */}
             <div className={openTab === 3 ? 'block' : 'hidden'} id='link2'>
                 <div className="flex flex-col items-center justify-center mt-16 space-y-6 md:items-end md:-mx-5 md:space-y-0 md:flex-row">
@@ -128,7 +121,6 @@ function price1(){
                 <p className="mt-4 text-gray-500 dark:text-gray-300">/per month</p>
                 <p className="mt-4 text-gray-500 dark:text-gray-300">Bill all 6 months</p> */}
             </div>
-                    
             <div className="mt-8 space-y-8">
                 <div className="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 text-blue-600">
@@ -136,7 +128,6 @@ function price1(){
                     </svg>
                     <span className="mx-4 text-gray-700 dark:text-gray-300">Access all features</span>
                 </div>
-
                 <div className="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 text-blue-600">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
@@ -169,7 +160,6 @@ function price1(){
                 Download
             </button>  
         </div>
-                    
     )
 }
 
@@ -186,7 +176,6 @@ function price2(){
                     <p className="mt-4 text-gray-500 dark:text-gray-300">/per month</p>                            
                     <p className="mt-4 text-gray-500 dark:text-gray-300">Bill all 6 months</p>
                 </div>
-
                 <div className="mt-8 space-y-8">
                     <div className="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 text-blue-600">
