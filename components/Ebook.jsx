@@ -11,7 +11,7 @@ import { t } from 'i18next';
 
 
 const Ebook = () => {
-
+    // language
     const router = useRouter();
     const { locale } = router;
     const t = locale === 'en' ? en : id;
@@ -22,7 +22,6 @@ const Ebook = () => {
         `fade-left`,
         `fade-right`,
       ];
-  
 
   return (
     <section className="bg-white dark:bg-black w-full">
@@ -96,7 +95,7 @@ function Book() {
     return (
       <>
           {/* <Books /> */}
-          <div className=" w-full h-[25rem] my-15 mt-15">
+          <div className=" w-full h-[25rem] my-15 mt-15" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
           <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 1], fov: 7 }}>
             <ambientLight intensity={0.7} />
             <spotLight intensity={0.5} angle={0.1} penumbra={1} position={[50, 15, 50]} castShadow />
@@ -302,7 +301,7 @@ function comingSoonMA(){
     const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-            <img className="object-cover w-56 md:w-60 md:ml-14 sm:ml-10 sm:w-60 sm:h-[14rem] lg:h-[14rem] rounded-lg md:h-60" src="/ebook/comingsoon2.jpg" alt="..."/>
+            <img className="object-cover w-56 md:w-60 md:ml-14 sm:ml-10 sm:w-60 sm:h-[14rem] lg:h-[14rem] rounded-lg md:h-60" src="/icon/ComingSoon.svg" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
                         Analysis using Moving Average
@@ -333,7 +332,7 @@ function bolinger(){
     const t = locale === 'en' ? en : id;
     return (
         <div className="lg:flex" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-            <img className="object-cover w-56 md:w-60 md:ml-14 sm:ml-10 sm:w-60 sm:h-[14rem] lg:h-[14rem] rounded-lg md:h-60" src="/ebook/comingsoon2.jpg" alt="..."/>
+            <img className="object-cover w-56 md:w-60 md:ml-14 sm:ml-10 sm:w-60 sm:h-[14rem] lg:h-[14rem] rounded-lg md:h-60" src="/icon/ComingSoon.svg" alt="..."/>
                 <div className="flex flex-col justify-between py-6 lg:mx-6">
                     <h1 className="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
                         Analysis using Bolinger Band
