@@ -17,11 +17,11 @@ const Hero = () => {
             <div className="absolute top-0 left-0 right-0 bottom-0 bg-black">
                 <div className="p-5 text-white z-[2] mt-[8rem] md:mt-[10rem]] md:ml-3">
                     <div className="user flex flex-wrap px-3 mb-5 ">
-                        <div className="picture w-3/5">
+                        <div className="picture w-3/5 sm:justify-center">
                             <img src="/Batch/test-1.jpg" alt="..." className="shadow rounded-full md:w-1/3 h-auto align-middle bg-gradient-to-r from-rose-500 via-fuchsia-500 to-cyan-400 p-1" />
                         </div>
                     </div>
-                    <h2 className="lg:text-4xl md:text-3xl sm:text-xl font-bold flex ">{t.halo}
+                    <h2 className="lg:text-4xl md:text-3xl sm:text-xl font-bold flex sm:justify-center md:justify-start">{t.halo}
                         <div className="ml-2 bg-clip-text text-transparent bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400">
                             <Typewriter
                                 options={{
@@ -37,6 +37,7 @@ const Hero = () => {
                     >
                         <span className="flex w-[15rem] h-[2.5rem] relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-black rounded-full group-hover:bg-opacity-0">
                             <ImUnlocked className="mr-3" /> {t.download}
+                            {/* <img src="/gembok.gif" alt="..." className="w-20 h-[5rem] mr-3 mb-0 " /> {t.download} */}
                         </span>
                     </a>
                 </div>

@@ -54,7 +54,7 @@ export default {
     // 
 
     // about section
-    subtitle: 'About us',
+    subtitle: 'About me',
     whatIdo: 'What I do!',
     fundamental: 'Fundamental Analysis',
     teknikal: 'Technical Analysis',

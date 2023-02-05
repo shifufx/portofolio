@@ -39,9 +39,9 @@ const Navbar = () => {
     
   return (
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
-        <div className='max-w-[1240px] m-auto flex justify-between items-center md:p-2 sm:p-2 text-white'>
+        <div className='max-w-[1240px] m-auto flex justify-between items-center md:p-2 text-white'>
             <Link href="/">
-                <h1 style={{color: `${textColor}`}} className=' font-extrabold lg:text-3xl md:ml-5 md:text-xl font-montserrat'>SFX</h1>
+                <h1 style={{color: `${textColor}`}} className=' font-extrabold lg:text-3xl md:text-xl sm:px-2 font-montserrat'>SFX</h1>
             </Link>
                 <ul style={{color: `${textColor}`}} className='hidden sm:flex text-gray-400 hover:text-black'>
                     <li className='p-4 '>
@@ -60,10 +60,7 @@ const Navbar = () => {
                         <Link href='/about'>{t.about}
                         </Link>
                     </li>
-                    {/* <li className='p-4 text-gray-400 hover:text-gray-600'>
-                        <Link href='https://shifufx.github.io/'>Trading Result
-                        </Link>
-                    </li> */}        
+                    
                     <select
                     style={{backgroundColor: `${color}`, color: `${textColor}`}}
                     // style={{color: `${textColor}`}}
@@ -90,7 +87,8 @@ const Navbar = () => {
                 <div className={nav 
                 ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
                 : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'
-            }
+            } 
+            onClick={()=>handleNav()}
             >
                     <ul>
                         <li className='p-4 text-4xl hover:text-gray-500'>
@@ -107,10 +105,6 @@ const Navbar = () => {
                         </li>
                         <li className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='/about'>About
-                            </Link>
-                        </li>
-                        <li className='p-4 text-4xl text-gray-400 hover:text-gray-600'>
-                            <Link href='https://shifufx.github.io/'>Trading Result
                             </Link>
                         </li>
                         <select
