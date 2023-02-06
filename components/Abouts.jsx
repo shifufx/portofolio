@@ -33,7 +33,7 @@ const info = () => {
 
                                 <div className="">
                                     {/* <Lottie source={require('../svg/trading.json')} autoPlay loop /> */}
-                                    <Player src={"/svg/trading.json"} loop autoplay className="player cover"/>
+                                    <Player  className="player cover"/>
                                 </div>
                             </div>
                         </div>

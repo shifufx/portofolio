@@ -26,7 +26,7 @@ const courses1 = () => {
 
   return (
     
-<section className="bg-black">
+<section className="bg-black" id='offer'>
     <div className="container px-6 pb-10 mx-auto" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
         <h1 className='text-center text-white font-bold capitalize sm:py-3 md:text-4xl sm:text-xl'>{t.titleOffer} <span className='text-cyan-300'>{t.offer}</span> </h1>
         <h3 className='text-white leading-5 text-center md:mb-10 sm:mb-5 md:text-2xl'>{t.descriptionOffer} <span className='text-cyan-300'>{t.free}</span></h3>

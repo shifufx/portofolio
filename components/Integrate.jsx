@@ -16,9 +16,9 @@ export const Integrate = () => {
 
                 <div className="p-8">
                     <div className="flex items-center justify-center">
-                        <Player className="flex-shrink-0 w-[15rem] h-auto" src={"/svg/money.json"} loop autoplay />
+                        <Player className="flex-shrink-0 w-[15rem] h-auto" src={"/svg/free.json"} loop autoplay />
                     </div>
-                    <p className=' font-bold text-white text-center mt-1'>Gain Profit</p>
+                    <p className=' font-bold text-white text-center mt-1'>Free Education</p>
                     <p className="text-base leading-relaxed text-white mt-2">Make easy money with.</p>
                 </div>
             </div>
@@ -28,7 +28,7 @@ export const Integrate = () => {
                     <div className="flex items-center justify-center">
                         <Player className="flex-shrink-0 w-[10rem] h-auto" src={"/svg/trading.json"} loop autoplay />
                     </div>
-                    <p className=' font-bold text-white text-center mt-4'>Gain Profit</p>
+                    <p className=' font-bold text-white text-center mt-4'>Become a Trader Professional</p>
                     <p className="text-base leading-relaxed text-white mt-2">Make easy money with.</p>
                 </div>
             </div>
@@ -36,9 +36,19 @@ export const Integrate = () => {
             <div className="overflow-hidden bg-black rounded shadow">
                 <div className="p-8">
                     <div className="flex items-center justify-center">
-                        <Player className="flex-shrink-0 w-[15rem] h-auto" src={"/svg/about.json"} loop autoplay />
+                        <Player className="flex-shrink-0 w-[17.5rem] h-auto" src={"/svg/target.json"} loop autoplay />
                     </div>
-                    <p className=' font-bold text-white text-center mt-4'>Gain Profit</p>
+                    <p className=' font-bold text-white text-center mt-4'>Build Your Own Target</p>
+                    <p className="text-base leading-relaxed text-white mt-2">Make easy money with.</p>
+                </div>
+            </div>
+
+            <div className="overflow-hidden bg-black rounded shadow">
+                <div className="p-8">
+                    <div className="flex items-center justify-center">
+                        <Player className="flex-shrink-0 w-[9.6rem] h-auto" src={"/svg/wallet.json"} loop autoplay />
+                    </div>
+                    <p className=' font-bold text-white text-center mt-4'>Make More Money</p>
                     <p className="text-base leading-relaxed text-white mt-2">Make easy money with.</p>
                     {/* <p className="text-base leading-relaxed text-gray-600 mt-7">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p> */}
                 </div>
