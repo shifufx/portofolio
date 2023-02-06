@@ -1,6 +1,5 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { Suspense } from "react"
 import en from 'locales/en'
 import id from 'locales/id'
 import { Player } from '@lottiefiles/react-lottie-player';
@@ -34,7 +33,7 @@ const info = () => {
 
                                 <div className="">
                                     {/* <Lottie source={require('../svg/trading.json')} autoPlay loop /> */}
-                                    <Player src={"/svg/about.json"} loop autoplay className="player cover"/>
+                                    <Player src={"/svg/trading.json"} loop autoplay className="player cover"/>
                                 </div>
                             </div>
                         </div>
