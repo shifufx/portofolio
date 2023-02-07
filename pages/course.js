@@ -3,6 +3,7 @@ import { Inter } from '@next/font/google'
 import Ebook from '@/components/Ebook'
 import Footer from '@/components/Footer'
 import Counter from '@/components/Counter'
+import TestBlog from '@/components/TestBlog'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +17,8 @@ export default function Course() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         
-      <Ebook />
+      {/* <Ebook /> */}
+      <TestBlog />
       <Counter />
       <Footer />
     </>

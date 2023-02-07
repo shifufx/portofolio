@@ -18,7 +18,7 @@ export const Integrate = () => {
                     <div className="flex items-center justify-center">
                         <Player className="flex-shrink-0 w-[15rem] h-auto" src={"/svg/free.json"} loop autoplay />
                     </div>
-                    <p className=' font-bold text-white text-center mt-1'>Free Education</p>
+                    <p className=' font-bold text-white text-center mt-1'>Lifetime Education</p>
                     <p className="text-base leading-relaxed text-white mt-2">Make easy money with.</p>
                 </div>
             </div>
