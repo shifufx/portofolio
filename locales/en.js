@@ -17,7 +17,7 @@ export default {
     descriptionCourse: 'A trading course is a program of study that teaches individuals about buying and selling financial assets such as stocks, bonds, currencies, commodities, and derivatives. The goal of a trading course is to provide students with the knowledge and skills they need to become successful traders.',
     titleCourse: 'Beginner To Intermediate Course',
     titleCourse2: 'Intermediate to Advanced Course',
-    titleCourse3: 'How to use Indicator',
+    titleCourse3: 'Master using Indicator',
     unduh: 'Download',
 
     titleCourse4: 'Numbers tell our story',

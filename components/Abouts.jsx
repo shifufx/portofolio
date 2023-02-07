@@ -72,7 +72,7 @@ function Post2() {
     return(
         <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <span className="inline-block text-blue-500 dark:text-blue-400">
-                <img src="/fundamental.gif" alt="..." className="w-9 h-10 bg-black"/>
+                <img src="/gif/fundamental.gif" alt="..." className="w-9 h-10 bg-black"/>
             </span>
             <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">{t.fundamental}</h1>
             <p className="text-gray-500 dark:text-gray-300">
@@ -89,7 +89,7 @@ function Post3() {
     return(
         <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <span className="inline-block text-blue-500 dark:text-blue-400">
-                <img src="/analis.gif" alt="..." className="w-9 h-10 bg-black"/>
+                <img src="/gif/analis.gif" alt="..." className="w-9 h-10 bg-black"/>
             </span>
             <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">{t.teknikal}</h1>
             <p className="text-gray-500 dark:text-gray-300">
@@ -106,7 +106,7 @@ function Post4() {
     return(
         <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <span className="inline-block text-blue-500 dark:text-blue-400">
-            <img src="/r.gif" alt="..." className="w-9 h-10 bg-black"/>   
+            <img src="/gif/r.gif" alt="..." className="w-9 h-10 bg-black"/>   
             </span>
             <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">{t.resiko}</h1>
             <p className="text-gray-500 dark:text-gray-300">
@@ -123,7 +123,7 @@ function Post5() {
     return(
         <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <span className="inline-block text-blue-500 dark:text-blue-400">
-                <img src="/psikolog.gif" alt="..." className="w-9 h-10 bg-black"/>   
+                <img src="/gif/psikolog.gif" alt="..." className="w-9 h-10 bg-black"/>   
             </span>
             <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">{t.psikolog}</h1>
             <p className="text-gray-500 dark:text-gray-300">
@@ -140,7 +140,7 @@ function Post6() {
     return(
         <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             <span className="inline-block text-blue-500 dark:text-blue-400">
-            <img src="/wallet.gif" alt="..." className="w-9 h-10 bg-black"/>
+            <img src="/gif/wallet.gif" alt="..." className="w-9 h-10 bg-black"/>
             </span>
             <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">{t.fun}</h1>
             <p className="text-gray-500 dark:text-gray-300">

@@ -1,14 +1,22 @@
-import React, {useEffect, useRef} from 'react'
+import React from 'react'
+import { useRouter } from 'next/router'
 import { Player } from '@lottiefiles/react-lottie-player'
+import en from 'locales/en'
+import id from 'locales/id'
+import {RxDotFilled} from 'react-icons/rx'
 
 const TestBlog = () => {
+    const router = useRouter();
+    const {locale} = router;
+    const t = locale === 'en' ? en : id
+
   return (
     // <div>testBlog</div>
     <section className="py-10 bg-black sm:py-16 lg:py-24">
     <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex items-end justify-between">
             <div className="flex-1 text-center lg:text-left">
-                <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Latest from blog</h2>
+                <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">{t.titleCourse}</h2>
                 <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-100 lg:mx-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
             </div>
 
@@ -50,20 +58,20 @@ const TestBlog = () => {
         
         {/* sectiion intermediate to advance */}
         <div className="flex-1 text-center lg:text-left mt-10">
-            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Latest from blog</h2>
+            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">{t.titleCourse2}</h2>
             <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-100 lg:mx-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
         </div>
         
         <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full">
             {flamingo()}
-            {snake()}
             {tiger()}
+            {snake()}
         </div>
         {/* end section */}
 
         {/* section indicator */}
         <div className="flex-1 text-center lg:text-left mt-10">
-            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Latest from blog</h2>
+            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">{t.titleCourse3}</h2>
             <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-100 lg:mx-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
         </div>
         
@@ -91,14 +99,20 @@ function panda(){
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
                     <p className="mt-5 text-2xl font-semibold">
-                        <a href="#" title="" className="text-black"> How to build coffee inside your home in 5 minutes. </a>
+                        <a href="#" title="" className="text-black"> Batch Panda: Breakout Strategy Market. </a>
                     </p>
-                    <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    <p>You will learn:</p>
+                    <ul className='px-1 ml-0'>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> understand how to read Breakout on market</li>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> how to perform market execution</li>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> understand how to read Breakout on market</li>
+                    </ul>
+                    {/* <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p> */}
                     <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                        Continue Reading
-                        <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                        </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                        <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
+                    </svg>
+                        Download
                     </a>
                 </div>
             </div>
@@ -116,14 +130,19 @@ function mantis(){
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
                     <p className="mt-5 text-2xl font-semibold">
-                        <a href="#" title="" className="text-black"> How to build coffee inside your home in 5 minutes. </a>
+                        <a href="#" title="" className="text-black"> Batch Mantis: Supply & Demand. </a>
                     </p>
-                    <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    <p>You will learn:</p>
+                    <ul className='px-1 ml-0'>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> understand how to read Breakout on market</li>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> how to perform market execution</li>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> understand how to read Breakout on market</li>
+                    </ul>
                     <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                        Continue Reading
-                        <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                        </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                        <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
+                    </svg>
+                        Download
                     </a>
                 </div>
             </div>
@@ -141,14 +160,19 @@ function monkey(){
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
                     <p className="mt-5 text-2xl font-semibold">
-                        <a href="#" title="" className="text-black"> How to build coffee inside your home in 5 minutes. </a>
+                        <a href="#" title="" className="text-black"> Batch Monkey: Scalping Strategy </a>
                     </p>
-                    <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    <p>You will learn:</p>
+                    <ul className='px-1 ml-0'>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> understand how to read Breakout on market</li>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> how to perform market execution</li>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> understand how to read Breakout on market</li>
+                    </ul>
                     <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                        Continue Reading
-                        <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                        </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                        <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
+                    </svg>
+                        Download
                     </a>
                 </div>
             </div>
@@ -156,7 +180,6 @@ function monkey(){
 }
 
 //function intermediate to advance
-
 function tiger(){
     return(
         <div className="overflow-hidden bg-white rounded shadow">
@@ -168,14 +191,19 @@ function tiger(){
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
                     <p className="mt-5 text-2xl font-semibold">
-                        <a href="#" title="" className="text-black"> How to build coffee inside your home in 5 minutes. </a>
+                        <a href="#" title="" className="text-black"> Batch Tiger: Smart Shifu Concept. </a>
                     </p>
-                    <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    <p>You will learn:</p>
+                    <ul className='px-1 ml-0'>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> understand how to read Breakout on market</li>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> how to perform market execution</li>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> understand how to read Breakout on market</li>
+                    </ul>
                     <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                        Continue Reading
-                        <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                        </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                        <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
+                    </svg>
+                        Download
                     </a>
                 </div>
             </div>
@@ -193,14 +221,19 @@ function flamingo(){
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
                     <p className="mt-5 text-2xl font-semibold">
-                        <a href="#" title="" className="text-black"> How to build coffee inside your home in 5 minutes. </a>
+                        <a href="#" title="" className="text-black"> Batch Flamingo: SNRC. </a>
                     </p>
-                    <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    <p>You will learn:</p>
+                    <ul className='px-1 ml-0'>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> understand how to read Breakout on market</li>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> how to perform market execution</li>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> understand how to read Breakout on market</li>
+                    </ul>
                     <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                        Continue Reading
-                        <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                        </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                        <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
+                    </svg>
+                        Download
                     </a>
                 </div>
             </div>
@@ -218,14 +251,19 @@ function snake(){
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
                     <p className="mt-5 text-2xl font-semibold">
-                        <a href="#" title="" className="text-black"> How to build coffee inside your home in 5 minutes. </a>
+                        <a href="#" title="" className="text-black"> Batch Snake: Expert SNR. </a>
                     </p>
-                    <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    <p>You will learn:</p>
+                    <ul className='px-1 ml-0'>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> understand how to read Breakout on market</li>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> how to perform market execution</li>
+                        <li className='flex'><RxDotFilled className='mt-1 mr-1'/> understand how to read Breakout on market</li>
+                    </ul>
                     <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                        Continue Reading
-                        <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                        </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                        <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
+                    </svg>
+                        Download
                     </a>
                 </div>
             </div>
@@ -245,14 +283,14 @@ function MovingAverage(){
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
                     <p className="mt-5 text-2xl font-semibold">
-                        <a href="#" title="" className="text-black"> How to build coffee inside your home in 5 minutes. </a>
+                        <a href="#" title="" className="text-black"> Master Moving Average. </a>
                     </p>
                     <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                     <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                        Continue Reading
-                        <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                        </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                        <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
+                    </svg>
+                        Download
                     </a>
                 </div>
             </div>
@@ -270,14 +308,14 @@ function BolingerBand(){
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
                     <p className="mt-5 text-2xl font-semibold">
-                        <a href="#" title="" className="text-black"> How to build coffee inside your home in 5 minutes. </a>
+                        <a href="#" title="" className="text-black"> Master Bolinger Band. </a>
                     </p>
                     <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                     <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                        Continue Reading
-                        <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-                        </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                        <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
+                    </svg>
+                        Download
                     </a>
                 </div>
             </div>

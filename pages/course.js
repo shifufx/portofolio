@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
-import Ebook from '@/components/Ebook'
 import Footer from '@/components/Footer'
 import Counter from '@/components/Counter'
 import TestBlog from '@/components/TestBlog'
@@ -17,7 +16,6 @@ export default function Course() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         
-      {/* <Ebook /> */}
       <TestBlog />
       <Counter />
       <Footer />

@@ -28,7 +28,7 @@ export default {
     descriptionCourse: 'Kursus perdagangan adalah program studi yang mengajarkan individu tentang membeli dan menjual aset keuangan seperti saham, obligasi, mata uang, komoditas, dan derivatif. Tujuan dari kursus perdagangan adalah untuk membekali siswa dengan pengetahuan dan keterampilan yang mereka butuhkan untuk menjadi pedagang yang sukses.',
     titleCourse: 'Kursus Pemula hingga Menengah',
     titleCourse2: 'Kursus Menengah hingga Lanjutan',
-    titleCourse3: 'Bagaimana Cara Menggunakan Indikator',
+    titleCourse3: 'Master menggunakan Indikator',
     unduh: 'Unduh',
 
     titleCourse4: 'Angka menceritakan kisah kita',
