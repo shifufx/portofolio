@@ -8,12 +8,12 @@ export default {
     
      // hero section
     download: 'UNDUH E-Book',
-    halo: `Halo saya ryan sebagai`,
-    build: 'Bangun Pola Pikir kamu. Bersama Industri Shifu FX',
+    halo: `Terhubung & belajar dengan shifu fx`,
+    build: 'Kembangkan keterampilan Anda sebagai seorang trader dengan mentor yang tepat.',
     //
 
     // about section
-    subtitle: 'Tentang Saya Sebagai Trader Profesional',
+    subtitle: 'Tentang Saya Sebagai Seorang Trader Profesional',
     whatIdo: 'Apa yang saya lakukan!',
     fundamental: 'Analisis Fundamental',
     teknikal: 'Analisis Teknikal',

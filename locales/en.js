@@ -8,8 +8,8 @@ export default {
 
     // hero section
     download: 'UNLOCK THE COURSE',
-    halo: `Hello i'm Ryan as a`,
-    build: 'Build Your Mindset. Right here',
+    halo: `Connect & learn from the experts`,
+    build: 'Grow your skill as a trader with right mentor.',
     //
 
     // course section

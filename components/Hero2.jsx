@@ -18,8 +18,8 @@ const Hero2 = () => {
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
                 <div>
                     <p className="text-base font-semibold tracking-wider text-blue-600 uppercase"></p>
-                    <h1 className="mt-4 text-4xl font-bold text-gray-50 lg:mt-8 sm:text-6xl xl:text-8xl">Connect & learn from the experts</h1>
-                    <p className="mt-4 text-base text-gray-50 lg:mt-8 sm:text-xl">Grow your career fast with right mentor.</p>
+                    <h1 className="mt-4 text-4xl font-bold text-gray-50 lg:mt-8 sm:text-6xl xl:text-8xl">{t.halo}</h1>
+                    <p className="mt-4 text-base text-gray-50 lg:mt-8 sm:text-xl">{t.build}</p>
 
                     <a href="#" title="" className="inline-flex items-center px-6 py-4 mt-8 font-semibold text-gray-50 transition-all duration-200 bg-yellow-300 rounded-full lg:mt-16 hover:bg-yellow-400 focus:bg-yellow-400" role="button">
                         Join for free
