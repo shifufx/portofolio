@@ -10,13 +10,18 @@ const TestBlog = () => {
     const {locale} = router;
     const t = locale === 'en' ? en : id
 
+    const animations = [
+        `fade-up`,
+        `fade-left`,
+        `fade-right`,
+      ];
   return (
     // <div>testBlog</div>
     <section className="py-10 bg-black sm:py-16 lg:py-24">
     <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex items-end justify-between">
             <div className="flex-1 text-center lg:text-left">
-                <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">{t.titleCourse}</h2>
+                <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">{t.titleCourse}</h2>
                 <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-100 lg:mx-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
             </div>
 
@@ -35,7 +40,7 @@ const TestBlog = () => {
             </div>
         </div>
 
-        <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full">
+        <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">
             {/* begining section ebook */}
             {panda()}
             {mantis()}
@@ -57,12 +62,12 @@ const TestBlog = () => {
         </div>
         
         {/* sectiion intermediate to advance */}
-        <div className="flex-1 text-center lg:text-left mt-10">
-            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">{t.titleCourse2}</h2>
+        <div className="flex-1 text-center lg:text-left mt-16">
+            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl " data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">{t.titleCourse2}</h2>
             <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-100 lg:mx-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
         </div>
         
-        <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full">
+        <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">
             {flamingo()}
             {tiger()}
             {snake()}
@@ -70,12 +75,12 @@ const TestBlog = () => {
         {/* end section */}
 
         {/* section indicator */}
-        <div className="flex-1 text-center lg:text-left mt-10">
-            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">{t.titleCourse3}</h2>
+        <div className="flex-1 text-center lg:text-left mt-16">
+            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">{t.titleCourse3}</h2>
             <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-100 lg:mx-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
         </div>
         
-        <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full">
+        <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">
             {MovingAverage()}
             {BolingerBand()}
         </div>
@@ -221,7 +226,7 @@ function flamingo(){
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
                     <p className="mt-5 text-2xl font-semibold">
-                        <a href="#" title="" className="text-black"> Batch Flamingo: SNRC. </a>
+                        <a href="#" title="" className="text-black"> Batch Flamingo: Support & Resistance Continue. </a>
                     </p>
                     <p>You will learn:</p>
                     <ul className='px-1 ml-0'>
@@ -251,7 +256,7 @@ function snake(){
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
                     <p className="mt-5 text-2xl font-semibold">
-                        <a href="#" title="" className="text-black"> Batch Snake: Expert SNR. </a>
+                        <a href="#" title="" className="text-black"> Batch Snake: Expert Support & Resistance. </a>
                     </p>
                     <p>You will learn:</p>
                     <ul className='px-1 ml-0'>

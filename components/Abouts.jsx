@@ -18,23 +18,17 @@ const info = () => {
     return(
         <div className="items-center justify-start h-screen mx-auto">
             <div className="absolute top-0 left-0 right-0 bottom-0 bg-black">
-                <div className="bg-black text-white py-10 md:mb-8">
-                    <div className="container mx-auto  items-center my-12 md:my-24" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-                        <div className="w-2/3 lg:w-2/3 md:w-1/2 justify-center items-start p-5">
-                            <h1 className="text-3xl md:text-5xl text-white tracking-loose">{t.subtitle}</h1>
-                        </div>
-                        <div className="tulisan content-center">
-                            <p className="text-base text-gray-50 px-5 w-1/2 sm:w-20 md:w-auto">{t.description}</p>
-                            
-                        </div>
-                        
-                        <div className="p-5 md:mt-0 ml-0 md:ml-12 lg:w-2/3 md:w-1/2 sm:py-10 sm:mb-10 my-10" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
-                            <div className="h-48 w-full flex flex-wrap ">
+                <div className="bg-opacity-30 py-10 sm:py-16 lg:py-32">
+                    <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+                        <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+                            <div>
+                                <p className="text-base font-semibold tracking-wider text-blue-600 uppercase"></p>
+                                <h1 className="mt-4 text-4xl font-bold text-gray-50 lg:mt-8 sm:text-6xl xl:text-7xl">{t.subtitle}</h1>
+                                <p className="mt-4 text-base text-gray-50 lg:mt-8 sm:text-xl">{t.description}</p>
+                            </div>
 
-                                <div className="">
-                                    {/* <Lottie source={require('../svg/trading.json')} autoPlay loop /> */}
-                                    <Player  className="player cover"/>
-                                </div>
+                            <div>
+                            <Player className="lg:w-[27rem] md:w-[20rem] sm:w-[20rem]" src={"/svg/pro.json"} loop autoplay/>
                             </div>
                         </div>
                     </div>

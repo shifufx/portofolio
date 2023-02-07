@@ -13,7 +13,7 @@ export default {
     //
 
     // about section
-    subtitle: 'Tentang Saya',
+    subtitle: 'Tentang Saya Sebagai Trader Profesional',
     whatIdo: 'Apa yang saya lakukan!',
     fundamental: 'Analisis Fundamental',
     teknikal: 'Analisis Teknikal',
