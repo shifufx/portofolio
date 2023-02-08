@@ -44,6 +44,16 @@ export const Integrate = () => {
             </div>
 
             <div className="overflow-hidden bg-black rounded shadow">
+                <div className="p-7">
+                    <div className="flex items-center justify-center">
+                        <Player className="flex-shrink-0 w-[9rem] h-auto" src={"/svg/flexible.json"} loop autoplay />
+                    </div>
+                    <p className=' font-bold text-white text-center mt-4'>Flexible Time</p>
+                    <p className="text-base leading-relaxed text-white mt-2">Make easy money with.</p>
+                </div>
+            </div>
+
+            <div className="overflow-hidden bg-black rounded shadow">
                 <div className="p-8">
                     <div className="flex items-center justify-center">
                         <Player className="flex-shrink-0 w-[9.6rem] h-auto" src={"/svg/wallet.json"} loop autoplay />

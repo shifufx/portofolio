@@ -9,7 +9,7 @@ export default {
     // hero section
     download: 'UNLOCK THE COURSE',
     halo: `Connect & learn from the experts`,
-    build: 'Grow your skill as a trader with right mentor.',
+    build: 'Grow your skill as a trader with the right mentor.',
     //
 
     // course section
