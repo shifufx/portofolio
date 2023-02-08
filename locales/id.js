@@ -8,8 +8,11 @@ export default {
     
      // hero section
     download: 'UNDUH E-Book',
-    halo: `Terhubung & belajar dengan shifu fx`,
+    // halo: `Terhubung & belajar dengan shifu fx`,
     build: 'Kembangkan keterampilan Anda sebagai seorang trader dengan mentor yang tepat.',
+    halo: `Halo saya Ryan sebagai`,
+    trader: 'Trader Profesional',
+    analis: 'Trader Analisis',
     //
 
     // about section

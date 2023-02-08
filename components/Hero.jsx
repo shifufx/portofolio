@@ -25,7 +25,7 @@ const Hero = () => {
                         <div className="ml-2 bg-clip-text text-transparent bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400">
                             <Typewriter
                                 options={{
-                                    strings: ['Professional Trader', 'Trader Analyst'],
+                                    strings: [t.trader, 'Trader Analyst'],
                                     autoStart: true,
                                     loop: true
                                 }} />

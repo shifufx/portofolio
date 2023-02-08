@@ -20,7 +20,7 @@ const info = () => {
             <div className="absolute top-0 left-0 right-0 bottom-0 bg-black">
                 <div className="bg-opacity-30 py-10 sm:py-16 lg:py-32">
                     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-                        <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+                        <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">
                             <div>
                                 <p className="text-base font-semibold tracking-wider text-blue-600 uppercase"></p>
                                 <h1 className="mt-4 text-4xl font-bold text-gray-50 lg:mt-8 sm:text-6xl xl:text-7xl">{t.subtitle}</h1>
@@ -44,7 +44,7 @@ const info = () => {
                             <div className="h-0.5 xl:w-[15rem] sm:w-[10rem] mt-0 bottom-0 left-0 lg:ml-1 bg-text-clip bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400">
                             </div>
                         </div>
-                        <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
+                        <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">
                             {/* {Post()} */}
                             {Post2()}
                             {Post3()}
@@ -64,7 +64,7 @@ function Post2() {
     const { locale } = router;
     const t = locale === 'en' ? en : id;
     return(
-        <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
+        <div className="p-8 space-y-3 border-2 border-white rounded-xl">
             <span className="inline-block text-blue-500 dark:text-blue-400">
                 <img src="/gif/fundamental.gif" alt="..." className="w-9 h-10 bg-black"/>
             </span>
@@ -81,7 +81,7 @@ function Post3() {
     const { locale } = router;
     const t = locale === 'en' ? en : id;
     return(
-        <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
+        <div className="p-8 space-y-3 border-2 border-white rounded-xl">
             <span className="inline-block text-blue-500 dark:text-blue-400">
                 <img src="/gif/analis.gif" alt="..." className="w-9 h-10 bg-black"/>
             </span>
@@ -98,7 +98,7 @@ function Post4() {
     const { locale } = router;
     const t = locale === 'en' ? en : id;
     return(
-        <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
+        <div className="p-8 space-y-3 border-2 border-white rounded-xl">
             <span className="inline-block text-blue-500 dark:text-blue-400">
             <img src="/gif/r.gif" alt="..." className="w-9 h-10 bg-black"/>   
             </span>
@@ -115,7 +115,7 @@ function Post5() {
     const { locale } = router;
     const t = locale === 'en' ? en : id;
     return(
-        <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
+        <div className="p-8 space-y-3 border-2 border-white rounded-xl">
             <span className="inline-block text-blue-500 dark:text-blue-400">
                 <img src="/gif/psikolog.gif" alt="..." className="w-9 h-10 bg-black"/>   
             </span>
@@ -132,7 +132,7 @@ function Post6() {
     const { locale } = router;
     const t = locale === 'en' ? en : id;
     return(
-        <div className="p-8 space-y-3 border-2 border-white rounded-xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
+        <div className="p-8 space-y-3 border-2 border-white rounded-xl">
             <span className="inline-block text-blue-500 dark:text-blue-400">
             <img src="/gif/wallet.gif" alt="..." className="w-9 h-10 bg-black"/>
             </span>

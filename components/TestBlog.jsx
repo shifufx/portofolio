@@ -69,8 +69,9 @@ const TestBlog = () => {
         
         <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">
             {flamingo()}
-            {tiger()}
             {snake()}
+            {tiger()}
+
         </div>
         {/* end section */}
 
