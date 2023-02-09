@@ -49,7 +49,7 @@ const Hero2 = () => {
                     {/* <p className="mt-5 text-gray-600">Already joined us? <a href="#" title="" className="text-black transition-all duration-200 hover:underline"></a></p> */}
                 </div>
                 <div className=''>
-                  <Player src={"/svg/1.json"} loop autoplay/>
+                  <Player src={"/svg/home.json"} loop autoplay/>
                   {/* <Player src={"/svg/rain.json"} loop autoplay/> */}
                 </div>
             </div>

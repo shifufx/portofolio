@@ -53,10 +53,6 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className='p-4 '>
-                        <Link href='/contact'>{t.contact}
-                        </Link>
-                    </li>
-                    <li className='p-4 '>
                         <Link href='/about'>{t.about}
                         </Link>
                     </li>
@@ -74,7 +70,6 @@ const Navbar = () => {
                         <option className="text-black" value="id">id</option>
                     </select>
                 </ul>
-                
 
             {/* Mobile Button */}
             <div onClick={handleNav} className='block sm:hidden z-10 p-5'>
@@ -97,10 +92,6 @@ const Navbar = () => {
                         </li>
                         <li className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='/course'>Course
-                            </Link>
-                        </li>
-                        <li className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/contact'>Contact
                             </Link>
                         </li>
                         <li className='p-4 text-4xl hover:text-gray-500'>

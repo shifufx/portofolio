@@ -66,7 +66,7 @@ function Post2() {
     return(
         <div className="p-8 space-y-3 border-2 border-white rounded-xl">
             <span className="inline-block text-blue-500 dark:text-blue-400">
-                <img src="/gif/fundamental.gif" alt="..." className="w-9 h-10 bg-black"/>
+                <img src="/gif/book.gif" alt="..." className="w-9 h-10 bg-black" />
             </span>
             <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">{t.fundamental}</h1>
             <p className="text-gray-500 dark:text-gray-300">
@@ -83,7 +83,7 @@ function Post3() {
     return(
         <div className="p-8 space-y-3 border-2 border-white rounded-xl">
             <span className="inline-block text-blue-500 dark:text-blue-400">
-                <img src="/gif/analis.gif" alt="..." className="w-9 h-10 bg-black"/>
+                <img src="/gif/analis.gif" alt="..." className="w-9 h-10 bg-black" />
             </span>
             <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">{t.teknikal}</h1>
             <p className="text-gray-500 dark:text-gray-300">
@@ -100,7 +100,7 @@ function Post4() {
     return(
         <div className="p-8 space-y-3 border-2 border-white rounded-xl">
             <span className="inline-block text-blue-500 dark:text-blue-400">
-            <img src="/gif/r.gif" alt="..." className="w-9 h-10 bg-black"/>   
+            <img src="/gif/decrease.gif" alt="..." className="w-9 h-10 bg-black" />   
             </span>
             <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">{t.resiko}</h1>
             <p className="text-gray-500 dark:text-gray-300">
@@ -117,7 +117,7 @@ function Post5() {
     return(
         <div className="p-8 space-y-3 border-2 border-white rounded-xl">
             <span className="inline-block text-blue-500 dark:text-blue-400">
-                <img src="/gif/psikolog.gif" alt="..." className="w-9 h-10 bg-black"/>   
+                <img src="/gif/increase.gif" alt="..." className="w-9 h-10 bg-black" />   
             </span>
             <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">{t.psikolog}</h1>
             <p className="text-gray-500 dark:text-gray-300">
