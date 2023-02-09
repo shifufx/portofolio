@@ -3,7 +3,6 @@ import { useRouter } from 'next/router'
 import { Player } from '@lottiefiles/react-lottie-player'
 import en from 'locales/en'
 import id from 'locales/id'
-import {RxDotFilled} from 'react-icons/rx'
 
 const TestBlog = () => {
     const router = useRouter();
@@ -105,8 +104,8 @@ function panda(){
                         <li className='flex'> - identify take profit and stop loss using support and resistance</li>
                     </ul>
                 </div>
-                <div className="button">
-                <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-5 ml-[3rem] mb-3'>
+                <div className="button my-5 lg:ml-0 md:ml-10">
+                <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-5 ml-[3rem] mb-3'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -138,8 +137,8 @@ function mantis(){
                         <li className='flex'> - identify take profit and stop loss using supply and demand</li>
                     </ul>
                 </div>
-                <div className="button my-5">
-                <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-12 ml-[3rem] mb-3'>
+                <div className="button my-5 md:ml-2 py-5 lg:ml-0 md:ml-10">
+                <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-12 ml-[3rem] mb-3'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -171,8 +170,8 @@ function monkey(){
                         <li className='flex'> - able to place the ideal risk and reward</li>
                     </ul>
                 </div>
-                <div className="button my-5">
-                <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-12 ml-[3rem] mb-3'>
+                <div className="button my-5 md:ml-5 py-5 lg:ml-0 md:ml-10">
+                <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-12 ml-[3rem] mb-3'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -206,8 +205,8 @@ function tiger(){
                         <li className='flex'> - determine the ideal stop loss and take profit as well as SL+</li>
                     </ul>
                 </div>
-                <div className="button my-5">
-                <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-7 ml-[3rem] mb-3'>
+                <div className="button my-5 lg:ml-0 md:ml-10">
+                <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-7 ml-[3rem] mb-3'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -239,8 +238,8 @@ function flamingo(){
                         <li className='flex'> - identify the ideal stop loss and take profit for SnRC</li>
                     </ul>
                 </div>
-                <div className="button my-5">
-                <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-14 ml-[3rem] mb-3'>
+                <div className="button my-5 lg:ml-0 md:ml-10">
+                <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-14 ml-[3rem] mb-3'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -272,8 +271,8 @@ function snake(){
                         <li className='flex'> - determine stop loss and take profit using the SnR technique</li>
                     </ul>
                 </div>
-                <div className="button my-5">
-                <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-9 ml-[3rem] mb-3'>
+                <div className="button my-5 lg:ml-0 md:ml-10">
+                <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-9 ml-[3rem] mb-3'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -300,7 +299,7 @@ function MovingAverage(){
                         <a href="#" title="" className="text-black"> Master Moving Average. </a>
                     </p>
                     <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-10 ml-[3rem] mb-3'>
+                    <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-10 ml-[3rem] mb-3'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -325,7 +324,7 @@ function BolingerBand(){
                         <a href="#" title="" className="text-black"> Master Bolinger Band. </a>
                     </p>
                     <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-10 ml-[3rem] mb-3'>
+                    <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-10 ml-[3rem] mb-3'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -350,7 +349,7 @@ function Fibbonaci(){
                         <a href="#" title="" className="text-black"> Master Fibbonaci. </a>
                     </p>
                     <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-10 ml-[3rem] mb-3'>
+                    <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-10 ml-[3rem] mb-3'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>

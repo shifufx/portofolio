@@ -41,18 +41,18 @@ const Navbar = () => {
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center md:p-2 text-white'>
             <Link href="/">
-                <h1 style={{color: `${textColor}`}} className=' font-extrabold lg:text-3xl md:text-xl sm:px-2 font-montserrat'>SFX</h1>
+                <h1 style={{color: `${textColor}`}} className=' lg:mt-3 md:mt-0 px-6 font-extrabold lg:text-3xl md:text-xl sm:px-2 font-montserrat'>SFX</h1>
             </Link>
                 <ul style={{color: `${textColor}`}} className='hidden sm:flex text-gray-400 hover:text-black'>
-                    <li className='p-4 '>
+                    <li className='px-4 py-5 '>
                         <Link href='/'>{t.home}
                         </Link>
                     </li>
-                    <li className='p-4 '>
+                    <li className='px-4 py-5'>
                         <Link href='/course'>{t.course}
                         </Link>
                     </li>
-                    <li className='p-4 '>
+                    <li className='px-4 py-5'>
                         <Link href='/about'>{t.about}
                         </Link>
                     </li>
@@ -62,7 +62,7 @@ const Navbar = () => {
                     // style={{color: `${textColor}`}}
                         onChange={changeLanguage}
                         defaultValue={locale}
-                        className="p-4 cursor-pointer"
+                        className="px-4 py-5 cursor-pointer"
                         >                                         
                         <option disabled selected value="#" className=' text-sm'>Language
                         </option>

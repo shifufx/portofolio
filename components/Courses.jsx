@@ -192,15 +192,15 @@ function mantis2(){
 
 function Tiger(){
     return(
-        <div className="w-full px-6 py-4 transition-colors duration-300 transform rounded-lg md:mx-5 md:w-96 bg-gray-50 dark:bg-gray-800" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
+        <div className="w-full px-6 lg:py-[7.3rem] transition-colors duration-300 transform rounded-lg md:mx-5 md:w-96 bg-gray-50 dark:bg-gray-800" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             {/* call fucntion */}
-            <div className="text-center">
-                <p className="text-4xl font-semibold text-gray-800 dark:text-gray-100">Batch Mantis</p>
-                {/* <p className="mt-4 text-gray-500 dark:text-gray-300">Essentail Features</p>
+            <div className="text-center mt-0 my-0">
+                <p className="text-4xl font-semibold text-gray-800 dark:text-gray-100">Batch Tiger</p>
+                <p className="mt-4 text-gray-500 dark:text-gray-300">Essentail Features</p>
                 <h4 className="mt-2 text-gray-600 line-through dark:text-gray-400">$59.99</h4>
                 <h4 className="mt-2 text-5xl font-semibold text-gray-800 dark:text-gray-100">$53.99</h4>
                 <p className="mt-4 text-gray-500 dark:text-gray-300">/per month</p>
-                <p className="mt-4 text-gray-500 dark:text-gray-300">Bill all 6 months</p> */}
+                <p className="mt-4 text-gray-500 dark:text-gray-300">Bill all 6 months</p>
             </div>
             <div className="mt-8 space-y-5">
                 <div className="flex items-center">

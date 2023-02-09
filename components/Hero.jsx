@@ -1,8 +1,7 @@
-import React from "react";
-import {ImUnlocked} from 'react-icons/im'
-import Image from "next/image";
+import React from 'react'
+import {Player} from '@lottiefiles/react-lottie-player'
+import { useRouter } from 'next/router';
 import Typewriter from 'typewriter-effect';
-import { useRouter } from "next/router";
 import en from 'locales/en'
 import id from 'locales/id'
 
@@ -12,43 +11,52 @@ const Hero = () => {
     const { locale } = router;
     const t = locale === 'en' ? en : id;
 
-    return(
-        <div className="items-center justify-start h-screen">
-            <div className="absolute top-0 left-0 right-0 bottom-0 bg-black">
-                <div className="p-5 text-white z-[2] mt-[8rem] md:mt-[10rem]] md:ml-3">
-                    <div className="user flex flex-wrap px-3 mb-5 justify-center">
-                        <div className="picture md:w-3/5 sm:w-3/5  sm:justify-center lg:ml-[33rem] md:ml-[17rem]">
-                            <img src="/Batch/test-1.jpg" alt="..." className="shadow rounded-full md:w-1/3 h-auto align-middle bg-gradient-to-r from-rose-500 via-fuchsia-500 to-cyan-400 p-1" />
-                        </div>
-                    </div>
-                    <h2 className="lg:text-4xl md:text-3xl sm:text-xl font-bold flex sm:justify-center md:justify-center justify-center">{t.halo}
-                        <div className="ml-2 bg-clip-text text-transparent bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400">
-                            <Typewriter
-                                options={{
-                                    strings: [t.trader, 'Trader Analyst'],
-                                    autoStart: true,
-                                    loop: true
-                                }} />
-                        </div>
+    const animations = [
+      `fade-up`,
+      `fade-left`,
+      `fade-right`,
+    ];
+  return (
+    // <div>Hero2</div>
+  <div className="bg-black lg:py-14">
+    <section className="bg-black bg-opacity-30 py-20 sm:py-16 lg:py-22 ">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:pb-24">
+            <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">
+                <div>
+                    <p className="text-base font-semibold tracking-wider text-blue-600 uppercase"></p>
+                    <h1 className="mt-4 text-4xl font-bold text-gray-50 lg:mt-5 sm:text-5xl xl:text-6xl">{t.halo}</h1>
+                    <h2 className='mt-4 text-2xl font-bold text-gray-50 sm:text-4xl xl:text-5xl'>
+                      <Typewriter
+                          options={{
+                          strings: [t.trader, t.analis],
+                          autoStart: true,
+                          loop: true
+                          }} 
+                        />
                     </h2>
-                    <p className="py-5 lg:text-xl md:text-xl leading-relaxed text-center" data-aos="fade-right" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000"> {t.build}</p>
+                    <p className="mt-4 text-base text-gray-50 lg:mt-8 sm:text-xl">{t.build}</p>
+                    <div className='text-lg text-white'>
                     
-                    {/* <a href="/" className="relative cursor-pointer mt-7 duration-300 hover:-translate-y-1 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-full group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800"
-                    data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000"
-                    >
-                        <span className="flex w-[15rem] h-[2.5rem] relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-black rounded-full group-hover:bg-opacity-0">
-                            <ImUnlocked className="mr-3" /> {t.download}
-                        </span>
-                    </a> */}
-
-                </div>
-                {/* <div className="relative h-[14.5rem] w-32">
-                    <div className="absolute h-0.5 w-[50rem] bottom-0 left-0 mb-5 bg-text-clip bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400">
                     </div>
-                </div> */}
+                    <br />
+                  
+                    <a href="#" title="" className="inline-flex items-center px-6 py-4 mt-8 font-semibold text-black transition-all hover:-translate-y-1 duration-300 bg-yellow-300 rounded-full lg:mt-16 hover:bg-yellow-400 focus:bg-yellow-400" role="button">
+                        Join for free
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                          <path fillRule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z" clipRule="evenodd" />
+                        </svg>
+                    </a>
+                    {/* <p className="mt-5 text-gray-600">Already joined us? <a href="#" title="" className="text-black transition-all duration-200 hover:underline"></a></p> */}
+                </div>
+                <div className=' lg:w-[35rem] md:w-[32rem] sm:w-[20rem] lg:ml-[5rem] md:ml-[7rem]'>
+                  <Player src={"/svg/home.json"} loop autoplay/>
+                  {/* <Player src={"/svg/rain.json"} loop autoplay/> */}
+                </div>
             </div>
         </div>
-    )
-}
+    </section>
+  </div>
 
-export default Hero;
+  )
+}
+export default Hero
