@@ -12,7 +12,7 @@ export const Integrate = () => {
     <section className="py-10 bg-black sm:py-16 lg:py-24">
     <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">Get all support</h2>
+            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">what benefits will you get?</h2>
             <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-50" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
         </div>
 

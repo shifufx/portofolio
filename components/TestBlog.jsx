@@ -97,16 +97,17 @@ function panda(){
                         <a href="#" title="" className="text-black"> Batch Panda: Breakout Strategy Market. </a>
                     </p>
                     <p>You will learn:</p>
-                    <ul className='px-1 ml-0 text-sm'>
+                    <ul className='px-1 ml-0 text-sm space-y-2'>
                         <li className='flex'> - able to understand support and resistance</li>
                         <li className='flex'> - able to identify support and resistance</li>
                         <li className='flex'> - able to use the breakout technique</li>
                         <li className='flex'> - understand how to execute when breakout happen</li>
                         <li className='flex'> - identify take profit and stop loss using support and resistance</li>
                     </ul>
-                    {/* <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p> */}
-                    <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 lg:mt-[1.3rem] text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                </div>
+                <div className="button">
+                <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-5 ml-[3rem] mb-3'>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
                         Download
@@ -130,14 +131,16 @@ function mantis(){
                         <a href="#" title="" className="text-black"> Batch Mantis: Supply & Demand. </a>
                     </p>
                     <p>You will learn:</p>
-                    <ul className='px-1 ml-0 text-sm'>
+                    <ul className='px-1 ml-0 text-sm space-y-2'>
                         <li className='flex'> - understand supply and demand</li>
                         <li className='flex'> - know the target market to be executed</li>
                         <li className='flex'> - identifiy supply and demand</li>
                         <li className='flex'> - identify take profit and stop loss using supply and demand</li>
                     </ul>
-                    <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 lg:mt-[3.7rem] text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                </div>
+                <div className="button my-5">
+                <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-12 ml-[3rem] mb-3'>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
                         Download
@@ -161,14 +164,16 @@ function monkey(){
                         <a href="#" title="" className="text-black"> Batch Monkey: Scalping Strategy </a>
                     </p>
                     <p>You will learn:</p>
-                    <ul className='px-1 ml-0 text-sm'>
+                    <ul className='px-1 ml-0 text-sm space-y-2'>
                         <li className='flex'> - know the use of scalping techniques</li>
                         <li className='flex'> - know the ideal session for scalping</li>
                         <li className='flex'> - can combine breakout techniques and EMA lines when scalping</li>
                         <li className='flex'> - able to place the ideal risk and reward</li>
                     </ul>
-                    <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 lg:mt-[2.3rem] text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                </div>
+                <div className="button my-5">
+                <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-12 ml-[3rem] mb-3'>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
                         Download
@@ -193,15 +198,17 @@ function tiger(){
                         <a href="#" title="" className="text-black"> Batch Tiger: Smart Shifu Concept. </a>
                     </p>
                     <p>You will learn:</p>
-                    <ul className='px-1 ml-0 text-sm'>
+                    <ul className='px-1 ml-0 text-sm space-y-2'>
                         <li className='flex'> - know the character of each pair</li>
                         <li className='flex'> - expert london session trade strategy</li>
                         <li className='flex'> - price action in london session</li>
                         <li className='flex'> - Know when retests and breakouts occur</li>
                         <li className='flex'> - determine the ideal stop loss and take profit as well as SL+</li>
                     </ul>
-                    <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                </div>
+                <div className="button my-5">
+                <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-7 ml-[3rem] mb-3'>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
                         Download
@@ -225,14 +232,16 @@ function flamingo(){
                         <a href="#" title="" className="text-black"> Batch Flamingo: Support & Resistance Continue. </a>
                     </p>
                     <p>You will learn:</p>
-                    <ul className='px-1 ml-0 text-sm'>
+                    <ul className='px-1 ml-0 text-sm space-y-2'>
                         <li className='flex'> - know the SnRC area</li>
                         <li className='flex'> - know the area of ​​RBR, DBD, and DBR</li>
                         <li className='flex'> - price action in the SnRC area</li>
                         <li className='flex'> - identify the ideal stop loss and take profit for SnRC</li>
                     </ul>
-                    <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                </div>
+                <div className="button my-5">
+                <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-14 ml-[3rem] mb-3'>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
                         Download
@@ -256,14 +265,16 @@ function snake(){
                         <a href="#" title="" className="text-black"> Batch Snake: Expert Support & Resistance. </a>
                     </p>
                     <p>You will learn:</p>
-                    <ul className='px-1 ml-0 text-sm'>
+                    <ul className='px-1 ml-0 text-sm space-y-2'>
                         <li className='flex'> - know the important area of ​​SnR in the form of a structure</li>
                         <li className='flex'> - ideal trading time for SnR</li>
                         <li className='flex'> - price action in the SnR area</li>
                         <li className='flex'> - determine stop loss and take profit using the SnR technique</li>
                     </ul>
-                    <a href="#" title="" className="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                </div>
+                <div className="button my-5">
+                <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-9 ml-[3rem] mb-3'>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
                         Download
@@ -289,8 +300,8 @@ function MovingAverage(){
                         <a href="#" title="" className="text-black"> Master Moving Average. </a>
                     </p>
                     <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <a href="#" title="" className="cursor-not-allowed inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                    <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-10 ml-[3rem] mb-3'>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
                         Download
@@ -314,8 +325,8 @@ function BolingerBand(){
                         <a href="#" title="" className="text-black"> Master Bolinger Band. </a>
                     </p>
                     <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <a href="#" title="" className="cursor-not-allowed inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                    <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-10 ml-[3rem] mb-3'>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
                         Download
@@ -339,8 +350,8 @@ function Fibbonaci(){
                         <a href="#" title="" className="text-black"> Master Fibbonaci. </a>
                     </p>
                     <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <a href="#" title="" className="cursor-not-allowed inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-blue-600 transition-all duration-200 border-b-2 border-transparent hover:border-blue-600 focus:border-blue-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-1 mb-2">
+                    <a href="" className='inline-flex py-2 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-10 ml-[3rem] mb-3'>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
                         Download
