@@ -28,7 +28,7 @@ const info = () => {
                             </div>
 
                             <div>
-                            <Player className="lg:w-[27rem] md:w-[20rem] sm:w-[20rem]" src={"/svg/pro.json"} loop autoplay/>
+                            <Player className="lg:w-[27rem] md:w-[20rem]" src={"/svg/pro.json"} loop autoplay/>
                             </div>
                         </div>
                     </div>

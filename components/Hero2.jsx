@@ -48,7 +48,7 @@ const Hero2 = () => {
                     </a>
                     {/* <p className="mt-5 text-gray-600">Already joined us? <a href="#" title="" className="text-black transition-all duration-200 hover:underline"></a></p> */}
                 </div>
-                <div className=''>
+                <div className=' lg:w-[35rem] md:w-[32rem] sm:w-[20rem] lg:ml-[5rem] md:ml-[7rem]'>
                   <Player src={"/svg/home.json"} loop autoplay/>
                   {/* <Player src={"/svg/rain.json"} loop autoplay/> */}
                 </div>
