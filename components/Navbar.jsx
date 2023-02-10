@@ -24,45 +24,32 @@ const Navbar = () => {
         setNav(!nav)
     };
 
-    useEffect(() => {
-        const changeColor = () => {
-            if(window.scrollY >= 90) {
-                setColor('#ffffff');
-                setTextColor('#000000');
-            } else {
-                setColor('transparent');
-                setTextColor('#ffffff');
-            }
-        };
-        window.addEventListener('scroll', changeColor);
-    }, []);
-    
   return (
-    <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
-        <div className='max-w-[1240px] m-auto flex justify-between items-center md:p-2 text-white'>
-            <Link href="/">
-                <h1 style={{color: `${textColor}`}} className=' lg:mt-3 md:mt-0 px-6 font-extrabold lg:text-3xl md:text-xl sm:px-2 font-montserrat'>SFX</h1>
+
+    <div className='sticky top-0 w-full z-10 ease-in duration-300 bg-black'>
+        <div className='max-w-[1240px] m-auto flex justify-between items-center md:p-2 text-white '>
+            <Link href="/" className=' px-3 py-5 mt-1'>
+                <img src="/shifu.png" alt="" className='w-[8rem] h-[1.5rem] lg:w-[12rem] lg:h-[2rem]' />
+                {/* <h1 style={{color: `${textColor}`}} className=' lg:mt-3 md:mt-0 px-6 font-extrabold lg:text-3xl md:text-xl sm:px-2 font-montserrat'>SFX</h1> */}
             </Link>
-                <ul style={{color: `${textColor}`}} className='hidden sm:flex text-gray-400 hover:text-black'>
-                    <li className='px-4 py-5 '>
+                <ul className='hidden sm:flex text-gray-50'>
+                    <li className='px-4 py-6 '>
                         <Link href='/'>{t.home}
                         </Link>
                     </li>
-                    <li className='px-4 py-5'>
+                    <li className='px-4 py-6'>
                         <Link href='/course'>{t.course}
                         </Link>
                     </li>
-                    <li className='px-4 py-5'>
+                    <li className='px-4 py-6'>
                         <Link href='/about'>{t.about}
                         </Link>
                     </li>
                     
                     <select
-                    style={{backgroundColor: `${color}`, color: `${textColor}`}}
-                    // style={{color: `${textColor}`}}
                         onChange={changeLanguage}
                         defaultValue={locale}
-                        className="px-4 py-5 cursor-pointer"
+                        className="px-4 py-5 cursor-pointer bg-black"
                         >                                         
                         <option disabled selected value="#" className=' text-sm'>Language
                         </option>
@@ -86,20 +73,19 @@ const Navbar = () => {
             onClick={()=>handleNav()}
             >
                     <ul>
-                        <li className='p-4 text-4xl hover:text-gray-500'>
+                        <li className='p-4 text-4xl'>
                             <Link href='/'>Home
                             </Link>
                         </li>
-                        <li className='p-4 text-4xl hover:text-gray-500'>
+                        <li className='p-4 text-4xl'>
                             <Link href='/course'>Course
                             </Link>
                         </li>
-                        <li className='p-4 text-4xl hover:text-gray-500'>
+                        <li className='p-4 text-4xl'>
                             <Link href='/about'>About
                             </Link>
                         </li>
                         <select
-                    style={{color: `${textColor}`}}
                         onChange={changeLanguage}
                         defaultValue={locale}
                         className="p-4 cursor-pointer "

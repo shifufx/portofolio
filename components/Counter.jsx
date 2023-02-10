@@ -15,7 +15,7 @@ import id from 'locales/id'
         `fade-right`,
       ];
     return (
-        <section className="py-10 bg-black sm:py-6 lg:py-10">
+        <section className="py-10 bg-black sm:py-6 lg:py-10 select-none">
         <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8 lg:mb-16 md:mb-10">
             <div className="max-w-2xl mx-auto text-center" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
                 <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">{t.titleCourse4}</h2>

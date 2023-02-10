@@ -6,7 +6,7 @@ const Team = () => {
   return (
     // <div>Team</div>
     <>
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white dark:bg-gray-900 select-none">
     <div className="container px-6 py-10 mx-auto">
         <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-5xl dark:text-white"><span className="text-blue-500">Team Experience</span></h1>
 
@@ -84,7 +84,7 @@ function heru(){
                     <a href="#" className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Github">
                         <GrFacebookOption className='w-6 h-6 fill-current'/>
                     </a>
-                    
+
                     <a href="#" className="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
                         <FaTiktok className='w-6 h-6 fill-current'/>
                     </a>

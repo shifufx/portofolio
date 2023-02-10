@@ -18,7 +18,7 @@ const Hero = () => {
     ];
   return (
     // <div>Hero2</div>
-  <div className="bg-black lg:py-14">
+  <div className="bg-black lg:py-0 select-none">
     <section className="bg-black bg-opacity-30 py-20 sm:py-16 lg:py-22 ">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:pb-24">
             <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">

@@ -16,9 +16,9 @@ const info = () => {
         `fade-right`,
       ];
     return(
-        <div className="items-center justify-start h-screen mx-auto">
+        <div className="items-center justify-start h-screen mx-auto select-none">
             <div className="absolute top-0 left-0 right-0 bottom-0 bg-black">
-                <div className="bg-opacity-30 py-10 sm:py-16 lg:py-32">
+                <div className="bg-opacity-30 py-16 sm:py-16 lg:py-32">
                     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">
                             <div>
