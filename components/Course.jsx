@@ -1,23 +1,35 @@
-import id from 'locales/id';
 import React from 'react'
+import { useRouter } from 'next/router';
 import { useState } from 'react'
+import en from 'locales/en'
+import id from 'locales/id'
 
-const TestCourse = () => {
+const Course = () => {
     const [openTab, setOpenTab] = React.useState(1);
     const [active, setActive] = React.useState(false);
+
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === 'en' ? en : id;
+
+    const animations = [
+        `fade-up`,
+        `fade-left`,
+        `fade-right`,
+      ];
 
   return (
     // <div>TestCourse</div>
 <div className="bg-black">
     <div className="container px-6 py-8 mx-auto">
-        <h1 className="text-2xl font-semibold text-center text-gray-50 capitalize lg:text-3xl dark:text-white">Simple pricing plan</h1>
+        <h1 className="text-2xl font-bold text-center text-gray-50 capitalize lg:text-4xl dark:text-white" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">We offering a Course ?  <span className='text-cyan-300'>yes we are!</span></h1>
 
-        <p className="max-w-2xl mx-auto mt-4 text-center text-gray-50 xl:mt-6 dark:text-gray-300">
+        <p className="max-w-2xl mx-auto mt-4 text-center text-gray-50 xl:mt-6 dark:text-gray-300" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quas magni libero consequuntur voluptatum velit amet id repudiandae ea, deleniti laborum in neque eveniet.
         </p>
 
         {/* start feature section */}
-        <div className="grid grid-cols-1 gap-8 mt-6 lg:grid-cols-3 xl:mt-12">
+        <div className="grid grid-cols-1 gap-8 mt-6 lg:grid-cols-3 xl:mt-12" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
             {/* start here basic section */}
             <button className={"flex items-center justify-between px-8 py-4 border cursor-pointer rounded-xl dark:border-gray-700" + 
             (openTab === 1
@@ -30,7 +42,7 @@ const TestCourse = () => {
             }}
             data-toggle="tab"
             href="#link1"
-            role="tablist"  
+            role="tablist"
             >
                 <div className="flex flex-col items-center space-y-1">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-gray-400 sm:h-7 sm:w-7" viewBox="0 0 20 20" fill="currentColor">
@@ -128,7 +140,7 @@ const TestCourse = () => {
   )
 }
 
-export default TestCourse
+export default Course
 
 function profesional(){
 
@@ -185,7 +197,7 @@ function profesional(){
 
             <div className="flex justify-center py-10 sm:mt-9">
             <button className="px-8 py-2 tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
-                Choose Pro
+                Join our Community!
             </button>
         </div>
         </div>
@@ -196,7 +208,7 @@ function profesional(){
 function basic(){
     return(
         <>
-        <div className='p-1 mt-1 space-y-8'>
+        <div className='p-1 mt-7 space-y-8'>
             <div className="flex items-center justify-between text-gray-800 dark:text-gray-200">
                 <p className="textlg sm:text-xl"> Free Exclusive ebook 1x</p>
 

@@ -1,13 +1,11 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Hero from '@/components/Hero'
-import Testimonials from '@/components/Testimonials'
 import Footer from '@/components/Footer'
-import Courses from '@/components/Courses'
-import TestBlog from '@/components/TestBlog'
+import Course from '@/components/Course'
+import TestBlog from '@/components/Ebook'
 import { Integrate } from '@/components/Integrate'
 import Contact from '@/components/Contacts'
-import TestCourse from '@/components/TestCourse'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,10 +19,8 @@ function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         
-        {/* <Hero /> */}
         <Hero />
-        {/* <Courses /> */}
-        <TestCourse />
+        <Course />
         <Integrate />
         <Contact />
         {/* <Testimonials /> */}
