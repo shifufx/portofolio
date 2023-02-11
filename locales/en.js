@@ -40,13 +40,21 @@ export default {
     t2: 'Advanced',
     t3: 'Indicator',
     new: 'new',
+    basic: 'basic',
+
+    exclusiveEbook: 'Free Exclusive ebook 1x',
+    exclusiveEbook2: 'Free Signal all pair',
+    exclusiveEbook3: 'Private Coaching',
+    exclusiveEbook4: 'Lifetime Education',
+    exclusiveEbook5: 'Unlimited Download Exclusive Ebook',
+    exclusiveEbook6: 'See All Ebook',
     // 
 
     // contact section
-    titleContact: `Let's Talk About Business`,
-    p1: 'in english',
-    p2: 'in english',
-    p3: 'in english',
+    titleContact: `Get in Touch with Me`,
+    email: 'email me',
+    telegram: 'chat me',
+    whatsapp: 'call me',
     // 
 
     // testimonial section
@@ -78,5 +86,20 @@ export default {
     official: 'Official Website',
     alamat: 'St. Ababil No. 15, Sukajadi, Pekanbaru',
     //
+  
+    // integration
+    titleIntegration: 'what benefits will you get ?',
+    descriptionIntegration: 'fuck you!',
+    lifetime: 'Lifetime Education',
+    become: 'Become a Trader Professional',
+    build: 'Build Your own Target',
+    flexible: 'Flexible Time',
+    money: 'Make More Money',
+    broker: 'Guarantee 100%',
+    //
+
+    //
+    join: 'Join for free',
+
   };
   

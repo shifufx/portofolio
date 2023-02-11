@@ -95,7 +95,7 @@ function panda(){
                     <p className="mt-5 text-2xl font-semibold">
                         <a href="#" title="" className="text-black"> Batch Panda: Breakout Strategy Market. </a>
                     </p>
-                    <p>You will learn:</p>
+                    <p className=' py-3'>You will learn:</p>
                     <ul className='px-1 ml-0 text-sm space-y-2'>
                         <li className='flex'> - able to understand support and resistance</li>
                         <li className='flex'> - able to identify support and resistance</li>
@@ -129,7 +129,7 @@ function mantis(){
                     <p className="mt-5 text-2xl font-semibold">
                         <a href="#" title="" className="text-black"> Batch Mantis: Supply & Demand. </a>
                     </p>
-                    <p>You will learn:</p>
+                    <p className=' py-3'>You will learn:</p>
                     <ul className='px-1 ml-0 text-sm space-y-2'>
                         <li className='flex'> - understand supply and demand</li>
                         <li className='flex'> - know the target market to be executed</li>
@@ -137,7 +137,7 @@ function mantis(){
                         <li className='flex'> - identify take profit and stop loss using supply and demand</li>
                     </ul>
                 </div>
-                <div className="button my-5 md:ml-2 py-5 lg:ml-0 md:ml-10">
+                <div className="button my-5 md:ml-2 py-5 lg:ml-0">
                 <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-12 ml-[3rem] mb-3'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
@@ -162,7 +162,7 @@ function monkey(){
                     <p className="mt-5 text-2xl font-semibold">
                         <a href="#" title="" className="text-black"> Batch Monkey: Scalping Strategy </a>
                     </p>
-                    <p>You will learn:</p>
+                    <p className=' py-3'>You will learn:</p>
                     <ul className='px-1 ml-0 text-sm space-y-2'>
                         <li className='flex'> - know the use of scalping techniques</li>
                         <li className='flex'> - know the ideal session for scalping</li>
@@ -196,13 +196,13 @@ function tiger(){
                     <p className="mt-5 text-2xl font-semibold">
                         <a href="#" title="" className="text-black"> Batch Tiger: Smart Shifu Concept. </a>
                     </p>
-                    <p>You will learn:</p>
+                    <p className=' py-3'>You will learn:</p>
                     <ul className='px-1 ml-0 text-sm space-y-2'>
                         <li className='flex'> - know the character of each pair</li>
                         <li className='flex'> - expert london session trade strategy</li>
                         <li className='flex'> - price action in london session</li>
                         <li className='flex'> - Know when retests and breakouts occur</li>
-                        <li className='flex'> - determine the ideal stop loss and take profit as well as SL+</li>
+                        <li className='flex'> - determine the ideal SL and TP as well as SL+</li>
                     </ul>
                 </div>
                 <div className="button my-5 lg:ml-0 md:ml-10">
@@ -230,12 +230,12 @@ function flamingo(){
                     <p className="mt-5 text-2xl font-semibold">
                         <a href="#" title="" className="text-black"> Batch Flamingo: Support & Resistance Continue. </a>
                     </p>
-                    <p>You will learn:</p>
+                    <p className=' py-3'>You will learn:</p>
                     <ul className='px-1 ml-0 text-sm space-y-2'>
                         <li className='flex'> - know the SnRC area</li>
                         <li className='flex'> - know the area of ​​RBR, DBD, and DBR</li>
                         <li className='flex'> - price action in the SnRC area</li>
-                        <li className='flex'> - identify the ideal stop loss and take profit for SnRC</li>
+                        <li className='flex'> - identify the ideal SL and TP for SnRC</li>
                     </ul>
                 </div>
                 <div className="button my-5 lg:ml-0 md:ml-10">
@@ -263,12 +263,12 @@ function snake(){
                     <p className="mt-5 text-2xl font-semibold">
                         <a href="#" title="" className="text-black"> Batch Snake: Expert Support & Resistance. </a>
                     </p>
-                    <p>You will learn:</p>
+                    <p className=' py-3'>You will learn:</p>
                     <ul className='px-1 ml-0 text-sm space-y-2'>
                         <li className='flex'> - know the important area of ​​SnR in the form of a structure</li>
                         <li className='flex'> - ideal trading time for SnR</li>
                         <li className='flex'> - price action in the SnR area</li>
-                        <li className='flex'> - determine stop loss and take profit using the SnR technique</li>
+                        <li className='flex'> - determine SL and TP using the SnR technique</li>
                     </ul>
                 </div>
                 <div className="button my-5 lg:ml-0 md:ml-10">

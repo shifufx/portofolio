@@ -14,6 +14,7 @@ const Testimonials = () => {
     const { locale } = router;
     const t = locale === 'en' ? en : id;
     
+    
     const animations = [
         `fade-up`,
         `fade-down`,
@@ -29,11 +30,6 @@ const Testimonials = () => {
             <h2 className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl bg-clip-text text-transparent bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400" >{t.titleTestimonial}</h2>
         </div>
         
-        {/* <div className="grid-flow-row flex sm:grid-cols-1 md:grid-cols-2 py-10 mt-5"> */}
-
-        {/* <div class="grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6 w-full">    
-                
-        </div>  */}
         <Swiper
             className='grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6 w-full'
             data-aos="fade-left" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000"

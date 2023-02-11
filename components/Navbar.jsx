@@ -88,12 +88,12 @@ const Navbar = () => {
                         <select
                         onChange={changeLanguage}
                         defaultValue={locale}
-                        className="p-4 cursor-pointer "
+                        className="p-4 cursor-pointer bg-black"
                         >                                         
                         <option disabled selected value="#">Language
                         </option>
-                        <option className="text-black" value="en">English</option>
-                        <option className="text-black" value="id">Bahasa</option>
+                        <option className="text-black" value="en">en</option>
+                        <option className="text-black" value="id">id</option>
                     </select>
                     </ul>
                 </div>

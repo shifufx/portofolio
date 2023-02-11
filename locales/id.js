@@ -52,14 +52,24 @@ export default {
     t3: 'Indikator',
     free: 'GRATIS!!',
     new: 'Baru',
+    basic: 'Dasar',
+
+    exclusiveEbook: 'Gratis ebook Ekslusif 1x',
+    exclusiveEbook2: 'Gratis Sinyal semua pair',
+    exclusiveEbook3: 'Belajar Secara Pribadi',
+    exclusiveEbook4: 'Belajar Selamanya',
+
+    exclusiveEbook5: 'unduh Ekslusif Ebook sepuasnya',
+    exclusiveEbook6: 'Lihat Semua Ebook',
+
 
     // 
 
     // contact section
-    titleContact: `Mari Bicara Tentang Bisnis`,
-    p1: 'in id',
-    p2: 'in id',
-    p3: 'in id',
+    titleContact: `Hubungi Saya`,
+    email: 'Email saya',
+    telegram: 'Kirim pesan',
+    whatsapp: 'kirim whatsapp',
     // 
 
     // testimonial section
@@ -80,5 +90,20 @@ export default {
     official: 'Website Resmi',
     alamat: 'Jl. Ababil No. 15, Sukajadi, Pekanbaru',
     // 
+
+  
+    // integration
+    titleIntegration: 'Apa Keuntungan yang akan anda dapatkan ?',
+    descriptionIntegration: 'fuck you!',
+    lifetime: 'Belajar Sepuasnya',
+    become: 'Menjadi Trader Profesional',
+    build: 'Bangun Target Anda Sendiri',
+    flexible: 'Waktu yang Fleksibel',
+    money: 'Produksi lebih banyak uang',
+    broker: 'Jaminan 100%',
+    //
+
+    join: 'Bergabung Secara Gratis',
+
   };
   
