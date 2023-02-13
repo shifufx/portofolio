@@ -47,7 +47,7 @@ function email(){
                 <h3 className="mt-8 text-lg font-semibold text-gray-50">Email</h3>
                 <p className="mt-4 text-base text-gray-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p> 
                 <div className="email">
-                    <a href="mailto:ryan@shifufx.education" className="button inline-flex text-center py-3 px-20 md:px-10 font-bold mt-10 bg-yellow-300 text-black rounded-full capitalize hover:-translate-y-1 duration-200">{t.email}</a>
+                    <a href="mailto:ryan@shifufx.education" className="button inline-flex text-center py-3 px-20 md:px-10 font-bold mt-10 bg-white text-black hover:text-white rounded-full capitalize hover:shadow-[inset_12rem_0_0_0] hover:shadow-teal-600 duration-[400ms,700ms] transition-[color,box-shadow]">{t.email}</a>
                 </div>
            </div>
         </div>
@@ -65,7 +65,7 @@ function telegram(){
                 <h3 className="mt-8 text-lg font-semibold text-gray-50">Telegram</h3>
                 <p className="mt-4 text-base text-gray-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p> 
                 <div className="telegram">
-                    <a href="" className="button inline-flex text-center py-3 px-20 md:px-10 font-bold mt-10 bg-yellow-300 text-black rounded-full capitalize hover:-translate-y-1 duration-200">{t.telegram}</a>
+                    <a href="" className="button inline-flex text-center py-3 px-20 md:px-10 font-bold mt-10 bg-white text-black hover:text-white rounded-full capitalize hover:shadow-[inset_13rem_0_0_0] hover:shadow-teal-600 duration-[400ms,700ms] transition-[color,box-shadow]">{t.telegram}</a>
                 </div>
            </div>
         </div>
@@ -83,7 +83,7 @@ function whatsapp(){
                 <h3 className="mt-8 text-lg font-semibold text-gray-50">Whatsapp</h3>
                 <p className="mt-4 text-base text-gray-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p> 
             <div className="wa">
-                <a href="" className="button inline-flex text-center py-3 px-20 md:px-10 font-bold mt-10 bg-yellow-300 text-black rounded-full capitalize hover:-translate-y-1 duration-200">{t.whatsapp}</a>
+                <a href="" className="button inline-flex text-center py-3 px-20 md:px-10 font-bold mt-10 bg-white text-black hover:text-white rounded-full capitalize hover:shadow-[inset_13rem_0_0_0] hover:shadow-teal-600 duration-[400ms,700ms] transition-[color,box-shadow]">{t.whatsapp}</a>
             </div>
            </div>
         </div>
