@@ -53,8 +53,12 @@ const Hero = () => {
                   {/* <Player src={"/svg/rain.json"} loop autoplay/> */}
                 </div>
             </div>
+            
         </div>
     </section>
+    <div className="shape pb-0">
+              <img src="/svg/wave-1.svg" alt="" />
+            </div>
   </div>
 
   )

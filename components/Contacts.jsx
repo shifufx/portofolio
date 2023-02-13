@@ -17,6 +17,7 @@ const Contacts = () => {
       ];
 
     return(
+        
         <section className="py-10 bg-black sm:py-16 lg:py-1 lg:pb-[8rem] select-none">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="max-w-xl mx-auto text-center" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">
@@ -43,10 +44,10 @@ function email(){
         <div className="transition-all duration-200 bg-black hover:shadow-xl">
             <div className="py-10 px-9">
                 <img className="h-16 w-16 lg:ml-24 md:ml-5" src='/gif/email.gif'/>
-                <h3 className="mt-8 text-lg font-semibold text-gray-50">{t.email}</h3>
+                <h3 className="mt-8 text-lg font-semibold text-gray-50">Email</h3>
                 <p className="mt-4 text-base text-gray-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p> 
                 <div className="email">
-                    <a href="mailto:ryan@shifufx.education" className="button inline-flex text-center py-3 px-20 md:px-10 font-bold mt-10 bg-yellow-300 text-black rounded-full capitalize hover:-translate-y-1 duration-200">Email me!</a>
+                    <a href="mailto:ryan@shifufx.education" className="button inline-flex text-center py-3 px-20 md:px-10 font-bold mt-10 bg-yellow-300 text-black rounded-full capitalize hover:-translate-y-1 duration-200">{t.email}</a>
                 </div>
            </div>
         </div>
@@ -61,10 +62,10 @@ function telegram(){
         <div className="transition-all duration-200 bg-black hover:shadow-xl">
             <div className="py-10 px-9">
                 <img className="h-16 w-16 lg:ml-24 md:ml-6" src={'/gif/chat.gif'}/>
-                <h3 className="mt-8 text-lg font-semibold text-gray-50">{t.telegram}</h3>
+                <h3 className="mt-8 text-lg font-semibold text-gray-50">Telegram</h3>
                 <p className="mt-4 text-base text-gray-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p> 
                 <div className="telegram">
-                    <a href="" className="button inline-flex text-center py-3 px-20 md:px-10 font-bold mt-10 bg-yellow-300 text-black rounded-full capitalize hover:-translate-y-1 duration-200">Telegram</a>
+                    <a href="" className="button inline-flex text-center py-3 px-20 md:px-10 font-bold mt-10 bg-yellow-300 text-black rounded-full capitalize hover:-translate-y-1 duration-200">{t.telegram}</a>
                 </div>
            </div>
         </div>
@@ -79,10 +80,10 @@ function whatsapp(){
         <div className="transition-all duration-200 bg-black hover:shadow-xl">
             <div className="py-10 px-9">
                 <img className="h-16 w-16 lg:ml-24 md:ml-6" src={'/gif/call.gif'}/>
-                <h3 className="mt-8 text-lg font-semibold text-gray-50">{t.whatsapp}</h3>
+                <h3 className="mt-8 text-lg font-semibold text-gray-50">Whatsapp</h3>
                 <p className="mt-4 text-base text-gray-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p> 
             <div className="wa">
-                <a href="" className="button inline-flex text-center py-3 px-20 md:px-10 font-bold mt-10 bg-yellow-300 text-black rounded-full capitalize hover:-translate-y-1 duration-200">Whatsapp!</a>
+                <a href="" className="button inline-flex text-center py-3 px-20 md:px-10 font-bold mt-10 bg-yellow-300 text-black rounded-full capitalize hover:-translate-y-1 duration-200">{t.whatsapp}</a>
             </div>
            </div>
         </div>

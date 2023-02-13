@@ -17,7 +17,7 @@ export const Integrate = () => {
 
   return (
     // <div>Integrate</div>
-    <section className="py-10 bg-black sm:py-16 lg:py-24 select-none">
+    <section className="py-10 bg-black sm:py-16 lg:py-5 select-none">
     <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">{t.titleIntegration}</h2>
@@ -32,6 +32,9 @@ export const Integrate = () => {
             {Wallet()}
             {Broker()}
         </div>
+    </div>
+    <div className="waves">
+        <img src="/svg/waves.svg" alt="" />
     </div>
 </section>
 

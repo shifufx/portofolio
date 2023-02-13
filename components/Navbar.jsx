@@ -29,7 +29,7 @@ const Navbar = () => {
     <div className='sticky top-0 w-full z-10 ease-in duration-300 bg-black'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center md:p-2 text-white '>
             <Link href="/" className=' px-3 py-5 mt-1'>
-                <img src="/shifu.png" alt="" className='w-[8rem] h-[1.5rem] lg:w-[12rem] lg:h-[2rem]' />
+                <img src="/1.png" alt="" className='w-[8rem] h-[1.5rem] lg:w-[12rem] lg:h-[2rem]' />
                 {/* <h1 style={{color: `${textColor}`}} className=' lg:mt-3 md:mt-0 px-6 font-extrabold lg:text-3xl md:text-xl sm:px-2 font-montserrat'>SFX</h1> */}
             </Link>
                 <ul className='hidden sm:flex text-gray-50'>

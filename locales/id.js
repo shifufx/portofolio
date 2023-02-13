@@ -68,8 +68,8 @@ export default {
     // contact section
     titleContact: `Hubungi Saya`,
     email: 'Email saya',
-    telegram: 'Kirim pesan',
-    whatsapp: 'kirim whatsapp',
+    telegram: 'Chat Telegram',
+    whatsapp: 'Chat whatsapp',
     // 
 
     // testimonial section
