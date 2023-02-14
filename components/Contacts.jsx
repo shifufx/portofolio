@@ -17,8 +17,8 @@ const Contacts = () => {
       ];
 
     return(
-        
         <section className="py-10 bg-black sm:py-16 lg:py-1 lg:pb-[8rem] select-none">
+            
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="max-w-xl mx-auto text-center" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">
                     <h2 className="mt-6 text-3xl font-bold leading-tight text-gray-50 sm:text-4xl lg:text-5xl">{t.titleContact}</h2>

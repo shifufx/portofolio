@@ -105,7 +105,7 @@ function panda(){
                     </ul>
                 </div>
                 <div className="button my-5 lg:ml-0 md:ml-10">
-                <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-5 ml-[3rem] mb-3'>
+                <a href="" className='inline-flex py-3 px-20 bg-transparent rounded-full font-bold text-black mt-5 ml-[3rem] mb-3 border-2 border-b-gray-900 border-t-2 border-t-black border-r-black border-l-black hover:shadow-[inset_19rem_0_0_0] hover:shadow-teal-600 duration-[400ms,700ms] transition-[color,box-shadow] hover:text-white'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -138,7 +138,7 @@ function mantis(){
                     </ul>
                 </div>
                 <div className="button my-5 md:ml-2 py-5 lg:ml-0">
-                <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-12 ml-[3rem] mb-3'>
+                <a href="" className='inline-flex py-3 px-20 bg-transparent rounded-full font-bold text-black mt-12 ml-[3rem] mb-3 border-2 border-b-gray-900 border-t-2 border-t-black border-r-black border-l-black hover:shadow-[inset_19rem_0_0_0] hover:shadow-teal-600 duration-[400ms,700ms] transition-[color,box-shadow] hover:text-white'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -171,7 +171,7 @@ function monkey(){
                     </ul>
                 </div>
                 <div className="button my-5 py-5 lg:ml-0 md:ml-10">
-                <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-12 ml-[3rem] mb-3'>
+                <a href="" className='inline-flex py-3 px-20 bg-transparent rounded-full font-bold text-black mt-12 ml-[3rem] mb-3 border-2 border-b-gray-900 border-t-2 border-t-black border-r-black border-l-black hover:shadow-[inset_19rem_0_0_0] hover:shadow-teal-600 duration-[400ms,700ms] transition-[color,box-shadow] hover:text-white'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -206,7 +206,7 @@ function tiger(){
                     </ul>
                 </div>
                 <div className="button my-5 lg:ml-0 md:ml-10">
-                <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-7 ml-[3rem] mb-3'>
+                <a href="" className='inline-flex py-3 px-20 bg-transparent rounded-full font-bold text-black mt-7 ml-[3rem] mb-3 border-2 border-b-gray-900 border-t-2 border-t-black border-r-black border-l-black hover:shadow-[inset_19rem_0_0_0] hover:shadow-teal-600 duration-[400ms,700ms] transition-[color,box-shadow] hover:text-white'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -239,7 +239,7 @@ function flamingo(){
                     </ul>
                 </div>
                 <div className="button my-5 lg:ml-0 md:ml-10">
-                <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-14 ml-[3rem] mb-3'>
+                <a href="" className='inline-flex py-3 px-20 bg-transparent rounded-full font-bold text-black mt-14 ml-[3rem] mb-3 border-2 border-b-gray-900 border-t-2 border-t-black border-r-black border-l-black hover:shadow-[inset_19rem_0_0_0] hover:shadow-teal-600 duration-[400ms,700ms] transition-[color,box-shadow] hover:text-white'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -272,7 +272,7 @@ function snake(){
                     </ul>
                 </div>
                 <div className="button my-5 lg:ml-0 md:ml-10">
-                <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-9 ml-[3rem] mb-3'>
+                <a href="" className='inline-flex py-3 px-20 bg-transparent rounded-full font-bold text-black mt-9 ml-[3rem] mb-3 border-2 border-b-gray-900 border-t-2 border-t-black border-r-black border-l-black hover:shadow-[inset_19rem_0_0_0] hover:shadow-teal-600 duration-[400ms,700ms] transition-[color,box-shadow] hover:text-white'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -299,7 +299,7 @@ function MovingAverage(){
                         <a href="#" title="" className="text-black"> Master Moving Average. </a>
                     </p>
                     <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-10 ml-[2.3rem] mb-3'>
+                    <a href="" className='inline-flex py-3 px-20 bg-white rounded-full font-bold text-black mt-10 ml-[2.3rem] mb-3 hover:text-white border-2 border-gray-900 hover:shadow-[inset_19rem_0_0_0] hover:shadow-teal-600 duration-[400ms,700ms] transition-[color,box-shadow]'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -324,7 +324,7 @@ function BolingerBand(){
                         <a href="#" title="" className="text-black"> Master Bolinger Band. </a>
                     </p>
                     <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-10 ml-[2.3rem] mb-3'>
+                    <a href="" className='inline-flex py-3 px-20 bg-white rounded-full font-bold text-black mt-10 ml-[2.3rem] mb-3 hover:text-white border-2 border-gray-900 hover:shadow-[inset_19rem_0_0_0] hover:shadow-teal-600 duration-[400ms,700ms] transition-[color,box-shadow]'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>
@@ -349,7 +349,7 @@ function Fibbonaci(){
                         <a href="#" title="" className="text-black"> Master Fibbonaci. </a>
                     </p>
                     <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <a href="" className='inline-flex py-3 px-20 bg-teal-400 rounded-full font-bold text-black hover:-translate-y-1 duration-200 mt-10 ml-[2.3rem] mb-3'>
+                    <a href="" className='inline-flex py-3 px-20 bg-white rounded-full font-bold text-black mt-10 ml-[2.3rem] mb-3 hover:text-white border-2 border-gray-900 hover:shadow-[inset_19rem_0_0_0] hover:shadow-teal-600 duration-[400ms,700ms] transition-[color,box-shadow]'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3 24 24" fill="currentColor" className="w-6 h-6 mr-1">
                         <path fillRule="evenodd" d="M12 2.25a.75.75 0 01.75.75v11.69l3.22-3.22a.75.75 0 111.06 1.06l-4.5 4.5a.75.75 0 01-1.06 0l-4.5-4.5a.75.75 0 111.06-1.06l3.22 3.22V3a.75.75 0 01.75-.75zm-9 13.5a.75.75 0 01.75.75v2.25a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5V16.5a.75.75 0 011.5 0v2.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V16.5a.75.75 0 01.75-.75z" clipRule="evenodd" />
                     </svg>

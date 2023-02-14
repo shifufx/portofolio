@@ -25,7 +25,7 @@ const Testimonials = () => {
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="1000">
         <div className="max-w-2xl mx-auto text-center">
             <h1 className='text-lg text-white mb-5 tracking-[.50rem]'>{t.testimonial}</h1>
-            <h2 className=" mb-10 text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl bg-clip-text text-transparent bg-gradient-to-l from-rose-400 via-fuchsia-500 to-cyan-400" >{t.titleTestimonial}</h2>
+            <h2 className=" mb-10 text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl text-gray-200" >{t.titleTestimonial}</h2>
         </div>
         
         <Swiper
@@ -82,6 +82,7 @@ function post () {
                     </p>
             </div>
     </div>
+    
     )
 }
 export default Testimonials;
