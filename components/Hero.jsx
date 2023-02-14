@@ -56,7 +56,7 @@ const Hero = () => {
             
         </div>
     </section>
-    <div className="shape pb-0 lg:h-64">
+    <div className="shape pb-0 lg:h-64" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">
               <img src="/svg/wave-1.svg" alt="" />
             </div>
   </div>

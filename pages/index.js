@@ -2,10 +2,9 @@ import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Hero from '@/components/Hero'
 import Footer from '@/components/Footer'
-import Course from '@/components/Course'
-import TestBlog from '@/components/Ebook'
 import { Integrate } from '@/components/Integrate'
 import Contact from '@/components/Contacts'
+import Testimonials from '@/components/Testimonials'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,10 +19,9 @@ function Home() {
       </Head>
         
         <Hero />
-        {/* <Course /> */}
         <Integrate />
         <Contact />
-        {/* <Testimonials /> */}
+        <Testimonials />
         <Footer />
     </>
   )

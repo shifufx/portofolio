@@ -90,7 +90,7 @@ export default {
     // integration
     titleIntegration: 'what benefits will you get ?',
     descriptionIntegration: 'fuck you!',
-    lifetime: 'Lifetime Education',
+    lifetime: 'Private Coaching',
     become: 'Become a Trader Professional',
     build: 'Build Your own Target',
     flexible: 'Flexible Time',

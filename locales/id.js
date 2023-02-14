@@ -95,7 +95,7 @@ export default {
     // integration
     titleIntegration: 'Apa Keuntungan yang akan anda dapatkan ?',
     descriptionIntegration: 'fuck you!',
-    lifetime: 'Belajar Sepuasnya',
+    lifetime: 'Mentor Pribadi',
     become: 'Menjadi Trader Profesional',
     build: 'Bangun Target Anda Sendiri',
     flexible: 'Waktu yang Fleksibel',
