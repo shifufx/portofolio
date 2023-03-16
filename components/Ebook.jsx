@@ -70,8 +70,7 @@ const Ebook = () => {
         
         <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 lg:mt-16 lg:grid-cols-3 lg:max-w-full" data-aos="fade-up" data-aos-delay="230" data-aos-easing="ease-in-out" data-aos-duration="2000">
             {MovingAverage()}
-            {BolingerBand()}
-            {Fibbonaci()}
+            {Fundamental()}
         </div>
         {/* end section here */}
     </div>
@@ -88,7 +87,8 @@ function panda(){
                 <div className="p-5">
                     <div className="relative">
                         <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                            <Player className="object-cover w-full h-full" src="/svg/ebook/panda.json" loop autoplay alt="" />
+                            {/* <Player className="object-cover w-full h-full" src="/svg/ebook/panda.json" loop autoplay alt="" /> */}
+                            <img src="/Mockup/panda.png" alt="panda" />
                         </a>
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
@@ -122,7 +122,8 @@ function mantis(){
                 <div className="p-5">
                     <div className="relative">
                         <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                            <Player className="object-cover w-full h-full" src="/svg/ebook/mantis.json" loop autoplay alt="" />
+                            {/* <Player className="object-cover w-full h-full" src="/svg/ebook/mantis.json" loop autoplay alt="" /> */}
+                            <img src="/Mockup/mantis.png" alt="" />                    
                         </a>
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
@@ -155,7 +156,8 @@ function monkey(){
                 <div className="p-5">
                     <div className="relative">
                         <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                            <Player className="object-cover w-full h-full" src="/svg/ebook/monkey.json" loop autoplay alt="" />
+                            {/* <Player className="object-cover w-full h-full" src="/Mockup/monkey.png" loop autoplay alt="" /> */}
+                            <img src="/Mockup/monkey.png" alt="monkey"/>
                         </a>
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
@@ -189,7 +191,8 @@ function tiger(){
                 <div className="p-5">
                     <div className="relative">
                         <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                            <Player className="object-cover w-full h-full" src={"/svg/ebook/tiger.json"} loop autoplay alt=""/>
+                            {/* <Player className="object-cover w-full h-full" src={"/svg/ebook/tiger.json"} loop autoplay alt=""/> */}
+                            <img src="/Mockup/tiger.png" alt="tiger"/>
                         </a>
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
@@ -223,7 +226,8 @@ function flamingo(){
                 <div className="p-5">
                     <div className="relative">
                         <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                            <Player className="object-cover w-full h-full" src="/svg/ebook/flamingo.json" loop autoplay alt="" />
+                            {/* <Player className="object-cover w-full h-full" src="/svg/ebook/flamingo.json" loop autoplay alt="" /> */}
+                            <img src="/Mockup/flamingos.png" alt="flamingo" />                        
                         </a>
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
@@ -256,7 +260,7 @@ function snake(){
                 <div className="p-5">
                     <div className="relative">
                         <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                            <Player className="object-cover w-full h-full" src="/svg/ebook/snake.json" loop autoplay alt="" />
+                            <img src="/Mockup/snake.png" alt="snake" />
                         </a>
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
@@ -296,7 +300,7 @@ function MovingAverage(){
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
                     <p className="mt-5 text-2xl font-semibold">
-                        <a href="#" title="" className="text-black"> Master Moving Average. </a>
+                        <a href="#" title="" className="text-black"> Mastering Moving Average. </a>
                     </p>
                     <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                     <a href="" className='inline-flex py-3 px-20 bg-white rounded-full font-bold text-black mt-10 ml-[2.3rem] mb-3 hover:text-white border-2 border-gray-900 hover:shadow-[inset_19rem_0_0_0] hover:shadow-teal-600 duration-[400ms,700ms] transition-[color,box-shadow]'>
@@ -335,18 +339,19 @@ function BolingerBand(){
     )
 }
 
-function Fibbonaci(){
+function Fundamental(){
     return(
         <div className="overflow-hidden bg-white rounded shadow">
                 <div className="p-5">
                     <div className="relative">
                         <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                            <Player className="object-cover w-full h-full" src="/svg/ebook/coming.json" loop autoplay alt="" />
+                            {/* <Player className="object-cover w-full h-full" src="/svg/ebook/coming.json" loop autoplay alt="" /> */}
+                            <img src="/Mockup/fundamental.png" alt="fundamental" />
                         </a>
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>
                     <p className="mt-5 text-2xl font-semibold">
-                        <a href="#" title="" className="text-black"> Master Fibbonaci. </a>
+                        <a href="#" title="" className="text-black"> Mastering Fundamental. </a>
                     </p>
                     <p className="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                     <a href="" className='inline-flex py-3 px-20 bg-white rounded-full font-bold text-black mt-10 ml-[2.3rem] mb-3 hover:text-white border-2 border-gray-900 hover:shadow-[inset_19rem_0_0_0] hover:shadow-teal-600 duration-[400ms,700ms] transition-[color,box-shadow]'>
