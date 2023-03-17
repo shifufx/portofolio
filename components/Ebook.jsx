@@ -295,7 +295,8 @@ function MovingAverage(){
                 <div className="p-5">
                     <div className="relative">
                         <a href="#" title="" className="block aspect-w-4 aspect-h-3">
-                            <Player className="object-cover w-full h-full" src="/svg/ebook/coming.json" loop autoplay alt="" />
+                            <img src="/Mockup/ma.png" alt="ma" />
+                            {/* <Player className="object-cover w-full h-full" src="/svg/ebook/coming.json" loop autoplay alt="" /> */}
                         </a>
                     </div>
                     <span className="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> March 21, 2020 </span>

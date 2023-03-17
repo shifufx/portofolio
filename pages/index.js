@@ -5,6 +5,8 @@ import Footer from '@/components/Footer'
 import { Integrate } from '@/components/Integrate'
 import Contact from '@/components/Contacts'
 import Testimonials from '@/components/Testimonials'
+import Faq from '@/components/Faq'
+// import Team from '@/components/Team'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +24,7 @@ function Home() {
         <Integrate />
         <Contact />
         <Testimonials />
+        <Faq />
         <Footer />
     </>
   )
